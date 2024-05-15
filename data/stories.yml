@@ -1,0 +1,645 @@
+version: "3.1"
+
+stories:
+
+- story: chào hỏi
+  steps:
+    - intent: chào
+    - action: utter_greet
+
+- story: tạm biệt
+  steps:
+    - intent: tạm biệt
+    - action: utter_goodbye
+
+
+- story: mã tuyển sinh
+  steps:
+    - intent: ma_tuyen_sinh
+    - action: utter_ma_tuyen_sinh
+
+- story: số lượng chỉ tiêu
+  steps:
+    - intent: so_luong_chi_tieu
+    - action: utter_so_luong_chi_tieu
+
+- story: cao đẳng
+  steps:
+    - intent: cao_dang
+    - action: utter_cao_dang
+
+- story: ask ability
+  steps:
+  - intent: ask_ability
+  - action: utter_ask_ability
+
+- story: thankyou
+  steps:
+  - intent: thankyou
+  - action: utter_noworries
+
+- story: khen
+  steps:
+  - intent: khen
+  - action: utter_happy
+
+- story: che
+  steps:
+  - intent: che
+  - action: utter_sorry
+
+
+- story: ask admissions online
+  steps:
+  - intent: ask_admissions_online
+  - action: utter_admissions_online
+
+
+- story: ask main link
+  steps:
+  - intent: ask_main_link
+  - action: utter_ask_main_link
+
+- story: ask admissions link
+  steps:
+  - intent: ask_admissions_link
+  - action: utter_ask_admissions_link
+
+
+- story: ask kts
+  steps:
+    - intent: ask_kts
+    - action: utter_ask_kts
+
+
+
+
+
+- story: ask  nop ho so xet tuyen
+  steps:
+    - intent: ask_ho_so_xt
+    - action: utter_ask_ho_so_xt
+
+- story: ask tgian nop ho so
+  steps:
+    - intent: ask_tg_ho_so
+    - action: utter_ask_tg_ho_so
+
+- story: ask van phong kinh te so
+  steps:
+    - intent: ask_van_phong_kts
+    - action: utter_ask_van_phong_kts
+
+
+- story: ask thxht
+  steps:
+    - intent: ask_to_hop_xt
+    - action: utter_ask_to_hop_xt
+
+- story: ask thxht
+  steps:
+    - intent: ask_to_hop_xt
+    - action: utter_ask_to_hop_xt
+
+- story: ask ma ts
+  steps:
+    - intent: ma_tuyen_sinh
+    - action: utter_ma_tuyen_sinh
+
+- story: xep lich hoc tin chi
+  steps:
+    - intent: xep_lich_hoc
+    - action: utter_xep_lich_hoc
+
+- story: ask link dki tin
+  steps:
+    - intent: ask_dang_ky_tin_chi
+    - action: utter_ask_dang_ky_tin_chi
+
+- story: ask thoi tiet hoc
+  steps:
+    - intent: ask_thoi_gian_hoc_trong_ngay
+    - action: utter_ask_thoi_gian_hoc_trong_ngay
+
+
+- story: hoc phi
+  steps:
+    - intent: ask_hp_kts
+    - action: utter_ask_hp_kts
+
+- story: hoc cai thien
+  steps:
+    - intent: ask_cai_thien
+    - action: utter_ask_cai_thien
+
+- story: hoc lai
+  steps:
+    - intent: ask_hoc_lai
+    - action: utter_ask_hoc_lai
+
+- story: ask clb
+  steps:
+    - intent: ask_clb
+    - action: utter_ask_clb
+
+
+- story: ask clb ta
+  steps:
+    - intent: ask_clb_TA
+    - action: utter_ask_clb_TA
+
+
+- story: ask clb tt
+  steps:
+    - intent: ask_clb_tt
+    - action: utter_ask_clb_tt
+
+- story: ask clb bong da
+  steps:
+    - intent: ask_clb_bong_da
+    - action: utter_ask_clb_bong_da
+
+- story: ask clb bong avsc
+  steps:
+    - intent: ask_AVSC
+    - action: utter_ask_AVSC
+
+
+- story: ask clb bong br
+  steps:
+    - intent: ask_clb_br
+    - action: utter_ask_clb_br
+
+
+- story: ask clb  nckh
+  steps:
+    - intent: ask_clb_nckh
+    - action: utter_ask_clb_nckh
+
+- story: ask clb  bsc
+  steps:
+    - intent: ask_APD_BSC
+    - action: utter_ask_APD_BSC
+
+
+- story: ask clb aivc
+  steps:
+    - intent: ask_AIVC
+    - action: utter_ask_AIVC
+
+
+- story: ask clb qldt
+  steps:
+    - intent: ask_qly_dtu
+    - action: utter_ask_qly_dtu
+
+- story: ask clb abc
+  steps:
+    - intent: ask_ABC
+    - action: utter_ask_ABC
+
+
+- story: ask clb ict
+  steps:
+    - intent: ask_ict
+    - action: utter_ask_ict
+
+- story: ask clb amc
+  steps:
+    - intent: ask_AMC
+    - action: utter_ask_AMC
+
+- story: ask clb yaa
+  steps:
+    - intent: ask_YAA
+    - action: utter_ask_YAA
+
+- story: ask clb CMA
+  steps:
+    - intent: ask_CMA
+    - action: utter_ask_CMA
+
+
+- story: ask clb AIC
+  steps:
+    - intent: ask_AIC
+    - action: utter_ask_AIC
+
+
+- story: ask clb yjac
+  steps:
+    - intent: ask_YJAC
+    - action: utter_ask_YJAC
+
+- story: ask clb adc
+  steps:
+    - intent: ask_ADC
+    - action: utter_ask_ADC
+
+- story: ask clb APDLifeSkillsClub
+  steps:
+    - intent: ask_APDLifeSkillsClub
+    - action: utter_ask_APDLifeSkillsClub
+
+- story: ask APD
+  steps:
+    - intent: ask_APD
+    - action: utter_ask_APD
+
+
+
+- story: ask nghanh dao tao
+  steps:
+    - intent: ask_nghanh_dt
+    - action: utter_ask_nghanh_dt
+
+- story: ask nghanh dao tao clc
+  steps:
+    - intent: ask_nghanh_clc
+    - action: utter_ask_nghanh_clc
+
+- story: ask dao tao ts
+  steps:
+    - intent: ask_dao_tao_ts
+    - action: utter_ask_dao_tao_ts
+
+
+- story: ask chuong trinh hop tac o APD
+  steps:
+    - intent: ask_chuong_trinh_hop_tac
+    - action: utter_ask_chuong_trinh_hop_tac
+
+
+
+- story: ask co cau to chuc o APD
+  steps:
+    - intent: ask_cocau_tcochuc
+    - action: utter_ask_cocau_tcochuc
+
+
+
+- story: ask hoc bong o APD
+  steps:
+    - intent: ask_APD
+    - action: utter_ask_APD
+
+
+- story: ask dkien duoc hoc bong va quy doi diem he 4 APD
+  steps:
+    - intent: quy_doi_thang4
+    - action: utter_quy_doi_thang4
+
+
+
+- story: ask cong thuc tinh quy doi diem he 4 APD
+  steps:
+    - intent: ask_ct_tinh_thang4
+    - action: utter_ask_ct_tinh_thang4
+
+
+- story: ask khen thuong hoc bong
+  steps:
+    - intent: ask_muc_khen_thuong_hoc_bongdt
+    - action: utter_ask_muc_khen_thuong_hoc_bongdt
+
+
+- story: ask APD toc
+  steps:
+    - intent: ask_APD_toc
+    - action: utter_ask_APD_toc
+
+- story: ask duong day nong
+  steps:
+    - intent: ask_hotline_kts
+    - action: utter_ask_hotline_kts
+
+- story: ask kts
+  steps:
+    - intent: ask_kts
+    - action: utter_ask_kts
+
+- story: ask tham quan dn kts
+  steps:
+    - intent: ask_tham_quan_dn
+    - action: utter_ask_tham_quan_dn
+
+- story: ask chuong trinh hoc cua dll
+  steps:
+    - intent: ask_chuong_trinh_hoc_dll
+    - action: utter_ask_chuong_trinh_hoc_dll
+
+- story: ask chuong trinh hoc cua ktkds
+  steps:
+    - intent: ask_chuong_trinh_hoc_ktkds
+    - action: utter_ask_chuong_trinh_hoc_ktkds
+
+
+
+- story: ask cc dau ra
+  steps:
+    - intent: ask_cc_dau_ra
+    - action: utter_ask_cc_dau_ra
+
+
+- story: ask cc dau ra
+  steps:
+    - intent: ask_cc_dau_ra
+    - action: utter_ask_cc_dau_ra
+
+- story: ask mos
+  steps:
+    - intent: ask_mos
+    - action: utter_ask_mos
+
+
+- story: ask cc íc3
+  steps:
+    - intent: ask_ic3
+    - action: utter_ask_ic3
+
+
+- story: ask quy doi mos
+  steps:
+    - intent: quy_doi_mos
+    - action: utter_quy_doi_mos
+
+
+
+- story: ask ic3 2
+  steps:
+    - intent: quy_doi_ic3
+    - action: utter_quy_doi_ic3
+
+- story: mien tin hoc
+  steps:
+    - intent: ask_qt_mien_hoc_tin_hoc
+    - action: utter_ask_qt_mien_hoc_tin_hoc
+
+- story: ask TOEFL_ITP
+  steps:
+    - intent: ask_TOEFL_ITP
+    - action: utter_ask_TOEFL_ITP
+
+
+- story: ask TOEFL_ITP1
+  steps:
+    - intent: quy_doi_TOEFL_ITP
+    - action: utter_quy_doi_TOEFL_ITP
+
+
+
+- story: ask TOEFL_iBT
+  steps:
+    - intent: ask_TOEFL_iBT
+    - action: utter_ask_TOEFL_iBT
+
+- story: ask TOEFL_iBT1
+  steps:
+    - intent: quy_doi_TOEFL_iBT
+    - action: utter_quy_doi_TOEFL_iBT
+
+
+
+- story: ask TOEIC
+  steps:
+    - intent: ask_TOEIC
+    - action: utter_ask_TOEIC
+
+
+- story: ask TOEIC2
+  steps:
+    - intent: quy_doi_TOEIC
+    - action: utter_quy_doi_TOEIC
+
+
+
+- story: ask IELTS
+  steps:
+    - intent: ask_IELTS
+    - action: utter_ask_IELTS
+
+
+
+- story: ask IELTS4
+  steps:
+    - intent: quy_doi_IELTS
+    - action: utter_quy_doi_IELTS
+
+
+- story: Cambridge
+  steps:
+    - intent: ask_Cambridge
+    - action: utter_ask_Cambridge
+
+
+- story: Cambridge3
+  steps:
+    - intent: quy_doi_Cambridge
+    - action: utter_quy_doi_Cambridge
+
+- story: ask Vstep
+  steps:
+    - intent: ask_Vstep
+    - action: utter_ask_Vstep
+
+
+- story: ask Vstep3
+  steps:
+    - intent: quy_doi_Vstep
+    - action: utter_quy_doi_Vstep
+
+
+
+- story: ask Aptis_ESOL
+  steps:
+    - intent: ask_Aptis_ESOL
+    - action: utter_ask_Aptis_ESOL
+
+
+- story: ask Aptis_ESOL4
+  steps:
+    - intent: quy_doi_AptisESOL
+    - action: utter_quy_doi_AptisESOL
+
+
+- story: ask he clc
+  steps:
+    - intent: ask_nghanh_clc
+    - action: utter_ask_nghanh_clc
+
+
+- story: ask thi dau vao tieng anh
+  steps:
+    - intent: ask_thi_dau_vao
+    - action: utter_ask_thi_dau_vao
+
+
+- story: ask de xe
+  steps:
+    - intent: ask_de_xe
+    - action: utter_ask_de_xe
+
+- story: ask de xe2
+  steps:
+    - intent: ask_de_xe
+    - action: utter_ask_de_xe
+
+
+- story: ask xe bus 19
+  steps:
+    - intent: ask_bus_19
+    - action: utter_ask_bus_19
+
+
+- story: csvc
+  steps:
+    - intent: co_so_vat_chat
+    - action: utter_co_so_vat_chat
+
+- story: dung tai lieu ket thuc hoc phan
+  steps:
+    - intent: dung_tai_lieu_thi
+    - action: utter_dung_tai_lieu_thi
+
+- story: ask ktx
+  steps:
+    - intent: kytucxa
+    - action: utter_kytucxa
+
+
+
+- story: Khong hieu y nguoi dung
+  steps:
+    - intent: nlu_fallback
+    - action: utter_khong_hieu_y_dinh
+
+- story: ask BSC
+  steps:
+    - intent: ask_APD_BSC
+    - action: utter_ask_APD_BSC
+
+- story: ask_SMC
+  steps:
+    - intent: ask_SMC
+    - action: utter_ask_SMC
+
+- story: ask_clb_nha_dau_tu_tre
+  steps:
+    - intent: ask_clb_nha_dau_tu_tre
+    - action: utter_ask_clb_nha_dau_tu_tre
+
+- story: ask_hinh_thuc_dky_xt
+  steps:
+    - intent: ask_hinh_thuc_dky_xt
+    - action: utter_ask_hinh_thuc_dky_xt
+
+- story: ask_ptts_kts_cc
+  steps:
+    - intent: ask_ptts_kts_cc
+    - action: utter_ask_ptts_kts_cc
+
+- story: ask_ptts_kts_hsg
+  steps:
+    - intent: ask_ptts_kts_hsg
+    - action: utter_ask_ptts_kts_hsg
+
+- story: ask_ptts_kts_tuyen_thang
+  steps:
+    - intent: ask_ptts_kts_tuyen_thang
+    - action: utter_ask_ptts_kts_tuyen_thang
+
+- story: ask_tc_kts
+  steps:
+    - intent: ask_tc_kts
+    - action: utter_ask_tc_kts
+
+- story: ask_tham_quan_dn
+  steps:
+    - intent: ask_tham_quan_dn
+    - action: utter_ask_tham_quan_dn
+
+- story: ask_thu_vien
+  steps:
+    - intent: ask_thu_vien
+    - action: utter_ask_thu_vien
+
+- story: quy_doi_AptisESOL
+  steps:
+    - intent: quy_doi_AptisESOL
+    - action: utter_quy_doi_AptisESOL
+
+- story: quy_doi_TOEFL_iBT
+  steps:
+    - intent: quy_doi_TOEFL_iBT
+    - action: utter_quy_doi_TOEFL_iBT
+
+- story: utter_ask_quoc_phong
+  steps:
+    - intent: ask_quoc_phong
+    - action: utter_ask_quoc_phong
+
+- story: hoi_thay_Tu
+  steps:
+    - intent: ask_thay_Tu
+    - action: utter_thay_Tu
+
+- story: hello with name
+  steps:
+    - intent: answer_name
+    - action: utter_answer_name
+
+- story: hello with name
+  steps:
+    - intent: ask_mo_lop
+    - action: utter_mo_lop
+
+- story: quy doi tieng anh
+  steps:
+    - intent: ask_quy_doi_ta
+    - action: utter_ask_quy_doi_ta
+
+- story: hoi ve dll
+  steps:
+    - intent: ask_dll
+    - action: utter_ask_dll
+
+- story: hoi ve dll
+  steps:
+    - intent: ask_dll
+    - action: utter_ask_dll
+
+- story: ask ki thi rieng
+  steps:
+    - intent: ask_have_hold_an_exam
+    - action: utter_hold_an_exam
+
+- story: ask hd ngoai khoa cua kts
+  steps:
+    - intent: ask_hđ_nk
+    - action: utter_ask_hđ_nk
+
+- story: ask ve ptts
+  steps:
+    - intent: ask_ptts
+    - action: utter_ask_ptts
+
+- story: ask tuyen sinh hoc ba
+  steps:
+    - intent: ask_ptts_kts_hoc_ba
+    - action: utter_ask_ptts_kts_hoc_ba
+
+- story: ask tuyen sinh danh gia nang luc
+  steps:
+    - intent: ask_ptts_kts_tuyen_danh_gia_nang_luc
+    - action: utter_ask_ptts_kts_tuyen_danh_gia_nang_luc
+
+- story: ask mien tacb
+  steps:
+    - intent: mien_tacb
+    - action: utter_mien_tacb
+
+- story: Khong hieu y nguoi dung
+  steps:
+  - intent: nlu_fallback
+  - action: utter_khong_hieu_y_dinh
+

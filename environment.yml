@@ -1,0 +1,10 @@
+name: rasa_env
+channels:
+  - defaults
+dependencies:
+  - python=3.8
+  - pip
+  - rasa==2.8.10
+  - spacy==3.0.6
+  - spacy-lookups-data==1.0.2
+  - tensorflow==2.5.1
