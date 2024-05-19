@@ -1525,6 +1525,7 @@ nlu:
     - gửi tôi đường link đăng ký online
     - muốn đăng ký xét tuyển online làm như nào
     - cách thức đăng ký xét tuyển online
+    - trang web để tân sinh viên đăng ký xét tuyển online
 
 - intent: ask_ho_so_xt
   examples: |
@@ -1594,6 +1595,7 @@ nlu:
     - thi chứng chỉ chứng chỉ toeic có đáp ứng chuẩn đầu ra hay không
     - có chứng chỉ toefl có đáp ứng đầu ra không
     - dùng chứng chỉ toefl bao nhiêu để đáp ứng chuẩn đầu ra
+    - thế các loại chứng chỉ tiếng anh quy đổi chuẩn đầu ra thế nào
 
 - intent: ask_mos
   examples: |

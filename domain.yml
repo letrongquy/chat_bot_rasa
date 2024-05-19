@@ -408,13 +408,13 @@ responses:
     - text: "Chỉ tiêu tuyển sinh năm nay là 1650 sinh viên bạn à."
 
   utter_cao_dang:
-    - text: "Học viện Chính sách và Phát triển không tuyển sinh cao đẳng {name} à.\n\nBạn có thể tham khảo các ngành khác có điểm thấp hơn nhé."
+    - text: "Học viện Chính sách và Phát triển không tuyển sinh cao đẳng .\n\nBạn có thể tham khảo các ngành khác có điểm thấp hơn nhé."
 
   utter_ask_ability:
     - text: "Mình có thể giải đáp các thắc mắc về vấn đề tuyển sinh cho {name}."
 
   utter_noworries:
-    - text: "Mình luôn sẵn lòng giúp đỡ {name} bất cứ lúc nào ạ ^^"
+    - text: "Mình luôn sẵn lòng giúp đỡ bạn bất cứ lúc nào ạ ^^"
 
   utter_happy:
     - text: "Hì hì, bạn khen quá lời rồi ạ.\nRất vui vì giúp đỡ được bạn ^_^"
