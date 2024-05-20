@@ -1404,6 +1404,11 @@ nlu:
     - giấy chứng nhận đạt giải trong kỳ thi Học sinh giỏi cấp Tỉnh thì xét tuyển vào kinh tế số thế nào
     - giấy chứng nhận đạt giải trong kỳ thi học sinh giỏi xét tuyển vào kinh tế số theo hình thức nào
     - đạt giải học sinh giỏi cấp tỉnh
+    - cách thức xét tuyển của HCP01
+    - cách thức xét tuyển học sinh giỏi ra sao
+    - cho em hỏi về cách xét tuyển kết hợp theo kết quả học tập THPT và thành tích đạt giải trong kỳ thi học sinh giỏi cấp Tỉnh/Thành phố trở lên
+    - điều kiện nhận hồ sơ đối với phương thức tuyển sinh 1 ra sao
+    - em muốn hiểu rõ về các điều kiện nhận hồ sơ của HCP01
 
 - intent: ask_ptts_kts_hoc_ba
   examples: |
@@ -1424,28 +1429,7 @@ nlu:
     - học bạ cần đạt được điều kiện nào để xét tuyển vào kts
     - chỉ tiêu xét học bạ như thế nào
 
-- intent: ask_ptts_kts_cc
-  examples: |
-    - có IELTS 6.5 có được xét tuyển vào kinh tế số không
-    - có IELTS 6.0 có được xét tuyển vào kinh tế số không
-    - IELTS bao nhiêu thì được xét tuyển vào kts
-    - cần đạt bao nhiêu IELTS để được tuyển thẳng vào kinh tế số
-    - có chứng chỉ tiếng anh nào thì được xét tuyển vào kinh tế số
-    - những chứng chỉ tiếng anh để xét tuyển vào kinh tế số
-    - được bao nhiêu SAT thì trúng tuyển kinh tế số
-    - SAT cần đạt bao nhiêu để trúng tuyển vào kinh tế số
-    - 1000 điểm chứng chỉ SAT có được xét tuyển vào kinh tế số không
-    - chứng chỉ ACT trên 25 điểm có được xét tuyển vào kinh tế số không
-    - chứng chỉ ACT cần đạt bao nhiêu để xét tuyển vào kinh tế số
-    - dùng chứng chỉ A level xét tuyển vào kinh tế số được không và cần bao nhiêu điểm
-    - có chứng chỉ A level được xét tuyển vào kinh tế số hay không
-    - thời hạn xét tuyển chứng chỉ IELTS của kinh tế số
-    - thời hạn xét tuyển chứng chỉ A level của kinh tế số
-    - thời hạn xét tuyển chứng chỉ ACT của kinh tế số
-    - IELTS dưới 2 năm có dùng để xét tuyển được không
-    - SAT dưới 3 năm có dùng để xét tuyển được không
-    - ACT  dưới 3 năm có dùng để xét tuyển được không
-    - A level dưới 3 năm có dùng để xét tuyển được không
+
 
 - intent: ask_dll
   examples: |
@@ -2046,6 +2030,8 @@ nlu:
     - cho em xem danh sách tất cả các câu lạc bộ ở trường mình với ạ
     - những câu lạc bộ ở trường mình
     - tại APD có những câu lạc bộ nào
+    - Học viện có mấy Câu lạc bộ
+    - Bạn biết những câu lạc bộ nào ở Học viện
 
 - intent: ask_clb_TA
   examples: |
@@ -2449,3 +2435,62 @@ nlu:
    - em có thắc mà về học phần tiếng anh cơ bản
    - đã có bằng tiếng anh rồi có phải thi học phần tiếng anh không
    - điều kiện đễ miễn học phần tiếng anh
+
+- intent: ask_xt_THPT_NLQT
+  examples: |
+    - em có thắc mắc về Xét tuyển kết hợp theo kết quả học tập THPT và chứng chỉ năng lực quốc tế
+    - cho mình xin thông tin về xét tuyển kết hợp kết quả học tập THPT và chứng chỉ năng lực quốc tế
+    - thông tin về HCP02 
+    - các thông tin liên quan tới HCP02
+    - các thông tin chi tiết về phương pháp tuyển sinh phương thức 2
+    - điều kiện nhận hồ sơ đối với phương thức xét tuyển HCP02 là gì
+    - hồ sơ phải đảm bảo điều kiện gì thì mới đáp ứng được phương thức xét tuyển HCP02
+    - cách thức xét tuyển của HCP02 ra sao
+
+- intent: ask_ptts_kts_tuyen_danh_gia_tu_duy
+  examples: |
+    - cho em hỏi phương thức xét tuyển kết hợp 4 với ạ
+    - em muốn lấy thêm thông tin về Xét tuyển dựa trên kết quả bài thi đánh đánh giá tư duy của Đại học Bách khoa Hà Nội (ĐGNL)
+    - mình có thắc mắc về cách xét tuyển HCPDGNL
+    - chi tiết thông tin liên quan tới phương thức HCPDGTD
+    - điều kiện nhận hồ sơ đối với phương thức HCPDGTD
+    - điều kiện nhận hồ sơ đối với phương thức kết quả bài thi đánh đánh giá tư duy của Đại học Bách khoa Hà Nội
+    - cách thức xét tuyển đối với phương thức 5
+    - thế còn cách thức xét tuyển của bài đánh giá tư duy của đại học Bách Khoa ra sao
+
+- intent: ask_xt_kqua_thpt
+  examples: |
+    - phương thức tuyển sinh HCP06
+    - cho em hỏi về phương thức tuyển sinh 06
+    - cho em thông tin về xét tuyển dựa trên kết quả học tập THPT
+    - điều kiện nhận hồ sơ của phương thức tuyển sinh HCP06 
+    - hồ sơ cần đáp ứng điều kiện nào để đáp ứng phương thức xét tuyển dựa trên kết quả học tập THPT
+    - cách thức xét tuyển dựa trên kết quả học tập THPT là gì
+    - em muốn hiểu rõ về cách thức xét tuyển HCP06
+    - cách tính điểm của phương thức HCP06
+    - em có ý định xét tuyển dựa trên kết quả học tập THPT
+
+- intent: ask_xt_kqua_htap_12
+  examples: |
+    - điều kiện nhận hồ sơ phương thức xét tuyển dựa trên kết quả học tập lớp 12 là gì
+    - cho em hỏi v HCP07
+    - các thông tin về HCP07
+    - thông tin về xét tuyển dựa trên kết quả học tập THPT lớp 12
+    - cách thức xét tuyển dựa trên kết quả học tập THPT lớp 12
+    - cách thức xét tuyển HCP07 là gì
+    - thắc mắc điều kiện nhận hồ sơ xét tuyển dựa trên kết quả học tập THPT lớp 12
+    - cách tính điểm xét tuyển dựa trên kết quả học tập THPT lớp 12
+    - thắc mắc về cách tính điểm xét tuyển dựa trên kết quả học tập THPT lớp 12
+
+- intent: ask_xt_THPT_TA
+  examples: |
+    - HCP 03
+    - cho em hỏi về phương thức tuyển sinh 3 với
+    - em có thể biết về phương thức tuyển sinh 3 không
+    - chi tiết thông tin về Xét tuyển kết hợp theo kết quả học tập THPT và chứng chỉ Tiếng Anh quốc tế
+    - các thông tin liên quan tới HCP03
+    - em muốn biết về điều kiện nhận hồ sơ của HCP03
+    - nếu có chứng chỉ tiếng anh thì xét tuyển bằng phương thức nào thế
+    - cách thức xét tuyển nếu như đã có bằng tiếng anh
+    - nếu có chứng chỉ tiếng anh rồi em có thể xét tuyển như nào
+    - có thể dùng những chứng chỉ nào để xét tuyển vào APD

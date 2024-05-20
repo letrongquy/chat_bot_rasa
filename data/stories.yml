@@ -533,10 +533,7 @@ stories:
     - intent: ask_hinh_thuc_dky_xt
     - action: utter_ask_hinh_thuc_dky_xt
 
-- story: ask_ptts_kts_cc
-  steps:
-    - intent: ask_ptts_kts_cc
-    - action: utter_ask_ptts_kts_cc
+
 
 - story: ask_ptts_kts_hsg
   steps:
@@ -643,3 +640,27 @@ stories:
   - intent: nlu_fallback
   - action: utter_khong_hieu_y_dinh
 
+- story: hoi danh gia tu duy
+  steps:
+  - intent: ask_ptts_kts_tuyen_danh_gia_tu_duy
+  - action: utter_ask_ptts_kts_tuyen_danh_gia_tu_duy
+
+- story: hoi thpt nlqt
+  steps:
+  - intent: ask_xt_THPT_NLQT
+  - action: utter_ask_xt_THPT_NLQT
+
+- story: hoi thpt tieng anh
+  steps:
+  - intent: ask_xt_THPT_TA
+  - action: utter_ask_xt_THPT_TA
+
+- story: hoi thpt xet tuyen kqua htap lop 12
+  steps:
+  - intent: ask_xt_kqua_htap_12
+  - action: utter_ask_xt_kqua_htap_12
+
+- story: hoi kqua thpt
+  steps:
+  - intent: ask_xt_kqua_thpt
+  - action: utter_ask_xt_kqua_thpt

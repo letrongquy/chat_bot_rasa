@@ -48,7 +48,6 @@ intents:
   - ask_ptts_kts_tuyen_danh_gia_nang_luc
   - ask_ptts_kts_hsg
   - ask_ptts_kts_hoc_ba
-  - ask_ptts_kts_cc
   - ask_dll
   - ask_tg_ho_so
   - ask_hinh_thuc_dky_xt
@@ -103,6 +102,11 @@ intents:
   - answer_name
   - ask_mo_lop
   - mien_tacb
+  - ask_xt_THPT_NLQT
+  - ask_ptts_kts_tuyen_danh_gia_tu_duy
+  - ask_xt_kqua_thpt
+  - ask_xt_kqua_htap_12
+  - ask_xt_THPT_TA
 entities:
   - user_name
 
@@ -363,16 +367,16 @@ responses:
 
   utter_ask_nghanh_dt:
     - text: "Hiện tại, Học viện có 10 ngành và 19 chuyên ngành đào tạo hệ đại trà:
-                \n +) 1. Ngành Kinh tế: (1) Chuyên ngành Kinh tê đầu tư (chất lượng cao); (2) Chuyên ngành Đấu thầu và quản lý dự án; (3) Chuyên ngành Quản lý nguồn nhân lực.
-                \n +) 2. Ngành Kinh tế phát triển: (1) Chuyên ngành Kinh tế phát triển; (2) Chuyên ngành Kế hoạch phát triển.
-                \n +) 3. Ngành Kinh tế quốc tế: (1) Chuyên ngành Thương mại quốc tế và Logistics (chất lượng cao); (2) Chuyên ngành Kinh tế đối ngoại (chất lượng cao giảng dạy bằng tiếng Anh); (3) Chuyên ngành Kinh tế đối ngoại.
-                \n +) 4. Ngành Kinh tế số: (1) Chuyên ngành Kinh tế và kinh doanh số; (2) Chuyên ngành Phân tích dữ liệu lớn trong Kinh tế và Kinh doanh (Big Data).
-                \n +) 5. Ngành Kế toán: (1) Chuyên ngành Kế toán – Kiểm toán.
-                \n +) 6. Ngành Luật Kinh tế: (1) Chuyên ngành Luật Đầu tư - Kinh doanh.
-                \n +) 7. Ngành Quản lý Nhà nước: (1) Chuyên ngành Quản lý công.
-                \n +) 8. Ngành Quản trị kinh doanh: (1) Chuyên ngành Quản trị doanh nghiệp ; (2) Chuyên ngành Quản trị Marketing; (3)Chuyên ngành Quản trị kinh doanh du lịch.
-                \n +) 9. Ngành Tài chính – Ngân hàng: (1) Chuyên ngành Tài chính (chất lượng cao giảng dạy bằng tiếng Anh); (2) Chuyên ngành Tài chính; (3) Chuyên ngành Ngân hàng.
-                \n +) 10. Ngôn ngữ Anh: (1) Chuyên ngành Tiếng anh Kinh tế và Kinh doanh."
+                \n +) 1. Ngành Kinh tế (mã nghành: 7310101): (1) Chuyên ngành Kinh tê đầu tư (chất lượng cao); (2) Chuyên ngành Đấu thầu và quản lý dự án; (3) Chuyên ngành Quản lý nguồn nhân lực.
+                \n +) 2. Ngành Kinh tế phát triển (mã nghành: 7310105): (1) Chuyên ngành Kinh tế phát triển; (2) Chuyên ngành Kế hoạch phát triển.
+                \n +) 3. Ngành Kinh tế quốc tế (mã nghành: 7310106): (1) Chuyên ngành Thương mại quốc tế và Logistics (chất lượng cao); (2) Chuyên ngành Kinh tế đối ngoại (chất lượng cao giảng dạy bằng tiếng Anh); (3) Chuyên ngành Kinh tế đối ngoại.
+                \n +) 4. Ngành Kinh tế số (mã nghành: 7310109): (1) Chuyên ngành Kinh tế và kinh doanh số; (2) Chuyên ngành Phân tích dữ liệu lớn trong Kinh tế và Kinh doanh (Big Data).
+                \n +) 5. Ngành Kế toán (mã nghành: 7340301): (1) Chuyên ngành Kế toán – Kiểm toán.
+                \n +) 6. Ngành Luật Kinh tế (mã nghành: 7380107): (1) Chuyên ngành Luật Đầu tư - Kinh doanh.
+                \n +) 7. Ngành Quản lý Nhà nước (mã nghành: 7310205): (1) Chuyên ngành Quản lý công.
+                \n +) 8. Ngành Quản trị kinh doanh (mã nghành: 7340101): (1) Chuyên ngành Quản trị doanh nghiệp ; (2) Chuyên ngành Quản trị Marketing; (3)Chuyên ngành Quản trị kinh doanh du lịch.
+                \n +) 9. Ngành Tài chính – Ngân hàng (mã nghành: 7340201): (1) Chuyên ngành Tài chính (chất lượng cao giảng dạy bằng tiếng Anh); (2) Chuyên ngành Tài chính; (3) Chuyên ngành Ngân hàng.
+                \n +) 10. Ngôn ngữ Anh (mã nghành: 7220201): (1) Chuyên ngành Tiếng anh Kinh tế và Kinh doanh."
 
   utter_ask_nghanh_clc:
     - text: "Hiện nay ở APD có 2 ngành gồm 3 chuyên ngành đào tạo chuẩn quốc tế:
@@ -405,13 +409,13 @@ responses:
     - text: "Mã tuyển sinh của trường Học viện Chính sách và Phát triển là: HCP"
 
   utter_so_luong_chi_tieu:
-    - text: "Chỉ tiêu tuyển sinh năm nay là 1650 sinh viên bạn à."
+    - text: "Chỉ tiêu tuyển sinh năm nay là 1800 sinh viên bạn à."
 
   utter_cao_dang:
     - text: "Học viện Chính sách và Phát triển không tuyển sinh cao đẳng .\n\nBạn có thể tham khảo các ngành khác có điểm thấp hơn nhé."
 
   utter_ask_ability:
-    - text: "Mình có thể giải đáp các thắc mắc về vấn đề tuyển sinh cho {name}."
+    - text: "Mình có thể giải đáp các thắc mắc về vấn đề tuyển sinh cho bạn."
 
   utter_noworries:
     - text: "Mình luôn sẵn lòng giúp đỡ bạn bất cứ lúc nào ạ ^^"
@@ -438,15 +442,15 @@ responses:
     - text: "Đây là trang tuyển sinh của APD: http://apd.edu.vn/tuyen-sinh-1"
 
   utter_kytucxa:
-    - text: "+) APD hiện tại có ký túc xá ký túc xá APD ở trong trường và là tòa D. Cơ sở vật chất của ký tú xá APD hiện đại, tiện nghi có nóng lạnh và wifi đảm bảo chỗ ở cho khoảng 700 sinh viên và đảm bảo an toàn về các quy định phòng cháy chữa cháy, ở ký túc luôn có bảo vệ canh trực để đảm bảo an toàn cho sinh viên. \n +) Muốn ở ký túc xá bạn cần làm đơn đăng ký nhé, đơn đăng ký sẽ được mở theo đợt và sẽ có thông báo. Về thông báo đăng ký ktx bạn xem thông tin ở đường dẫn: http://apd.edu.vn/tin-tu-hoc-vien/-/asset_publisher/kas0boHG03DG/content/id/1698956. \n +) Ký túc xá sẽ được mở vào lúc 5h sáng và đóng cửa vào lúc 11h đêm. Các vật dụng sinh hoạt hàng ngày bạn có thể đem vào ký túc xá bao gồm chăn, màn, chiếu, đệm,... còn liên quan tới thiết bị điện thì mỗi phòng chỉ được phép mang 1-2 bình siêu tốc đun nước nóng, quạt điện, mấy sấy tóc và laptop học tập.\n +) Để đảm bảo vệ sinh chung bạn không được mang thức ăn ở bên ngoài vào ký túc để ăn, chỉ được phép mang những thực phẩm khô và bánh kẹo vào ký túc xá APD.\n +) Bạn có thể tham khảo một số các quy định của ký túc xá ở đây nhé: http://apd.edu.vn/documents/20884/0/Qd+894.pdf/f618961c-7ecb-1592-8609-9b51e25c844c?t=1607587183551 . \n +) Hiện tại một số phòng đặc biệt (khu chuyên gia) sẽ được lắp điều hòa. Hiện nay, ở ký túc xá APD có 2 loại phòng. Phòng 6 người có đủ không gian sinh hoạt cho 6 sinh viên ở. Phòng 12 người là phòng rộng hơn đảm bảo việc sinh hoạt của 12 sinh viên. Mỗi phòng đều trang bị quạt trần và tủ để đồ riêng cho mỗi sinh viên khi đến ở.\n +) Đây là một số các khoản tiền bạn sẽ phải đóng khi ở ký túc xá:
+    - text: "+) APD hiện tại có ký túc xá ký túc xá APD ở trong trường và là tòa D. Cơ sở vật chất của ký tú xá APD hiện đại, tiện nghi có nóng lạnh và wifi đảm bảo chỗ ở cho khoảng 700 sinh viên và đảm bảo an toàn về các quy định phòng cháy chữa cháy, ở ký túc luôn có bảo vệ canh trực để đảm bảo an toàn cho sinh viên. \n \n +) Muốn ở ký túc xá bạn cần làm đơn đăng ký nhé, đơn đăng ký sẽ được mở theo đợt và sẽ có thông báo. Về thông báo đăng ký ktx bạn xem thông tin ở đường dẫn: http://apd.edu.vn/tin-tu-hoc-vien/-/asset_publisher/kas0boHG03DG/content/id/1698956. \n \n +) Ký túc xá sẽ được mở vào lúc 5h sáng và đóng cửa vào lúc 11h đêm. Các vật dụng sinh hoạt hàng ngày bạn có thể đem vào ký túc xá bao gồm chăn, màn, chiếu, đệm,... còn liên quan tới thiết bị điện thì mỗi phòng chỉ được phép mang 1-2 bình siêu tốc đun nước nóng, quạt điện, mấy sấy tóc và laptop học tập.\n \n +) Để đảm bảo vệ sinh chung bạn không được mang thức ăn ở bên ngoài vào ký túc để ăn, chỉ được phép mang những thực phẩm khô và bánh kẹo vào ký túc xá APD.\n \n +) Bạn có thể tham khảo một số các quy định của ký túc xá ở đây nhé: http://apd.edu.vn/documents/20884/0/Qd+894.pdf/f618961c-7ecb-1592-8609-9b51e25c844c?t=1607587183551 . \n \n +) Hiện tại một số phòng đặc biệt (khu chuyên gia) sẽ được lắp điều hòa. Hiện nay, ở ký túc xá APD có 2 loại phòng. Phòng 6 người có đủ không gian sinh hoạt cho 6 sinh viên ở. Phòng 12 người là phòng rộng hơn đảm bảo việc sinh hoạt của 12 sinh viên. Mỗi phòng đều trang bị quạt trần và tủ để đồ riêng cho mỗi sinh viên khi đến ở.\n \n +) Đây là một số các khoản tiền bạn sẽ phải đóng khi ở ký túc xá:
               \n \t SV thuộc diện Chính sách: 150.000 VNĐ/tháng
               \n \t SV không thuộc diện Chính sách: 250.000 VNĐ/tháng
               \n \t Tiền dịch vụ: 100.000 VNĐ/tháng (bao gồm wifi và phí dọn phòng hàng tuần)
               \n \t Tiền cọc: 250.000 VNĐ
               \n \t Tiền điện và tiền nước sẽ được thu tùy vào số mỗi phòng sử dụng
-             \n +) khoản tiền trên chưa bao gồm cả phí gửi xe. Đăng ký vé tháng gửi xe ở tầng 2 tòa hiệu bộ, phí gửi xe là 70k/tháng và 50k tiền cọc thẻ. Bạn nên đăng kí vào khung giờ hành chính nhé. Hiện nay ở ký túc xá chưa có máy giặt, bạn có thể đem ra bên ngoài giặt đồ nhé. Về vấn đề thời gian ở ký túc xá, bạn có thể làm hợp đồng 3 tháng hoặc hợp đồng 6 tháng. Nếu hết hợp đồng bạn có thể gia hạn tiếp cho đến hết năm 2 là bạn bắt buộc phải thanh lý hợp đồng và chuyển ra ngoài, tuy nhiên nếu bạn trong diện ưu tiên hoặc hoàn cảnh đặc biệt sẽ tiếp tục được gia hạn hợp đồng nhé. Ký túc xá sẽ ưu tiên xét đơn đăng ký của những bạn sinh viên trong diện chính sách hoặc sinh viên có hoàn cảnh đặc biệt
-            \n +) Về sau 11h tức giờ đóng cửa ở ký túc xá bạn sẽ không được vào trong ký túc nữa. Nếu bạn đi làm về muộn bạn cần làm đơn xin về muộn, đây là form đơn bạn tham khảo nhé: http://apd.edu.vn/c%C3%A1c-bi%E1%BB%83u-m%E1%BA%ABu-li%C3%AAn-quan/-/asset_publisher/WU9pTWym7tId/content/id/819269?_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_WU9pTWym7tId_redirect=http%3A%2F%2Fapd.edu.vn%2Fc%25C3%25A1c-bi%25E1%25BB%2583u-m%25E1%25BA%25ABu-li%25C3%25AAn-quan%3Fp_p_id%3Dcom_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_WU9pTWym7tId%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_WU9pTWym7tId_cur%3D0%26p_r_p_resetCur%3Dfalse%26_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_WU9pTWym7tId_assetEntryId%3D819269
-            \n +) Đây là link facebook của ký túc xá APD: https://www.facebook.com/groups/204345531291201"
+             \n \n +) khoản tiền trên chưa bao gồm cả phí gửi xe. Đăng ký vé tháng gửi xe ở tầng 2 tòa hiệu bộ, phí gửi xe là 70k/tháng và 50k tiền cọc thẻ. Bạn nên đăng kí vào khung giờ hành chính nhé. Hiện nay ở ký túc xá chưa có máy giặt, bạn có thể đem ra bên ngoài giặt đồ nhé. Về vấn đề thời gian ở ký túc xá, bạn có thể làm hợp đồng 3 tháng hoặc hợp đồng 6 tháng. Nếu hết hợp đồng bạn có thể gia hạn tiếp cho đến hết năm 2 là bạn bắt buộc phải thanh lý hợp đồng và chuyển ra ngoài, tuy nhiên nếu bạn trong diện ưu tiên hoặc hoàn cảnh đặc biệt sẽ tiếp tục được gia hạn hợp đồng nhé. Ký túc xá sẽ ưu tiên xét đơn đăng ký của những bạn sinh viên trong diện chính sách hoặc sinh viên có hoàn cảnh đặc biệt
+            \n \n +) Về sau 11h tức giờ đóng cửa ở ký túc xá bạn sẽ không được vào trong ký túc nữa. Nếu bạn đi làm về muộn bạn cần làm đơn xin về muộn, đây là form đơn bạn tham khảo nhé: http://apd.edu.vn/c%C3%A1c-bi%E1%BB%83u-m%E1%BA%ABu-li%C3%AAn-quan/-/asset_publisher/WU9pTWym7tId/content/id/819269?_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_WU9pTWym7tId_redirect=http%3A%2F%2Fapd.edu.vn%2Fc%25C3%25A1c-bi%25E1%25BB%2583u-m%25E1%25BA%25ABu-li%25C3%25AAn-quan%3Fp_p_id%3Dcom_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_WU9pTWym7tId%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_WU9pTWym7tId_cur%3D0%26p_r_p_resetCur%3Dfalse%26_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_WU9pTWym7tId_assetEntryId%3D819269
+            \n \n +) Đây là link facebook của ký túc xá APD: https://www.facebook.com/groups/204345531291201"
 
   utter_ask_dang_ky_tin_chi:
     - text: "Đây là trang web đăng ký tín của APD: http://tinchi.apd.edu.vn/cmcsoft.iu.web.info/Login.aspx"
@@ -497,8 +501,15 @@ responses:
   utter_ask_ptts:
     - text: "Năm nay APD có 3 phương thức tuyển sinh sau:
               \n - 1.Phương thức tuyển thẳng (1% tổng chỉ tiêu)
-              \n - 2.Xét tuyển theo phương thức tuyển sinh (54% tổng chỉ tiêu) (phương thức xét tuyển này gồm: Xét tuyển dựa trên kết quả bài thi đánh giá năng lực, xét tuyển kết hợp dựa theo giấy chứng nhận đạt giải trong kỳ thi Học sinh giỏi cấp Tỉnh kết hợp với học lực THPT, xét tuyển kết hợp dựa theo chứng chỉ quốc tế và học lực THPT, xét tuyển dựa trên kết quả học tập THPT
-              \n - 3.Xét tuyển theo kết quả thi tốt nghiệp THPT năm 2023 (45% tổng chỉ tiêu)"
+              \n - 2.Xét tuyển kết hợp theo Đề án tuyển sinh của Học viện (54% chỉ tiêu) bao gồm: 
+               \n \t +) Phương thức 1 (HCP01): Xét tuyển kết hợp theo kết quả học tập THPT và thành tích đạt giải trong kỳ thi học sinh giỏi cấp Tỉnh/Thành phố trở lên  
+               \n \t +) Phương thức 2 (HCP02): Xét tuyển kết hợp theo kết quả học tập THPT và chứng chỉ năng lực quốc tế
+               \n \t +) Phương thức 3 (HCP03): Xét tuyển kết hợp theo kết quả học tập THPT và chứng chỉ Tiếng Anh quốc tế
+               \n \t +) Phương thức 4 (HCPDGNL): Xét tuyển dựa trên kết quả bài thi đánh giá năng lực của Đại học Quốc gia Hà Nội (ĐGNL)
+               \n \t +) Phương thức 5 (HCPDGTD): Xét tuyển dựa trên kết quả bài thi đánh giá tư duy của Đại học Bách khoa Hà Nội (ĐGTD)
+               \n \t +) Phương thức 6 (HCP06): Xét tuyển dựa trên kết quả học tập THPT
+               \n \t +) Phương thức 7 (HCP07): Xét tuyển dựa trên kết quả học tập THPT lớp 12
+              \n - 3.Xét tuyển theo kết quả thi tốt nghiệp THPT năm 2024 (45% tổng chỉ tiêu)"
   utter_ask_to_hop_xt:
     - text: "Các tổ hợp xét tuyển của khoa kinh tế số:
             \n - A00: Toán, Vật lý, Hóa học
@@ -507,25 +518,58 @@ responses:
             \n - C01:  Toán, Vật lý, Ngữ Văn"
 
   utter_ask_ptts_kts_tuyen_thang:
-    - text: "Những thí sinh thuộc các đối tượng xét tuyển thẳng theo quy định trong Quy chế tuyển sinh của Bộ Giáo dục và Đào tạo (Các học sinh đạt giải Quốc gia một trong số các môn thuộc Tổ hợp xét tuyển), phương thức này chiếm 1% tổng chỉ tiêu"
+    - text: "Đối tượng xét tuyển thẳng và ưu tiên xét tuyển:
+             \n 1. Anh hùng lao động, Anh hùng lực lượng vũ trang nhân dân, Chiến sĩ thi đua toàn quốc đã tốt nghiệp THPT được tuyển thẳng vào tất cả các ngành, chương trình của Học viện;
+             \n 2. Thí sinh đoạt giải Nhất, Nhì, Ba trong kỳ thi chọn học sinh giỏi quốc gia, quốc tế hoặc thi khoa học, kỹ thuật cấp quốc gia, quốc tế do Bộ GD&ĐT tổ chức, cử tham gia; thời gian đoạt giải không quá 3 năm tính đến thời điểm xét tuyển được xét tuyển thẳng trong năm tốt nghiệp THPT vào Học viện theo ngành phù hợp với môn thi hoặc nội dung đề tài dự thi mà thí sinh đã đoạt giải (xem Phụ lục 03, 04 - Đề án tuyển sinh năm 2024);
+             \n 3. Giám đốc Học viện căn cứ kết quả học tập cấp THPT của thí sinh và yêu cầu của ngành đào tạo để xem xét, quyết định nhận vào học những trường hợp sau:
+             \n \t - Thí sinh là người khuyết tật đặc biệt nặng có giấy xác nhận khuyết tật của cơ quan có thẩm quyền cấp theo quy định, có khả năng theo học một số ngành do Học viện quy định nhưng không có khả năng dự tuyển theo phương thức tuyển sinh bình thường;
+             \n \t - Thí sinh là người dân tộc thiểu số rất ít người theo quy định hiện hành của Chính phủ và thí sinh 20 huyện nghèo biên giới, hải đảo thuộc khu vực Tây Nam Bộ; thí sinh có hộ khẩu thường trú từ 3 năm trở lên, học 3 năm và tốt nghiệp THPT tại các huyện nghèo (học sinh học phổ thông dân tộc nội trú tính theo hộ khẩu thường trú) theo quy định của Chính phủ, Thủ tướng Chính phủ, tính đến ngày nộp hồ sơ ĐKXT; những thí sinh này phải học bổ sung kiến thức 01 năm học trước khi vào học chính thức. Chương trình bổ sung kiến thức do Giám đốc Học viện quy định;
+             \n \t - Thí sinh là người nước ngoài có kết quả kiểm tra kiến thức và năng lực Tiếng Việt đáp ứng quy định hiện hành của Bộ trưởng Bộ GD&ĐT.
+             \n 4. Thí sinh đoạt giải trong kỳ thi chọn học sinh giỏi quốc gia, quốc tế hoặc thi khoa học, kỹ thuật cấp quốc gia, quốc tế quy định tại mục (2) nếu không dùng quyền xét tuyển thẳng thì sẽ được ưu tiên xét tuyển trong năm tốt nghiệp THPT. 
+             \n 5. Thí sinh đoạt giải Khuyến khích trong kỳ thi chọn học sinh giỏi quốc gia; thí sinh đoạt giải Tư trong Cuộc thi khoa học, kỹ thuật cấp quốc gia được ưu tiên xét tuyển vào Học viện theo ngành phù hợp với môn thi hoặc nội dung đề tài dự thi mà thí sinh đã đoạt giải; thời gian đoạt giải không quá 3 năm tính đến thời điểm xét tuyển."
+
+  utter_ask_xt_THPT_NLQT:
+    - text: "Phương thức 2 (HCP02): Xét tuyển kết hợp theo kết quả học tập THPT và chứng chỉ năng lực quốc tế
+            \n +) Điều kiện nhận hồ sơ: Thí sinh học tại các trường THPT có điểm TBCHT kỳ 1 lớp 2 đạt từ 7,5 trở lên và có chứng chỉ năng lực quốc tế trong thời hạn 3 năm (tính đến ngày xét hoặc chứng chỉ A-Level đạt từ 70 điểm trở lên
+            \n +) Cách thức xét tuyển: xét theo điểm từ trên cao xuống thấp cho đến hết chỉ tiêu xét tuyển. Điểm xét tuyển (ĐXT) theo thang 30 được xác định như sau: 
+                  \n \t - ĐXT = (Điểm SAT × 30)/1600 + điểm ưu tiên (nếu có) 
+                  \n \t - ĐXT = (Điểm ACT × 30)/36 + điểm ưu tiên (nếu có) 
+                  \n \t - ĐXT = (Điểm A-Level quy đổi × 3) + điểm ưu tiên (nếu có)"
 
   utter_ask_ptts_kts_tuyen_danh_gia_nang_luc:
     - text: "Xét tuyển dựa theo bài thi đánh giá năng lực gồm:
-             \n Đối tượng 1: Thí sinh học tại các trường THPT có kết quả bài thi đánh giá năng lực của Đại học Quốc gia Hà Nội năm 2023 đạt ngưỡng từ 75 điểm trở lên.
-             \n Đối tượng 2: Thí sinh học tại các trường THPT có kết quả bài thi đánh giá tư duy của Đại học Bách khoa Hà Nội năm 2023 đạt ngưỡng từ 60 điểm trở lên."
+             \n - Xét tuyển dựa trên kết quả bài thi đánh giá năng lực của Đại học Quốc gia Hà Nội (ĐGNL):
+             \n +) Điều kiện nhận hồ sơ: Thí sinh có kết quả bài thi đánh giá năng lực của Đại học Quốc gia Hà Nội năm 2024 đạt từ 75 điểm trở lên.
+             \n +) Cách thức xét tuyển: xét theo điểm từ trên cao xuống thấp cho đến hết chỉ tiêu xét tuyển. Điểm xét tuyển (ĐXT) theo thang 30 được xác định như sau: ĐXT = (Điểm ĐGNL × 30)/150 + điểm ưu tiên (nếu có)"
+  utter_ask_ptts_kts_tuyen_danh_gia_tu_duy:
+    - text:
+             "\n - Xét tuyển dựa trên kết quả bài thi đánh giá tư duy của Đại học Bách khoa Hà Nội (ĐGTD):
+             \n +) Điều kiện nhận hồ sơ: Thí sinh tham dự bài thi đánh giá tư duy của Đại học Bách khoa Hà Nội năm 2024 đạt từ 60 điểm trở lên
+             \n +) Cách thức xét tuyển: xét theo điểm từ trên cao xuống thấp cho đến hết chỉ tiêu xét tuyển. Điểm xét tuyển (ĐXT) theo thang 30 được xác định như sau: ĐXT = (Điểm ĐGTD × 30)/100+ điểm ưu tiên (nếu có)"
 
   utter_ask_ptts_kts_hsg:
-    - text: "Xét tuyển dựa trên giấy chứng nhận đạt giải học sinh giỏi cấp tỉnh kết hợp với học lực: Đối tượng: Thí sinh học tại các trường THPT có điểm trung bình chung học tập lớp 12 đạt từ 7,5 trở lên và có đạt giải Nhất, Nhì, Ba tại các kỳ thi học sinh giỏi cấp Tỉnh các môn thuộc tổ hợp xét tuyển(A00,A1,D01,C01) của ngành Kinh tế số."
+    - text: "+) Điều kiện nhận hồ sơ đối với phương thức tuyển thẳng: Thí sinh học tại các trường THPT có điểm trung bình chung học tập (TBCHT) kỳ 1 lớp 12 đạt từ 7,5 trở lên và đạt giải Nhất, Nhì, Ba các môn thuộc tổ hợp xét tuyển của Học viện tại kỳ thi học sinh giỏi cấp Tỉnh/Thành phố trở lên
+            \n +) Cách thức xét tuyển: Xét theo điểm từ trên cao xuống thấp cho đến hết chỉ tiêu xét tuyển. Điểm xét tuyển (ĐXT) theo thang 30 được xác định như sau: ĐXT = (Điểm quy đổi giải thưởng) × 3 + điểm ưu tiên (nếu có)
+            Quy đổi giải thưởng như sau:
+              \n - Từ giải Ba cấp Quốc gia trở lên mức quy đổi điểm là 10
+              \n - Giải Nhất cấp Tỉnh/Thành phố mức quy đổi điểm là 9.5
+              \n - Giải Nhì cấp Tỉnh/Thành phố mức quy đổi điểm là 9.0
+              \n - Giải Ba cấp Tỉnh/Thành phố mức quy đổi điểm là 8.5"
 
+  utter_ask_xt_kqua_thpt:
+    - text: "Phương thức 6 (HCP06): Xét tuyển dựa trên kết quả học tập THPT:
+              \n +) Điều kiện nhận hồ sơ: Thí sinh có điểm trung bình cộng kết quả học tập theo học kỳ 3 môn thuộc tổ hợp xét tuyển của 2 học kì lớp 11 và học kì 1 lớp 12 đạt từ 7,5 trở lên.
+              \n +) Cách thức xét tuyển: xét theo điểm từ trên cao xuống thấp cho đến hết chỉ tiêu xét tuyển. Điểm xét tuyển (ĐXT) được xác định như sau: ĐXT = (Điểm môn 1 + Điểm môn 2 + Điểm môn 3) + Điểm ưu tiên (nếu có) Trong đó: Điểm môn 1, Điểm môn 2, Điểm môn 3 lần lượt là điểm trung bình cộng theo học kỳ các môn thuộc tổ hợp xét tuyển
+              \n +)  các môn thuộc tổ hợp xét tuyển của ngành theo cách tính sau:
+                \n \t - Điểm môn 1 = (Điểm TB HK1 lớp 11 môn 1 + Điểm TB HK2 lớp 11 môn 1 +Điểm TB HK1 lớp 12 môn 1)/3
+                \n \t - Điểm môn 2 = (Điểm TB HK1 lớp 11 môn 2 + Điểm TB HK2 lớp 11 môn 2 + Điểm TB HK1 lớp 12 môn 2)/3
+                \n \t - Điểm môn 3 = (Điểm TB HK1 lớp 11 môn 3 + Điểm TB HK2 lớp 11 môn 3 + Điểm TB HK1 lớp 12 môn 3)/3
+              \n Xét tuyển theo thang điểm 30 theo tổ hợp theo từng mã ngành/mã tuyển sinh. Riêng ngành ngôn ngữ Anh, các chương trình chất lượng cao giảng dạy bằng Tiếng Anh: Xét tuyển theo thang điểm 40 với điểm môn Tiếng Anh được nhân hệ số 2,0."
   utter_ask_ptts_kts_hoc_ba:
     - text: "- Đối tượng: Thí sinh học tại các trường THPT trên cả nước (bao gồm cả các trường chuyên) có điểm trung bình cộng 4 học kỳ của 03 môn thuộc tổ hợp xét tuyển (gồm năm học lớp 11 và lớp 12) đạt từ 7,5 trở lên.
              \n - Cách thức xét tuyển: xét theo điểm từ trên cao xuống thấp cho đến hết chỉ tiêu xét tuyển.  Điểm xét tuyển (ĐXT) được xác định như sau: ĐXT = (Môn 1 + Môn 2 + Môn 3) + điểm ưu tiên (nếu có) 
              \n trong đó các môn 1, môn 2, môn 3 là điểm trung bình cộng theo học kỳ tổ hợp xét tuyển  A00,A1,D01,C01"
 
-  utter_ask_ptts_kts_cc:
-    - text: "Hiện nay kinh tế số có xét tuyển dựa trên chứng chỉ tiếng anh và học lực THPT như sau:
-              \n - Đối tượng 1: Thí sinh học tại các trường THPT có điểm trung bình chung học tập lớp 12 đạt từ 7,5 trở lên và có chứng chỉ Tiếng Anh quốc tế trong thời hạn 2 năm (tính đến ngày xét tuyển): đạt IELTS 5.0 trở lên hoặc tương đương.
-              \n -  Đối tượng 2: Thí sinh học tại các trường THPT có điểm TBCHT lớp 12 đạt từ 7,5 trở lên và có chứng chỉ năng lực quốc tế trong thời hạn 3 năm (tính đến ngày xét tuyển): SAT từ 1000 điểm trở lên hoặc ACT từ 25 điểm trở lên hoặc A-Level từ 70 điểm trở lên."
 
   utter_ask_dll:
     - text: "Mục tiêu chung: đào tạo cử nhân phân tích dữ liệu lớn trong kinh tế và kinh doanh có kiến thức cơ bản về kinh tế, kinh doanh và công nghệ thông tin; có kiến thức chuyên sâu về việc sử dụng công cụ phân tích dữ liệu để giải quyết các vấn đề trong kinh tế và kinh doanh, nắm bắt được xu hướng chuyển đổi số của các tổ chức và doanh nghiệp trong thời đại số; có tư duy nghiên cứu độc lập và kỹ năng làm việc nhóm; có năng lực tự học bổ sung kiến thức, nâng cao trình độ chuyên môn thích nghi với sự thay đổi của môi trường làm việc.
@@ -598,7 +642,7 @@ responses:
             \n Bạn cần chuẩn bị những giấy tờ trên và nén thành file để upload theo hướng dẫn ở đường link https://dkxt.apd.edu.vn/user/login"
 
   utter_ask_hp_kts:
-    - text: "Theo quy định của Nhà nước đối với trường công lập. Năm học 2023 – 2024, học phí chương trình đại học hệ chuẩn tại APD là 360.000 VNĐ/tín chỉ tương đương khoảng 12.000.000 VNĐ/năm học."
+    - text: "Học viện thu Học phí theo quy định của Nhà nước đối với trường công lập tự chủ chi thường xuyên. Năm học 2024 – 2025: 550.000 đồng/Tín chỉ (tương đương 1.850.000 đồng /tháng; 18.500.000 đồng/năm)."
 
   utter_ask_cc_dau_ra:
     - text: "Hiện nay ở APD bạn cần có 2 chứng chỉ sau để đáp ứng chuẩn đầu ra:
@@ -912,6 +956,35 @@ responses:
 
   utter_mien_tacb:
     - text: "Nếu như bạn đã có chứng chỉ tiếng anh bạn có thể quy đổi điểm các học phần tiếng anh cơ bản và được miễn các học phần tiếng anh cơ bản. Mức quy đổi điểm này tùy vào các loại chứng chỉ theo yêu cầu của học viện. \n Hãy cho mình biết bạn đã có chứng chỉ tiếng anh nào."
+
+  utter_ask_xt_kqua_htap_12:
+    - text: "Phương thức 7 (HCP07): Xét tuyển dựa trên kết quả học tập THPT lớp 12:
+            \n +) Điều kiện nhận hồ sơ: Thí sinh có điểm trung bình cộng kết quả học tập theo học kỳ 3 môn thuộc tổ hợp xét tuyển của lớp 12 đạt từ 7,5 trở lên
+            \n +) Cách thức xét tuyển: xét theo điểm từ trên cao xuống thấp cho đến hết chỉ tiêu xét tuyển. Điểm xét tuyển (ĐXT) được xác định như sau: ĐXT = (Điểm môn 1 + Điểm môn 2 + Điểm môn 3) + Điểm ưu tiên (nếu có)
+            \n Trong đó: Điểm môn 1, Điểm môn 2, Điểm môn 3 lần lượt là điểm trung bình cộng theo học kỳ các môn thuộc tổ hợp xét tuyển của ngành theo cách tính sau:
+                \n \t - Điểm môn 1 = (Điểm TB HK1 lớp 12 môn 1 + Điểm TB HK2 lớp 12 môn 1)/2
+                \n \t - Điểm môn 2 = (Điểm TB HK1 lớp 12 môn 2 + Điểm TB HK2 lớp 12 môn 2)/2
+                \n \t - Điểm môn 3 = (Điểm TB HK1 lớp 12 môn 3 + Điểm TB HK2 lớp 12 môn 3)/2
+            \n Xét tuyển theo thang điểm 30 theo tổ hợp theo từng mã ngành/mã tuyển sinh. Riêng ngành ngôn ngữ Anh, các chương trình chất lượng cao giảng dạy bằng Tiếng Anh: Xét tuyển theo thang điểm 40 với điểm môn Tiếng Anh được nhân hệ số 2,0."
+
+  utter_ask_xt_THPT_TA:
+    - text: "Phương thức 3 (HCP03): Xét tuyển kết hợp theo kết quả học tập THPT và chứng chỉ Tiếng Anh quốc tế:
+              \n +) Điều kiện nhận hồ sơ: Thí sinh học tại các trường THPT có điểm trung bình chung học tập kỳ 1 lớp 12 đạt từ 7,5 trở lên và có chứng chỉ Tiếng Anh quốc tế trong thời hạn 2 năm (tính đến ngày xét tuyển): đạt điểm IELTS 5.0 (hoặc chứng chỉ tương đương) trở lên.
+              \n +) Cách thức xét tuyển: xét theo điểm từ trên cao xuống thấp cho đến hết chỉ tiêu xét tuyển. Điểm xét tuyển (ĐXT) theo thang 30 được xác định như sau: ĐXT = (Điểm quy đổi CCTAQT) × 3 + điểm ưu tiên (nếu có)
+              \n Bảng quy Đổi điểm chứng chỉ Tiếng Anh:
+                \n Điểm chứng chỉ Điểm quy đổi \n
+                \n IELTS Academic | TOEFL iBT | TOEFL ITP | TOEIC | CAMBRIDGE | Điểm quy đổi |
+                \n      5.0       |    50     |     463   |  550  |   151     |     8,5      | 
+                \n      5.5       |    61     |     500   |  600  |   160     |     9,0      | 
+                \n      6.0       |    66     |     513   |  650  |   170     |     9,5      |
+                \n      6.5       |    79     |     550   |  750  |   179     |     10,0     |
+                \n      7.0       |    93     |     583   |  800  |   185     |     10,0     |
+                \n      7.5       |    105    |     625   |  850  |   190     |     10,0     |
+                \n      8.0       |    110    |     645   |  875  |   195     |     10,0     |
+                \n"
+
+
+
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
@@ -964,7 +1037,6 @@ actions:
   - utter_ask_ptts_kts_tuyen_danh_gia_nang_luc
   - utter_ask_ptts_kts_hsg
   - utter_ask_ptts_kts_hoc_ba
-  - utter_ask_ptts_kts_cc
   - utter_ask_dll
   - utter_ask_tg_ho_so
   - utter_ask_hinh_thuc_dky_xt
@@ -1021,3 +1093,7 @@ actions:
   - utter_answer_name
   - utter_mo_lop
   - utter_mien_tacb
+  - utter_ask_xt_THPT_NLQT
+  - utter_ask_ptts_kts_tuyen_danh_gia_tu_duy
+  - utter_ask_xt_kqua_thpt
+  - utter_ask_xt_THPT_TA
