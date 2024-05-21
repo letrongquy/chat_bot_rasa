@@ -107,6 +107,9 @@ intents:
   - ask_xt_kqua_thpt
   - ask_xt_kqua_htap_12
   - ask_xt_THPT_TA
+  - ask_ket_qua_thpt
+  - ask_hetdtclc_hedt_clt
+  - ask_diem_chuan_2023
 entities:
   - user_name
 
@@ -379,9 +382,11 @@ responses:
                 \n +) 10. Ngôn ngữ Anh (mã nghành: 7220201): (1) Chuyên ngành Tiếng anh Kinh tế và Kinh doanh."
 
   utter_ask_nghanh_clc:
-    - text: "Hiện nay ở APD có 2 ngành gồm 3 chuyên ngành đào tạo chuẩn quốc tế:
-                \n +) 1. Ngành Kinh tế quốc tế: Chuyên ngành Kinh tế đối ngoại.
-                \n +) 2. Ngành Tài chính – Ngân hàng: Chuyên ngành Tài chính; Chuyên ngành Đầu tư."
+    - text: "Các chương trình: 
+              \n - Tuyển sinh 03 chương trình: Kinh tế quốc tế chất lượng cao giảng dạy bằng tiếng Anh; Tài chính chất lượng cao giảng dạy bằng tiếng Anh và Quản trị kinh doanh chất lượng cao giảng dạy bằng tiếng Anh
+              \n - Tổng chỉ tiêu tuyển sinh: 120 chỉ tiêu;
+              \n - Phương thức xét tuyển: Thực hiện tuyển sinh theo các phương thức tại mục 1.5 theo thời gian quy định của Học viện. Học viện tiếp tục xét tuyển các thí sinh đã trúng tuyển nhập học vào Học viện theo quy định nếu còn chỉ tiêu.
+            Học phí: Học phí theo quy định của Nhà nước đối với trường công lập tự chủ chi thường xuyên, mức học phí tương ứng với chất lượng đào tạo. Năm học 2024 – 2025, học phí: 850.000 VNĐ/tín chỉ (tương đương 2.800.000 đồng/tháng, 28.000.000 đồng/năm). Lộ trình tăng học phí hàng năm không quá 15% và thực hiện theo Nghị định số 81/NĐ-CP ngày 27/08/2021 của Chính phủ và Nghị định số 97/NĐ-CP ngày 31/12/2023 của Chính phủ."
 
   utter_ask_dao_tao_ts:
     - text: "Hiện nay ở APD có đào tạo sau đại học trình độ Thạc sỹ có 06 chuyên ngành:
@@ -642,7 +647,7 @@ responses:
             \n Bạn cần chuẩn bị những giấy tờ trên và nén thành file để upload theo hướng dẫn ở đường link https://dkxt.apd.edu.vn/user/login"
 
   utter_ask_hp_kts:
-    - text: "Học viện thu Học phí theo quy định của Nhà nước đối với trường công lập tự chủ chi thường xuyên. Năm học 2024 – 2025: 550.000 đồng/Tín chỉ (tương đương 1.850.000 đồng /tháng; 18.500.000 đồng/năm)."
+    - text: "Học viện thu Học phí theo quy định của Nhà nước đối với trường công lập tự chủ chi thường xuyên. Năm học 2024 – 2025: 550.000 đồng/Tín chỉ (tương đương 1.850.000 đồng /tháng; 18.500.000 đồng/năm). Đối với chất lượng cao học phí là 850.000 VNĐ/tín chỉ (tương đương 2.800.000 đồng/tháng, 28.000.000 đồng/năm)."
 
   utter_ask_cc_dau_ra:
     - text: "Hiện nay ở APD bạn cần có 2 chứng chỉ sau để đáp ứng chuẩn đầu ra:
@@ -983,7 +988,87 @@ responses:
                 \n      8.0       |    110    |     645   |  875  |   195     |     10,0     |
                 \n"
 
+  utter_ask_ket_qua_thpt:
+    - text: "Xét tuyển theo thang điểm 30 với 08 tổ hợp (A00, A01, C00, C02, D01, D07, D09, D10) theo từng mã ngành/mã tuyển sinh. Riêng ngành ngôn ngữ Anh, các chương trình chất lượng cao giảng dạy bằng Tiếng Anh: Xét tuyển theo thang điểm 40 với điểm môn Tiếng Anh được nhân hệ số 2,0.
+               \n Ngành Kinh tế(7310101): 
+                  \n \t - Chuyên ngành Đầu tư;
+                  \n \t - Chuyên ngành Kinh tế và quản lý nguồn nhân lực;
+                  \n \t - Chuyên ngành Đấu thầu và quản lý dự án.
+              \n Tổ hợp xét tuyển: A00, A01, D01, D07
+       
+              \n Ngành Tài chính -Ngân hàng(7340201):
+                  \n \t - Chuyên ngành Tài chính;
+                  \n \t - Chuyên ngành Tài chính công;
+                  \n \t - Chuyên ngành Ngân hàng.
+              \n Tổ hợp xét tuyển: A00, A01, D01, D07
 
+              \n Ngành Tài chính -Ngân hàng( 7340201_1):
+                  \n \t - Chuyên ngành Tài chính chất lượng cao giảng dạy bằng Tiếng Anh.
+              \n Tổ hợp xét tuyển: A01, D01, D07, D10
+ 
+              \n Ngành Quản lý nhà nước(7310205):
+                  \n \t - Chuyên ngành Quản lý công.
+              \n \t Tổ hợp xét tuyển: C00, A01, D01, D09
+ 
+              \n Ngành Kinh tế quốc tế(7310106):
+                  \n \t - Chuyên ngành Kinh tế đối ngoại;
+                  \n \t - Chuyên ngành Thương mại quốc tế & logistics.
+              \n Tổ hợp xét tuyển: A00, A01, D01, D07
+ 
+              \n Ngành Kinh tế quốc tế(7310106_1):
+                  \n \t - Chuyên ngành Kinh tế đối ngoại chất lượng cao giảng dạy bằng Tiếng Anh.
+              \n Tổ hợp xét tuyển: A01, D01, D07, D10
+ 
+              \n Ngành Quản trị kinh doanh(7340101):
+                  \n \t - Chuyên ngành Quản trị doanh nghiệp;
+                  \n \t - Chuyên ngành Quản trị kinh doanh du lịch;
+                  \n \t - Chuyên ngành Quản trị marketing.
+              \n Tổ hợp xét tuyển: A00, A01, D01, D07
+ 
+              \n Ngành Quản trị kinh doanh(7340101_1):
+                  \n \t- Chuyên ngành Quản trị kinh doanh chất lượng cao giảng dạy bằng Tiếng Anh
+              \n Tổ hợp xét tuyển: A01, D01, D07, D10
+ 
+              \n Ngành Kinh tế phát triển(7310105):
+                  \n \t - Chuyên ngành Kinh tế phát triển;
+                  \n \t - Chuyên ngành Kế hoạch phát triển;
+                  \n \t - Chuyên ngành Kinh tế hợp tác.
+              \n Tổ hợp xét tuyển: A00, A01, C02, D01
+              \n Ngành Luật Kinh tế(7380107):
+                  \n \t - Chuyên ngành Luật đầu tư kinh doanh. C00, A00, D01, D09
+              \n Ngành Kế toán(7340301):
+                  \n \t - Chuyên ngành Kế toán kiểm toán. A00, A01, D01, D07
+ 
+              \n Ngành Kinh tế số(7310109):
+                  \n \t - Chuyên ngành Kinh tế và kinh doanh số ;
+                  \n \t - Chuyên ngành Phân tích dữ liệu lớn trong kinh tế và kinh doanh.
+              \n Tổ hợp xét tuyển: A00, A01, D01, D07
+              \n  Ngành Ngôn ngữ Anh(7220201):
+                  \n \t - Chuyên ngành Tiếng Anh kinh tế và kinh doanh. 
+              \n Tổ hợp xét tuyển: A01, D01, D07, D10"
+
+  utter_ask_hetdtclc_hedt_clt:
+    - text: "Những sự  khác biệt của chương trình chất lượng cao:
+            \n - Tiếng Anh được đào tạo chuyên sâu theo chương trình IELTS với 600 giờ học (gấp 03 lần chương trình hệ chuẩn). Sinh viên có cơ hội được học trực tiếp với các giảng viên bản ngữ.
+            \n - Các môn cơ sở ngành/chuyên ngành được giảng dạy bằng tiếng Anh theo giáo trình nhập khẩu từ nước ngoài.
+            \n - Cơ sở vật chất được ưu tiên đầu tư; sinh viên được tham gia nhiều hoạt động ngoại khóa, các chuyến đi thực tế hơn.
+            \n - Quy mô sinh viên của mỗi lớp nhỏ giúp tăng khả năng tương tác giữa sinh viên và giảng viên
+            \n - Các giảng viên là các Giáo sư, Tiến sỹ hoặc Thạc sỹ tốt nghiệp ở nước ngoài và có nhiều kinh nghiệm giảng dạy."
+
+  utter_ask_diem_chuan_2023:
+    - text: "Bạn có thể tham khảo điểm chuẩn thi tốt nghiệp THPT của APD năm 2023:
+              Luật kinh tế (7380107): 25.50
+              Kinh tế (7310101): 24.40
+              Tài chính - Ngân hàng (7340201): 7340201
+              Chương trình tài chính chất lượng cao (7340201_CLC): 23.50
+              Quản lý nhà nước (7310205): 23.50
+              Kinh tế quốc tế (7310106): 24.80
+              Chương trình kinh tế đối ngoại chất lượng cao (7310106_CLC): 23.50
+              Quản trị kinh doanh (7340101): 24.39
+              Kinh tế phát triển (7310105): 24.50
+              Kế toán (7340301): 25.20
+              Kinh tế số (7310109): 24.90
+              Ngôn ngữ Anh (7220201): 32.30"
 
 session_config:
   session_expiration_time: 60
@@ -1097,3 +1182,6 @@ actions:
   - utter_ask_ptts_kts_tuyen_danh_gia_tu_duy
   - utter_ask_xt_kqua_thpt
   - utter_ask_xt_THPT_TA
+  - utter_ask_ket_qua_thpt
+  - utter_ask_hetdtclc_hedt_clt
+  - utter_ask_diem_chuan_2023

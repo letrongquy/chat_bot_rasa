@@ -379,6 +379,15 @@ nlu:
     - sinh viên khi học tại APD được đào tạo theo hệ thống nào
     - có phải sinh viên ở APD được đào tạo theo hệ thống tín chỉ hay không
     - ở APD có đào tạo theo hệ thống tín chỉ không
+    - mã nghành Kinh tế
+    - mã nghành Kinh tế phát triển
+    - mã nghành Kinh tế quốc tế
+    - mã nghành Kế toán 
+    - mã nghành Luật Kinh tế
+    - mã nghành Quản lý Nhà nước
+    - mã nghành Quản trị kinh doanh
+    - mã nghành Tài chính – Ngân hàng 
+    - mã nghành Ngôn ngữ Anh
 
 - intent: ask_nghanh_clc
   examples: |
@@ -403,6 +412,8 @@ nlu:
     - học viện A đang có chuyên nghành đào tạo chất lượng cao nào
     - nghành đào tạo ở hệ chất lượng cao
     - các nghành đạo tạo ở chất lượng cao của APD
+    - học phí hệ đào tạo của chất lượng cao là bao nhiêu thế ạ
+    - 1 tín chỉ của chất lượng cao bao nhiêu tiền thế ạ
 
 - intent: ask_dao_tao_ts
   examples: |
@@ -1195,7 +1206,7 @@ nlu:
 - intent: ask_ptts
   examples: |
     - có bao nhiêu phương thức tuyển sinh
-    - những phương thức tuyển sinh của khoa 
+    - những phương thức tuyển sinh của apd 
     - có mấy phương thức xét tuyển
     - cách thức tuyển sinh 
     - có thể xét tuyển bằng những phương thức nào
@@ -1286,7 +1297,6 @@ nlu:
     - cach tuyen sinh 2
     - cách xét tuyển thứ 3 là như thế nào
     - tuyển sinh cách 3 là sao
-    - xét bằng điểm thi đánh giá năng lực Đại học Quốc gia Hà Nội 2023 là như thế nào
     - giải thích cụ thể giúp em cách 3 với
     - Điểm thi đánh giá năng lực Đh quốc gia Hà Nội năm 2023 là sao ạ
     - Điểm thi ĐHQGHN
@@ -1334,6 +1344,9 @@ nlu:
     - kết hợp giữa chứng chỉ năng lực quốc tế (ACT, A-level, SAT) và kết quả học tập THPT
     - Kết hợp giữa chứng chỉ ngoại ngữ quốc tế (IELTS, TOEIC, TOEFL..) và kết quả học tập THPT
     - xet tuyen sinh 5
+    - cho em hỏi các phương pháp tuyển sinh hiện nay của apd với ạ
+    - hiện nay ở apd có những phương pháp tuyển sinh nào ạ
+    - em có thắc mắc về các phương pháp tuyển sinh của năm nay, giải đáp giúp em với ạ
 
 - intent: ask_to_hop_xt
   examples: |
@@ -1387,6 +1400,12 @@ nlu:
     - khoa kinh tế số dùng bài thi đánh giá năng lực nào để xét tuyển
     - ngưỡng điểm trúng tuyển bằng hình thức đánh giá năng lực của khoa kinh tế số
     - đạt bao nhiêu điểm để trúng tuyển bằng hình thức đánh giá năng lực của khoa kinh tế số
+    - HCPDGNL
+    - bài thi đánh giá năng lực
+    - cho em hỏi phương thức tuyển sinh HCPDGNL
+    - điều kiện xét tuyển của HCPDGNL là gì thế ạ
+    - cách thức xét tuyển của HCPDGNL như nào ạ
+    - giải đáp cho em về cách xét tuyển dựa trên bài đánh giá tư duy
     
 
 - intent: ask_ptts_kts_hsg
@@ -2494,3 +2513,55 @@ nlu:
     - cách thức xét tuyển nếu như đã có bằng tiếng anh
     - nếu có chứng chỉ tiếng anh rồi em có thể xét tuyển như nào
     - có thể dùng những chứng chỉ nào để xét tuyển vào APD
+
+- intent: ask_ket_qua_thpt
+  examples: |
+    - xét tuyển dựa trên kết quả thi thpt thế nào ạ
+    - cho em hỏi về cách xét tuyển theo kết qua thi tốt nghệp THPT năm nay với
+    - giải đáp cho em về xét tuyển theo kết quả thi tốt nghiệp
+    - kết quả thi tốt nghiệp THPT
+    - học viện xét tuyển những khối nào
+    - em muốn có thêm thông tin về kết quả thi THPT năm 2024
+    - các thông tin về xét tuyển theo phương thưức thi tốt nhiệp THPT
+    - thang điểm xét kết quả thi tốt nghiệp vào nghành ngôn ngữ anh như nào thế ạ
+    - tổ hợp môn xét vào  Ngành Kinh tế là gì thế ạ
+    - tổ hợp môn xét vào  Ngành Tài chính -Ngân hàng là gì thế ạ
+    - tổ hợp môn xét vào  Ngành Tài chính -Ngân hàng chất lượng cao là gì thế ạ
+    - tổ hợp môn xét tuyển vào Ngành Quản lý nhà nước
+    - tổ hợp môn xét tuyển vào Ngành Kinh tế quốc tế
+    - tổ hơp môn xét tuyển vào Ngành Kinh tế quốc tế chất lượng cao
+    - tổ hợp môn xét tuyển vào Ngành Quản trị kinh doanh
+    - tổ hợp môn xét tuyển vào nghành  Quản trị kinh doanh chất lượng cao
+    - tổ hợp môn xét tuyển vào nghành Kinh tế phát triển
+    - tổ hợp môn xét tuyển vào nghành Luật Kinh tế
+    - tổ hợp môn xét tuyển vào nghành Kế toán
+    - tổ hợp môn xét tuyển vào nghành Kinh tế số
+    - tổ hợp môn xét tuyển vào nghành ngôn ngữ Anh
+
+- intent: ask_hetdtclc_hedt_clt
+  examples: |
+    - sự khác nhau giữa hệ đào tạo chất lượng cao và hệ đào tạo chất lượng thường là gì
+    - hệ đào tạo chất lượng cao và hệ đào tạo thường khác nhau như thế nào ạ
+    - có phải hệ đào tạo chất lượng cao được giảng dạy bằng tiếng anh không ạ
+    - em muốn biết về hệ đào tạo chất lượng cao nhiều hơn
+    - thầy cô giảng giảy chất lượng cao ra sao
+    - cho em hỏi về cách thức giảng dạy của hệ đạo tạo chất lượng cao
+    - chương trình hệ chất lượng cao như thế nào
+    - em có thắc mắc về chương trình đào tạo hệ chất lượng cao
+
+- intent: ask_diem_chuan_2023
+  examples: |  
+    - điểm chuẩn của APD năm 2023 thế nào ạ
+    - em có thắc mắc về điểm chuẩn năm 2023 của APD
+    - điểm chuẩn của nghành luật kinh tế năm 2023 là gì
+    - điểm chuẩn của nghành  kinh tế năm 2023 là gì
+    - điểm chuẩn của nghành Tài chính - ngân hàng  năm 2023 là gì
+    - điểm chuẩn của chương trình chất lượng cao năm 2023 là gì
+    - điểm chuẩn của nghành quản lý nhà nước năm 2023 là gì
+    - điểm chuẩn của nghành kinh tế quốc tế năm 2023 là gì
+    - điểm chuẩn của chương trình chất lượng cao kinh tế đối ngoại năm 2023 là gì
+    - điểm chuẩn của nghành quản trị kinh doanh năm 2023 là gì
+    - điểm chuẩn của nghành kinh tế phát triển năm 2023 là gì
+    - điểm chuẩn của nghành kế toàn năm 2023 là gì
+    - điểm chuẩn của nghành kinh tế số năm 2023 là gì
+    - điểm chuẩn của nghành ngôn ngữ anh năm 2023 là gì

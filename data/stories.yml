@@ -664,3 +664,18 @@ stories:
   steps:
   - intent: ask_xt_kqua_thpt
   - action: utter_ask_xt_kqua_thpt
+
+- story: hoi kqua thi tot nghiep thpt
+  steps:
+  - intent: ask_ket_qua_thpt
+  - action: utter_ask_ket_qua_thpt
+
+- story: hoi khac biet he clc
+  steps:
+  - intent: ask_hetdtclc_hedt_clt
+  - action: utter_ask_hetdtclc_hedt_clt
+
+- story: hoi diem chuan 2023
+  steps:
+  - intent: ask_diem_chuan_2023
+  - action: utter_ask_diem_chuan_2023
