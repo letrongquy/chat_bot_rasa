@@ -342,7 +342,7 @@ nlu:
     - những trang thiết bị của APD có đảm cho nhu cầu học của sinh viên không
     - trang thiết bị của APD có đáp ứng môi trường học tập cấp đại học không
 
-- intent: ask_nghanh_dt
+- intent: ask_nghanh_dtra
   examples: |
     - hiện tại APD đang có những chuyên nghành đào tạo nào
     - những chuyên nghành đào tạo của APD hiện tại
@@ -388,6 +388,8 @@ nlu:
     - mã nghành Quản trị kinh doanh
     - mã nghành Tài chính – Ngân hàng 
     - mã nghành Ngôn ngữ Anh
+    - các nghành đào tạo hiện nay của APD
+
 
 - intent: ask_nghanh_clc
   examples: |
@@ -414,6 +416,8 @@ nlu:
     - các nghành đạo tạo ở chất lượng cao của APD
     - học phí hệ đào tạo của chất lượng cao là bao nhiêu thế ạ
     - 1 tín chỉ của chất lượng cao bao nhiêu tiền thế ạ
+    - em muốn biết về hệ đào tạo chất lượng cao nhiều hơn
+
 
 - intent: ask_dao_tao_ts
   examples: |
@@ -2543,11 +2547,11 @@ nlu:
     - sự khác nhau giữa hệ đào tạo chất lượng cao và hệ đào tạo chất lượng thường là gì
     - hệ đào tạo chất lượng cao và hệ đào tạo thường khác nhau như thế nào ạ
     - có phải hệ đào tạo chất lượng cao được giảng dạy bằng tiếng anh không ạ
-    - em muốn biết về hệ đào tạo chất lượng cao nhiều hơn
     - thầy cô giảng giảy chất lượng cao ra sao
     - cho em hỏi về cách thức giảng dạy của hệ đạo tạo chất lượng cao
     - chương trình hệ chất lượng cao như thế nào
     - em có thắc mắc về chương trình đào tạo hệ chất lượng cao
+    - hệ đào tạo chất lượng cao có khác gì so với đào tạo thường không ạ
 
 - intent: ask_diem_chuan_2023
   examples: |  

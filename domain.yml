@@ -17,7 +17,7 @@ intents:
   - ask_thi_dau_vao
   - ask_chuong_trinh_hop_tac
   - ask_APD
-  - ask_nghanh_dt
+  - ask_nghanh_dtra
   - ask_nghanh_clc
   - ask_dao_tao_ts
   - chào
@@ -368,7 +368,7 @@ responses:
   utter_ask_APD:
     - text: "Học viện Chính sách và Phát triển được thành lập theo Quyết định số 10/QĐ-TTg ngày 04/01/2008 của Thủ tướng Chính phủ, là trường Đại học công lập thuộc hệ thống giáo dục quốc dân. Về tổ chức, Học viện trực thuộc Bộ Kế hoạch và Đầu tư - cơ quan của Chính phủ, thực hiện chức năng quản lý nhà nước về kế hoạch, đầu tư phát triển và thống kê, bao gồm: tham mưu tổng hợp về chiến lược, kế hoạch phát triển kinh tế - xã hội của cả nước; quy hoạch phát triển, cơ chế, chính sách quản lý kinh tế chung và một số lĩnh vực cụ thể; đầu tư trong nước, đầu tư của nước ngoài vào Việt Nam và đầu tư của Việt Nam ra nước ngoài; khu kinh tế (bao gồm cả khu công nghiệp, khu kinh tế cửa khẩu, khu công nghệ cao và các loại hình khu kinh tế khác); quản lý nguồn hỗ trợ phát triển chính thức và viện trợ phi chính phủ nước ngoài; đấu thầu; thành lập, phát triển doanh nghiệp và khu vực kinh tế tập thể, hợp tác xã; thống kê; quản lý nhà nước các dịch vụ công trong các ngành, lĩnh vực thuộc phạm vi quản lý của Bộ theo quy định của pháp luật. Học viện đã được công nhận đạt tiêu chuẩn chất lượng giáo dục của Bộ Giáo dục và Đào tạo và 03 ngành đào tạo đại học đạt chuẩn kiểm định chất lượng. Là cơ sở đào tạo sau Đại học trong lĩnh vực chính sách phát triển, kinh tế và quản lý, Học viện định hướng trở thành trường đại học có uy tín trong hệ thống giáo dục quốc dân về đào tạo, nghiên cứu khoa học, tư vấn và phản biện chính sách vĩ mô. Học viện Chính sách và Phát triển tiến hành tổ chức đào tạo 100% các chương trình đào tạo hệ đại học chính quy theo hệ thống tín chỉ cho sinh viên. Quy mô đào tạo hiện nay: Gần 4.000 sinh viên và 150 học viên trình độ Thạc sĩ. Đội ngũ cán bộ, giảng viên cơ hữu của Học viện bao gồm Nhà giáo ưu tú, các Phó Giáo sư, Tiến sỹ, Thạc sỹ được đào tạo tại các trường Đại học uy tín ở Việt Nam và nước ngoài. Để nâng cao tính thực tiễn trong đào tạo, Học viện đã mời các chuyên gia từ các Cơ quan quản lý Nhà nước, Viện nghiên cứu, các doanh nghiệp, giảng viên từ các Trường đại học danh tiếng trong và ngoài nước tham gia giảng dạy. Trụ sở đào tạo chính của Học viện tọa lạc tại Khu đô thị Nam An Khánh, Huyện Hoài Đức, Hà Nội với quy mô diện tích 5ha, học viện có sức chứa 8.000 – 10.000 sinh viên đang theo học tại đây. Với cơ sở vật chất kỹ thuật, trang thiết bị hiện đại, hạ tầng công nghệ thông tin, truyền thông, học liệu và những điều kiện vật chất, thiết bị khác đảm bảo chất lượng sẽ thỏa mãn đầy đủ nhu cầu về môi trường học tập, nghiên cứu, sinh hoạt của giảng viên và sinh viên."
 
-  utter_ask_nghanh_dt:
+  utter_ask_nghanh_dtra:
     - text: "Hiện tại, Học viện có 10 ngành và 19 chuyên ngành đào tạo hệ đại trà:
                 \n +) 1. Ngành Kinh tế (mã nghành: 7310101): (1) Chuyên ngành Kinh tê đầu tư (chất lượng cao); (2) Chuyên ngành Đấu thầu và quản lý dự án; (3) Chuyên ngành Quản lý nguồn nhân lực.
                 \n +) 2. Ngành Kinh tế phát triển (mã nghành: 7310105): (1) Chuyên ngành Kinh tế phát triển; (2) Chuyên ngành Kế hoạch phát triển.
@@ -1048,7 +1048,7 @@ responses:
               \n Tổ hợp xét tuyển: A01, D01, D07, D10"
 
   utter_ask_hetdtclc_hedt_clt:
-    - text: "Những sự  khác biệt của chương trình chất lượng cao:
+    - text: "Những sự khác biệt của chương trình chất lượng cao:
             \n - Tiếng Anh được đào tạo chuyên sâu theo chương trình IELTS với 600 giờ học (gấp 03 lần chương trình hệ chuẩn). Sinh viên có cơ hội được học trực tiếp với các giảng viên bản ngữ.
             \n - Các môn cơ sở ngành/chuyên ngành được giảng dạy bằng tiếng Anh theo giáo trình nhập khẩu từ nước ngoài.
             \n - Cơ sở vật chất được ưu tiên đầu tư; sinh viên được tham gia nhiều hoạt động ngoại khóa, các chuyến đi thực tế hơn.
@@ -1057,18 +1057,18 @@ responses:
 
   utter_ask_diem_chuan_2023:
     - text: "Bạn có thể tham khảo điểm chuẩn thi tốt nghiệp THPT của APD năm 2023:
-              Luật kinh tế (7380107): 25.50
-              Kinh tế (7310101): 24.40
-              Tài chính - Ngân hàng (7340201): 7340201
-              Chương trình tài chính chất lượng cao (7340201_CLC): 23.50
-              Quản lý nhà nước (7310205): 23.50
-              Kinh tế quốc tế (7310106): 24.80
-              Chương trình kinh tế đối ngoại chất lượng cao (7310106_CLC): 23.50
-              Quản trị kinh doanh (7340101): 24.39
-              Kinh tế phát triển (7310105): 24.50
-              Kế toán (7340301): 25.20
-              Kinh tế số (7310109): 24.90
-              Ngôn ngữ Anh (7220201): 32.30"
+              \n Luật kinh tế (7380107): 25.50
+              \n Kinh tế (7310101): 24.40
+              \n Tài chính - Ngân hàng (7340201): 7340201
+              \n Chương trình tài chính chất lượng cao (7340201_CLC): 23.50
+              \n Quản lý nhà nước (7310205): 23.50
+              \n Kinh tế quốc tế (7310106): 24.80
+              \n Chương trình kinh tế đối ngoại chất lượng cao (7310106_CLC): 23.50
+              \n Quản trị kinh doanh (7340101): 24.39
+              \n Kinh tế phát triển (7310105): 24.50
+              \n Kế toán (7340301): 25.20
+              \n Kinh tế số (7310109): 24.90
+              \n Ngôn ngữ Anh (7220201): 32.30"
 
 session_config:
   session_expiration_time: 60
@@ -1091,7 +1091,7 @@ actions:
   - utter_ask_thi_dau_vao
   - utter_ask_chuong_trinh_hop_tac
   - utter_ask_APD
-  - utter_ask_nghanh_dt
+  - utter_ask_nghanh_dtra
   - utter_ask_nghanh_clc
   - utter_ask_dao_tao_ts
   - utter_greet

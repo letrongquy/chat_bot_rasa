@@ -248,10 +248,10 @@ stories:
 
 
 
-- story: ask nghanh dao tao
+- story: ask nghanh dao tao dai tra
   steps:
-    - intent: ask_nghanh_dt
-    - action: utter_ask_nghanh_dt
+    - intent: ask_nghanh_dtra
+    - action: utter_ask_nghanh_dtra
 
 - story: ask nghanh dao tao clc
   steps:
