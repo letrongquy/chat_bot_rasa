@@ -679,3 +679,48 @@ stories:
   steps:
   - intent: ask_diem_chuan_2023
   - action: utter_ask_diem_chuan_2023
+
+- story: hoi ktpt
+  steps:
+  - intent: ask_ktpt
+  - action: utter_ask_ktpt
+
+- story: hoi tcnh
+  steps:
+  - intent: ask_tc_nh
+  - action: utter_ask_tc_nh
+
+- story: hoi ktqt
+  steps:
+  - intent: ask_ktqt
+  - action: utter_ask_ktqt
+
+- story: hoi qtri kinh doanh
+  steps:
+  - intent: ask_qtrikd
+  - action: utter_ask_qtrikd
+
+- story: hoi luat kinh te
+  steps:
+  - intent: ask_luatkte
+  - action: utter_ask_luatkte
+
+- story: hoi kinh te
+  steps:
+  - intent: ask_kte
+  - action: utter_ask_kte
+
+- story: hoi ke toan
+  steps:
+  - intent: ask_ktoan
+  - action: utter_ask_ktoan
+
+- story: hoi qly nha nuoc
+  steps:
+  - intent: ask_qly_nhanuoc
+  - action: utter_ask_qly_nhanuoc
+
+- story: hoi ngon ngu anh
+  steps:
+  - intent: ask_ngonngu_anh
+  - action: utter_ask_ngonngu_anh

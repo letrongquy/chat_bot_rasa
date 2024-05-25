@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot Kinh Tế Số</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body style="background-image: url('background.jpg'); background-size: cover;">
+    <div class="banner">
+        <div class="banner-content">
+            <!-- <img src="logo.png" alt="Logo" class="logo">
+            <span class="banner-text">HỌC VIỆN CHÍNH SÁCH VÀ PHÁT TRIỂN</span> -->
+        </div>
+    </div>
+    <div class="navbar">
+        <a href="#home">Trang chủ</a>
+        <a href="#services">Trợ giúp</a>
+      
+    </div>
+    <div class="chat-container">
+        <div class="chat-header">Chatbot APD</div>
+        <div class="chat-messages" id="chat-messages"></div>
+        <div class="input-container">
+            <input type="text" id="user-input" placeholder="Nhập tin nhắn của bạn..." onkeypress="handleKeyPress(event)">
+            <input type="submit" value="Gửi" onclick="sendMessage()">
+        </div>
+    </div>
+    <div class="chat-popup" id="chat-popup" style="display: none;">
+        <button class="close-btn" onclick="closePopup()">X</button>
+        <div class="popup-content">
+            <p><b>Câu hỏi thường gặp:</b></p>
+            <ul>
+                <li onclick="chooseSuggestion('Học phí của APD hiện nay ra sao?')">Học phí của APD hiện nay ra sao?</li>
+                <li onclick="chooseSuggestion('Các phương tiện công cộng để cho sinh viên đi học')">Các phương tiện công cộng để cho sinh viên đi học</li>
+                <li onclick="chooseSuggestion('Tiết học của APD bắt đầu khi nào?')">Tiết học của APD bắt đầu khi nào?</li>
+                <li onclick="chooseSuggestion('Các câu lạc bộ của APD')">Các câu lạc bộ của APD</li>
+            </ul>
+        </div>
+    </div>
+        <script src="script.js"></script>
+</body>
+</html>

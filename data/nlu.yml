@@ -367,7 +367,7 @@ nlu:
     - thông tin liên quan tới nghành đạo tạo hệ đại trà
     - em muốn biết các nghành đạo tạo hệ đại trà hiện tại ở APD
     - tôi muốn xem các nghành đạo tạo ở hệ đại trà
-    - hệ đại trà có những ngan đào tạo nào
+    - hệ đại trà có những nghành đào tạo nào
     - hệ đại trà có tất cả những nghành học nào
     - tất cả các nghành học ở hệ đại trà của APD
     - đội ngũ giảng viên ở APD thế nào
@@ -379,15 +379,6 @@ nlu:
     - sinh viên khi học tại APD được đào tạo theo hệ thống nào
     - có phải sinh viên ở APD được đào tạo theo hệ thống tín chỉ hay không
     - ở APD có đào tạo theo hệ thống tín chỉ không
-    - mã nghành Kinh tế
-    - mã nghành Kinh tế phát triển
-    - mã nghành Kinh tế quốc tế
-    - mã nghành Kế toán 
-    - mã nghành Luật Kinh tế
-    - mã nghành Quản lý Nhà nước
-    - mã nghành Quản trị kinh doanh
-    - mã nghành Tài chính – Ngân hàng 
-    - mã nghành Ngôn ngữ Anh
     - các nghành đào tạo hiện nay của APD
 
 
@@ -2569,3 +2560,135 @@ nlu:
     - điểm chuẩn của nghành kế toàn năm 2023 là gì
     - điểm chuẩn của nghành kinh tế số năm 2023 là gì
     - điểm chuẩn của nghành ngôn ngữ anh năm 2023 là gì
+    
+- intent: ask_ktpt
+  examples: |
+    - Thông tin về khoa kinh tế phát triển ở APD?
+    - Có bao nhiêu chương trình học trong khoa kinh tế phát triển
+    - Những môn học cơ bản nào được yêu cầu trong chương trình của khoa kinh tế phát triển
+    - những nghành học của khoa kinh tế phát triển 
+    - các thông tin liên quan tới khoa kinh tế phát triển
+    - khoa kinh tế phát triển ở APD
+    - khoa kinh tế phát triển
+    - em có thắc mắc về khoa kinh tế phát triển
+    - giải đáp thắc mắc về khoa kinh tế phát triển cho em với
+    - em định vào học khoa kinh tế phát triển
+    - những chuyên nghành của khoa kinh tế phát triển
+    - mã nghành Kinh tế phát triển
+    - giới thiệu về Kinh tế phát triển
+
+- intent: ask_tc_nh
+  examples: |
+    - khoa tài chính ngân hàng của học viện chính sách phát triê
+    - khoa Tài chính ngân hàng
+    - thông tin về khoa tài chính ngân hàng
+    - giải đáp thắc mắc về khoa tài chính ngân hàng
+    - em có thắc mắc về khoa tài chính ngân hàng
+    - thông tin về khoa tài chính ngân hàng
+    - tài chính ngân hàng
+    - tài chính - ngân hàng
+    - khoa tài chinnh ngân hàng đang đào tạo chuyên nghành nào
+    - những chuyên nghành khoa tài chính ngân hàng đang đào tạo
+    - đội ngũ giảng viên của khoa tài chính - ngân hàng
+    - giảng viên của khoa tài chính ngân hàng
+    - chương trình học của khoa Tài chính - Ngân hàng
+    - mã nghành Tài chính – Ngân hàng 
+    - giới thiệu về khoa Tài chính – Ngân hàng 
+
+- intent: ask_ktqt
+  examples: |
+    - khoa Kinh tế quốc tế của APD
+    - thông tin về kinh tế quốc tế của APD ra sao
+    - em có thắc mắc về khoa Kinh tế quốc tế
+    - các chuyên nghành Kinh tế quốc tế
+    - Kinh tế quốc tế
+    - các chuyên nghành của khoa Kinh tế quốc tế
+    - khoa Kinh tế quốc tế có những chuyên nghành nào
+    - giảng viên của khoa Kinh tế quốc tế
+    - chất lượng giảng viên của Kinh tế quốc tế
+    - mã nghành Kinh tế quốc tế
+    - giới thiệu về hoa Kinh tế quốc tế của APD
+
+- intent: ask_qtrikd
+  examples: |
+    - khoa quản trị kinh doanh
+    - quản trị kinh doanh
+    - khoa quản trị kinh doanh của APD
+    - thông tin về khoa quản trị kinh doanh
+    - em có thắc mắc về khoa quản trị kinh doanh
+    - thông tin liên quan tới khoa quản trị kinh doanh
+    - khoa quản trị kinh doanh ở APD
+    - các chuyên nghành khoa quản trị kinh doanh
+    - khoa quản trị kinh doanh đang đào tạo những chuyên nghành gì
+    - đội ngũ giảng viên của khoa quản trị kinh doanh
+    - chất lượng đội ngũ của nghành quản trị kinh doanh
+    - mã nghành của khoa quản trị kinh doanh
+    - mã nghành Quản trị kinh doanh
+    - giới thiệu về nghành quản trị kinh doanh
+
+- intent: ask_luatkte
+  examples: |
+    - khoa luật kinh tế
+    - nghành luật kinh tế
+    - giới thiệu về khoa luật kinh tế APD
+    - thông tin về khoa luật kinh tế APD
+    - em có thắc mắc về khoa luật kinh tế 
+    - luật kinh tế
+    - mã nghành Luật Kinh tế
+    - các chuyên nghành của luật kinh tế
+    - nghành luật kinh tế đang đào tạo những chuyên nghành nào
+    - đội ngũ giảng viên của nghành luật kinh tế
+    - chất lượng giảng viên của khoa luật kinh tế 
+
+- intent: ask_kte
+  examples: |
+    - mã nghành Kinh tế
+    - giới thiệu về nghành kinh tế
+    - khoa kinh tế APD
+    - thông tin của nghành kinh tế APD
+    - khoa kinh tế
+    - em muốn hỏi về nghành kinh tế của APD
+    - các chuyên nghành mà khoa kinh tế đào tạo
+    - hiện này nghành kinh tế đang đào tạo những chuyên nghành nào
+    - chất lượng giảng viên của khoa kinh tế
+    - nghành kinh tế có giảng viên chất lượng không
+    - đội ngũ giảng viên của nghành kinh tế
+
+- intent: ask_ktoan
+  examples: |    
+    - mã nghành Kế toán 
+    - mã nghành kế toán là gì
+    - giới thiệu về khoa kế toán - kiểm toán
+    - Kế toán – Kiểm toán của APD
+    - mã nghành Kế toán – Kiểm toán là gì
+    - các thông tin liên quan tới Kế toán – Kiểm toán
+    - thông tin liên quan tới khoa kế toán
+    - em có thắc mắc về khoa kế kiểm APD
+    - chuyên nghành khoa Kế toán – Kiểm toán đang đào tạo là gì
+    - khoa Kế toán – Kiểm toán đang đào tạo chuyên nghành nào
+
+- intent: ask_qly_nhanuoc
+  examples: | 
+    - mã nghành Quản lý Nhà nước
+    - mã nghành quản lý nhà nước là gì
+    - cho em hỏi về nghành quản lý nhà nước ở APD với ạ
+    - giới thiệu về nghành quản lý nhà nước
+    - các thông tin liên quan tới nghành quản lý nhà nước APD
+    - em có thắc mắc về nghành quản lý nhà nước ở APD
+    - chương trình đào tạo của nghành quản lý nhà nước
+    - thông tin về chương trình học của nghành quản lý nhà nước
+
+- intent: ask_ngonngu_anh
+  examples: |
+    - mã nghành Ngôn ngữ Anh
+    - mã nghành ngôn ngữ Anh là gì
+    - cho em hỏi về nghành ngôn ngữ anh với
+    - khoa ngôn ngữ của APD
+    - các thông tin liên quan tới
+    - các chương trình học của nghành ngôn ngữ anh 
+    - nghành ngôn ngữ anh có những chuyên nghành gì
+    - ngôn ngữ anh
+    - chương trình học của ngôn ngữ anh
+    - thông tin chương trình học của ngôn ngữ anh
+    - khoa ngôn ngữ anh của APD
+    

@@ -110,6 +110,15 @@ intents:
   - ask_ket_qua_thpt
   - ask_hetdtclc_hedt_clt
   - ask_diem_chuan_2023
+  - ask_ktpt
+  - ask_tc_nh
+  - ask_ktqt
+  - ask_qtrikd
+  - ask_luatkte
+  - ask_kte
+  - ask_ktoan
+  - ask_qly_nhanuoc
+  - ask_ngonngu_anh
 entities:
   - user_name
 
@@ -1070,6 +1079,71 @@ responses:
               \n Kinh tế số (7310109): 24.90
               \n Ngôn ngữ Anh (7220201): 32.30"
 
+  utter_ask_ktpt:
+    - text: "Khoa Kinh tế Phát triển(7310105) được thành lập dựa trên cơ sở khoa Kế hoạch phát triển theo Quyết định số 298/QD-HVCSPT ngày 26/04/2019 của giám Đốc học việc, là một trong những khoa chuyên nghành quan trọng của Học viện. Hiện nay, khoa có đào tạo 3 chuyên nghành sau:
+                \n - Kinh tế phát triển
+                \n - Kế hoạch phát triển
+                \n - Kinh tế hợp tác."
+
+  utter_ask_tc_nh:
+    - text: "Trải qua gần 15 năm hình thành và phát triển, Khoa Tài chính – Ngân hàng(7340201) của Học viện Chính sách và Phát triển đã có những bước tiến vượt bậc cả về số lượng và chất lượng. Cho tới nay Khoa đã có 12 cán bộ giảng viên (Trong đó có 1 PGS.TS, 06 Tiến sỹ và 05 Thạc sỹ) thực hiện nhiệm vụ giảng dạy ngành Tài chính - Ngân hàng với 02 chuyên ngành: 
+              \n - Tài chính 
+              \n - Ngân hàng.
+            \n Đội ngũ giảng viên tâm huyết, có trình độ cao, được đào tạo ở các nước phát triển trên thế giới với phần lớn tốt nghiệp tại các nước có hệ thống tài chính, ngân hàng phát triển bậc nhất tại Anh, Pháp, Úc,.... Bên cạnh đó, Khoa cũng có đội ngũ cán bộ hỗ trợ có nhiều kinh nghiệm phụ trách các công việc hành chính và công tác giấy tờ, thủ tục để hỗ trợ sinh viên trong quá trình học tập. Chương trình giảng dạy có tính hội nhập cao và định hướng toàn cầu, với nội dung cập nhật các kiến thức của kỷ nguyên 4.0, kết hợp với các giá trị truyền thống tạo nên thương hiệu cho Học viện Chính sách và Phát triển - Bộ Kế hoạch và Đầu tư."
+
+  utter_ask_ktqt:
+    - text: "Năm 2010, Khoa Kinh tế quốc tế(7310106) được thành lập theo quyết định của Giám đốc Học viện Chính sách và Phát triển, với tên gọi Khoa Kinh tế đối ngoại. Năm 2018, Khoa được đổi tên thành Khoa Kinh tế quốc tế. khoa Kinh tế quốc tế có đội ngũ giảng viên chất lượng, với 2 tiến sĩ và 7 thạc sĩ. Khoa Kinh tế quốc tế được giao nhiệm vụ triển khai các hoạt động nghiên cứu khoa học và đào tạo ngành Kinh tế quốc tế gồm hai chuyên ngành:
+                \n - chuyên ngành Kinh tế đối ngoại 
+                \n - chuyên ngành Thương mại quốc tế 
+                \n - logistics.
+              \n Chương trình đào tạo tại Học viện Chính sách và Phát triển nói chung, khoa Kinh tế quốc tế nói riêng luôn gắn với thực tiễn đáp ứng yêu cầu của nhà tuyển dụng. Hơn nữa, với đội ngũ giảng viên có nhiều kinh nghiệm thực tiễn làm việc tại các cơ quan Chính phủ như Bộ Kế hoạch và Đầu tư, tổ chức phi Chính phủ, doanh nghiệp. Do đó, các bài giảng cũng cập nhật các chính sách về kinh tế vĩ mô, kinh tế quốc tế và thực tiễn hoạt động tại các doanh nghiệp, đồng thời Khoa Kinh tế đối ngoại luôn tổ chức cho các bạn các chuyến thăm quan tại doanh nghiệp đầu tư nước ngoài, cơ quan nhà nước như Sở Kế hoạch & Đầu tư, Sở Công Thương, Ban quản lý các KCN, cảng biển & logistics tại các địa phương sẽ giúp sinh viên tự tin tìm việc sau khi tốt nghiệp."
+
+  utter_ask_qtrikd:
+    - text: "Khoa Quản trị kinh doanh(7340101) đặt mục tiêu là đào tạo nhân tài và cung cấp nguồn nhân lực chất lượng cao trong lĩnh vực quản trị kinh doanh theo hướng chuyên sâu; sáng tạo và chuyển giao tri thức trong lĩnh vực quản trị kinh doanh đáp ứng yêu cầu của tổ chức, doanh nghiệp và toàn xã hội; phát triển năng lực học tập, nghiên cứu khoa học của sinh viên; rèn luyện kỹ năng làm việc và lối sống trong môi trường quốc tế hiện đạị; phổ biến tri thức khoa học, nghề nghiệp về quản trị kinh doanh cho cộng đồng doanh nghiệp và xã hội. 
+            \n Khoa Quản trị kinh doanh (FBA) là một trong những khoa chuyên ngành quan trọng của Học viện Chính sách và Phát triển (APD), được phép đào tạo trình độ đại học theo Quyết định số 2672/QĐ-BGDĐT ngày 24/07/2012 của Bộ Giáo dục và Đào tạo. Bộ Giáo dục và Đào tạo ban hành quyết định số 4143/QĐ-BGDĐT ngày 07/12/2020, cho phép Học viện Chính sách và Phát triển được đào tạo trình độ Thạc sĩ ngành Quản trị kinh doanh.
+            \n Hiện nay khoa Quản trị kinh doanh đang đào tạo 3 chuyên nghành:
+                \n \t - Chuyên ngành Quản trị doanh nghiệp
+                \n \t - Chuyên ngành Quản trị Marketing
+                \n \t - Chuyên ngành Quản trị kinh doanh du lịch
+            \n Khoa Quản trị kinh doanh có ội ngũ giảng viên nhiệt tình, có trách nhiệm với hơn 70% giảng viên cơ hữu có trình độ từ Tiến Sỹ, được đào tạo từ những trường Đại học có danh tiếng cũng như chuyên gia giàu kinh nghiệm. Chương trình học của khoa Quản trị kinh doanh gắn với xu hướng phát triển cùng chương trình đào tạo gắn lý thuyết với thực chiến tại Doanh nghiệp, trải nghiệm thực tế CLB Startip & Marketing."
+
+  utter_ask_luatkte:
+    - text: "Khoa Luật Kinh tế(7380107) trực thuộc Học viện Chính sách và Phát triển (tên tiếng Anh: Faculty of Economic Law, Academy of Policy and Development / tên viết tắt: LAW-APD) là đơn vị đào tạo, nghiên cứu và tư vấn luật, chính sách uy tín, chuyên nghiệp. Tiền thân là Bộ môn Luật Kinh tế thuộc Khoa Cơ bản được thành lập theo Quyết định số 459/QĐ-HVCS&PT ngày 17/9/2009 của Giám đốc Học viện Chính sách và Phát triển, tới ngày 22/7/2019, Khoa Luật Kinh tế chính thức được thành lập trực thuộc Học viện thông qua Quyết định số 1089/QĐ-BKHĐT của Thứ trưởng Bộ Kế hoạch và Đầu tư Nguyễn Đức Trung ký.
+              \n Lãnh đạo Khoa, TS, GVC. Nguyễn Như Hà là một trong số ít chuyên gia pháp lý có công trình là sách chuyên khảo bằng tiếng nước ngoài, được công bố Châu Âu, có nhiều kinh nghiệm thực tiễn quản lý với vị trí Phó Chủ nhiệm Khoa kiêm Phó Trưởng Bộ môn Sở hữu trí tuệ, Khoa Khoa học Quản lý, Đại học KH-XH-NV, Đại học Quốc gia Hà Nội; Phó Trưởng Phòng Nghiệp vụ II - Ủy ban Kiểm tra Tỉnh ủy Quảng Ninh và kinh qua công tác tại Bộ Giáo dục và Đào tạo; Khoa Luật - Đại học Quốc gia Hà Nội; Liên minh Hợp tác xã Việt Nam. Các giảng viên Khoa cũng tích cực tham gia nhiều đề tài, đề án cấp cơ sở, cấp Bộ và cấp Nhà nước và tác giả của nhiều bài báo đăng tạp chí chuyên ngành.
+              \n Từ năm 2019 tới nay, với sứ mệnh đào tạo nguồn nhân lực ngành Kế hoạch và Đầu tư, Khoa hiện là đơn vị đào tạo duy nhất trên cả nước đào tạo cử nhân chuyên ngành Luật Đầu tư - Kinh doanh, và tới đây sẽ tiếp tục mở rộng các chuyên ngành mới đáp ứng nhu cầu xã hội. Hoạt động giảng dạy các học phần cử nhân chuyên ngành:
+                    \n Hoạt động giảng dạy các học phần cử nhân chuyên ngành Luật Đầu tư - Kinh doanh được phân công cho 02 Bộ môn phụ trách gồm: 
+                        \n \t - Bộ môn Pháp luật cơ sở và liên ngành đảm nhận các học phần như: Lý luận Nhà nước và Pháp luật; Luật hiến pháp; Luật hành chính... (dành cho sinh viên chuyên ngành) và các học phần như: Pháp luật đại cương; Pháp luật kinh tế; Pháp luật kinh tế quốc tế (dành cho sinh viên hệ đại trà và chất lượng cao).
+                        \n \t - Bộ môn Pháp luật chuyên ngành đảm nhận các học phần như: Pháp luật doanh nghiệp; Pháp luật đầu tư; Luật thương mại; Pháp luật Tài chính và Ngân hàng...
+              \n Khoa Luật Kinh tế xét tuyển theo 03 phương thức: Xét tuyển thẳng, Xét tuyển kết hợp và Xét theo điểm thi THPT Quốc gia. Khoa đã bắt đầu nhận hồ sơ từ 15/03/2024.
+              \n Đào tạo hệ sau đại học: Khoa hiện đảm nhận giảng dạy học phần Luật và Chính sách công cho học viên cao học Chính sách công của Học viện."
+
+  utter_ask_kte:
+    - text: "Khoa Kinh tế(7310101) được thành lập theo quyết định số 1099/QĐ-BKHĐT ngày 18 tháng 7 năm 2018 của Bộ trưởng Bộ Kế hoạch và Đầu tư. Khoa Kinh tế thuộc Học viện Chính sách và Phát triển là đơn vị tương đương cấp Phòng trong cơ cấu tổ chức của Học viện. Khoa Kinh tế tiền thân là Khoa Quy hoạch phát triển, là một trong bốn khoa đầu tiên của Học viện. Năm 2016, để phù hợp với nhu cầu thị trường và xu thế hội nhập, Học viện mở chuyên ngành đào tạo mới: chuyên ngành Đầu tư thuộc ngành Kinh tế. Khoa Quy hoạch phát triển cũng đc đổi tên thành Khoa Đầu tư. Năm 2020, Khoa Kinh tế được thành lập trên cơ sở sáp nhập Bộ môn Đầu tư, Bộ môn Đấu thầu, Bộ môn Toán Kinh tế.
+              \n Ngày 12/5/2021, Bộ trưởng Bộ Kế hoạch và Đầu tư đã ký quyết định thành lập Khoa Kinh tế số trên cơ sở nâng cấp Bộ môn Toán Kinh tế. Do đó, hiện nay Khoa Kinh tế gồm Bộ môn Đầu tư và Bộ môn Đấu thầu. Khoa Kinh tế là một trong những khoa lớn, quản lý và đào tạo số lượng sinh viên lớn nhất Học viện Chính sách và Phát triển. Năm 2023, Khoa Kinh tế mở thêm chuyên ngành Kinh tế và quản lý nguồn nhân lực, dự kiến thời gian tới sẽ thành lập Bộ môn Kinh tế nguồn nhân lực. Các cán bộ giảng viên cơ hữu có trình độ cao với 4 Tiến Sỹ, 7 Thạc Sĩ
+              Khoa Kinh tế hiện nay đang đào tạo 3 chuyên nghành:
+                \n - Chuyên nghành kinh tế và quản lý nguồn nhân lực
+                \n - Chuyên nghành đầu tư
+                \n - Chuyên nghành đấu thầu và quản lý dự án."
+
+  utter_ask_ktoan:
+    - text: "Khoa Kế toán – Kiểm toán(7340301) được thành lập theo quyết định số 604/QĐ-BKHĐT ngày 12 tháng 5 năm 2021 của Bộ trưởng Bộ Kế hoạch và Đầu tư. Khoa Kế toán – Kiểm toán thuộc Học viện Chính sách và Phát triển là đơn vị tương đương cấp Phòng trong cơ cấu tổ chức của Học viện. Hiện nay, Khoa Kế toán – Kiểm toán đang giảng dạy chuyên ngành Kế toán -Kiểm toán.
+            \n Mặc dù khoa Kế toán – Kiểm toán chú trọng vào đào tạo chuyên môn, sinh viên của khoa vẫn luôn tích cực tham gia các hoạt động ngoại khóa do Khoa và Học viện tổ chức. Trong suốt thời gian học tập tại nhà trường, sinh viên Kế toán - Kiểm toán đã cùng nhau tham gia rất nhiều hoạt động thể thao, giải trí, các cuộc thi nâng cao chuyên môn và đạt được nhiều giải thưởng chất lượng."
+
+  utter_ask_qly_nhanuoc:
+    - text: "Quản lý nhà nước(7310205) đào tạo các cử nhân chuyên ngành Quản lý công có phẩm chất đạo đức tốt, được trang bị kiến thức cơ bản và chuyên sâu về quản lý khu vực công, có kiến thức và kỹ năng phân tích, đánh giá, hoạch định và tổ chức thực hiện các chương trình, dự án phát triển kinh tế – xã hội ở các đô thị, các khu vực và các vùng trong lĩnh vực hành chính sự nghiệp, sản xuất kinh doanh và dịch vụ công; có khả năng nghiên cứu và học tập ở các cấp bậc cao hơn.
+            \n Giới thiệu về chương trình đào tạo:
+              \n - Tổng số tín chỉ: 150 tín
+              \n - Các học phần / môn học chuyên ngành: Một số môn bắt buộc của chuyên ngành (Chính sách xã hội; Quản trị chiến lược; Hành chính công; Marketing dịch vụ công; Quản lý nhà nước về kinh tế; Đầu tư công; Quản lý nguồn nhân lực trong tổ chức công; Quản lý tài chính công; Chính sách công…)
+              \n - Điểm nổi bật của của ngành/ chuyên ngành : Hiện nay, Khoa Chính sách công đang thực hiện đào tạo 2 chương trình: cử nhân và thạc sĩ và tiến tới đào tạo trình độ tiến sĩ chuyên ngành Chính sách công.Khoa hiện nay đang là địa chỉ tin cậy của các học viên đến từ các cơ quan Trung ương, Địa phương, các Doanh nghiệp và sinh viên mới tốt nghiệp từ các trường đại học trong và ngoài nước có nhu cầu nâng cao trình độ chuyên môn
+              \n - Cơ hội nghề nghiệp: Tham gia quản lý các cơ quan, doanh nghiệp tại khu vực công. Tham gia các tổ chức xã hội, các đơn vị hoạt động của Nhà nước.Làm việc tại các trường Đại học, viện nghiên cứu nhà nước, tham gia các tổ chức nhà nước về tư vấn kinh tế - xã hội."
+
+  utter_ask_ngonngu_anh:
+    - text: "Ngày 4/5/2022, Bộ Giáo dục và Đào tạo đã ban hành Quyết định số 1219/QĐ-BGDĐT về việc cho phép Học viện Chính sách và Phát triển đào tạo trình độ đại học Ngành Ngôn ngữ Anh. Quyết định này đã đánh dấu một trang mới trong sự phát triển của Bộ môn Ngoại ngữ, thể hiện sự nỗ lực không mệt mỏi của các cán bộ, giảng viên trong Bộ môn. Chương trình đào tạo ngành Ngôn ngữ Anh được xây dựng hướng đến việc đào tạo cử nhân có đủ kiến thức, kỹ năng nghề nghiệp, phẩm chất chính trị, đạo đức, tác phong nghề nghiệp và sức khoẻ tốt để có thể làm việc hiệu quả trong lĩnh vực kinh tế và kinh doanh có sử dụng tiếng Anh, đáp ứng được yêu cầu của xã hội và của nền kinh tế trong quá trình hội nhập quốc tế.
+              \n Ngành Ngôn ngữ Anh(7220201) đào tạo trình độ cử nhân chuyên ngành Tiếng Anh Kinh tế và Kinh doanh có đủ kiến thức, kỹ năng nghề nghiệp, phẩm chất chính trị, đạo đức, tác phong nghề nghiệp và sức khoẻ tốt để có thể làm việc hiệu quả trong lĩnh vực kinh tế và kinh doanh có sử dụng tiếng Anh, đáp ứng được yêu cầu của xã hội và của nền kinh tế trong quá trình hội nhập quốc tế; có tư duy nghiên cứu độc lập; có năng lực tự học để bổ sung kiến thức, nâng cao trình độ chuyên môn thích nghi với sự thay đổi của môi trường làm việc. Sử dụng tốt tiếng Anh với những kỹ năng nghe, nói, đọc, viết trong nghiên cứu, giao tiếp và soạn thảo báo cáo.
+              \n Cử nhân ngành Ngôn ngữ Anh chuyên ngành Tiếng Anh Kinh tế và Kinh doanh khi ra trường có thể đảm nhận các công việc trong khu vực Nhà nước, tư nhân và các tổ chức khác tại các vị trí như:
+                \n - Biên dịch, quan hệ quốc tế và đối ngoại tại các doanh nghiệp, các cơ quan truyền thông, các tổ chức có các hoạt động kinh tế và kinh doanh của Việt Nam và quốc tế.
+                \n - Nhân viên kinh doanh và các vị trí khác trong các phòng chức năng của các tổ chức, nghiên cứu thị trường trong các đơn vị hoăc tập đoàn kinh doanh, doanh nghiệp Việt Nam và quốc tế với lợi thế đặc biệt về sử dụng tiếng Anh trong lĩnh vực kinh tế và kinh doanh.
+                \n - Nếu được bồi dưỡng thêm về nghiệp vụ sư phạm, các cử nhân tiếng Anh Kinh tế và Kinh doanh cũng có thể đảm nhận công tác giảng dạy tiếng Anh chuyên ngành Tiếng Anh Kinh tế và Kinh doanh tại các cơ sở đào tạo khác nhau."
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
@@ -1185,3 +1259,12 @@ actions:
   - utter_ask_ket_qua_thpt
   - utter_ask_hetdtclc_hedt_clt
   - utter_ask_diem_chuan_2023
+  - utter_ask_ktpt
+  - utter_ask_tc_nh
+  - utter_ask_ktqt
+  - utter_ask_qtrikd
+  - utter_ask_luatkte
+  - utter_ask_kte
+  - utter_ask_ktoan
+  - utter_ask_qly_nhanuoc
+  - utter_ask_ngonngu_anh
