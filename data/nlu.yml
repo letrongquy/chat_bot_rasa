@@ -1072,6 +1072,7 @@ nlu:
     - bao nhiêu tiền một vé bus tuyến 19
     - để đi bus 19 cần giả bao nhiêu tiền vé
     - tiền vé xe bus 19
+    - Có tuyến bus nào đi vào học viện không
 
 - intent: ask_thu_vien
   examples: |
@@ -1490,6 +1491,7 @@ nlu:
     - học phần tích dữ liệu thì em cần những nền tảng nào
     - những tố chất phù hợp với phân tích dữ liệu
     - học về dữ liệu cần có những nền tảng cụ thể nào ạ
+    - bạn có thể nói rõ hơn về chuyên nghành phân tích dữ liệu lớn trong kinh tế và kinh doanh không
 
 
 - intent: ask_tg_ho_so
@@ -1550,7 +1552,7 @@ nlu:
 
 - intent: ask_hp_kts
   examples: |
-    - học phí của kinh tế số là bao nhiêu
+    - học phí bao nhiêu
     - 1 tín là bao nhiêu tiền
     - 1 tín chỉ tương đương bao nhiêu tiền
     - 1 tín chỉ được quy định bao nhiêu tiền
@@ -1570,6 +1572,8 @@ nlu:
     - 1 tín chỉ của học viện hiện nay là bao nhiêu
     - học phí đại học hệ chính quy ra sao
     - thông tin về học phí hệ đại học
+    - học phí của APD hiện tại là bao nhiêu
+    - Học phí của APD hiện nay ra sao?
 
 - intent: ask_cc_dau_ra
   examples: |
@@ -1594,6 +1598,8 @@ nlu:
     - có chứng chỉ toefl có đáp ứng đầu ra không
     - dùng chứng chỉ toefl bao nhiêu để đáp ứng chuẩn đầu ra
     - thế các loại chứng chỉ tiếng anh quy đổi chuẩn đầu ra thế nào
+    - các chứng chỉ đầu ra của học viện
+    - học viện yêu cầu những chứng chỉ đầu ra nào
 
 - intent: ask_mos
   examples: |
@@ -2046,6 +2052,9 @@ nlu:
     - tại APD có những câu lạc bộ nào
     - Học viện có mấy Câu lạc bộ
     - Bạn biết những câu lạc bộ nào ở Học viện
+    - các câu lạc bộ
+    - các câu lạc bộ của APD
+    - Các câu lạc bộ của APD
 
 - intent: ask_clb_TA
   examples: |
@@ -2546,6 +2555,35 @@ nlu:
 
 - intent: ask_diem_chuan_2023
   examples: |  
+    - điểm chuẩn của APD năm 2022 thế nào ạ
+    - em có thắc mắc về điểm chuẩn năm 2022 của APD
+    - điểm chuẩn của nghành luật kinh tế năm 2022 là gì
+    - điểm chuẩn của nghành  kinh tế năm 2022 là gì
+    - điểm chuẩn của nghành Tài chính - ngân hàng  năm 2022 là gì
+    - điểm chuẩn của chương trình chất lượng cao năm 2022 là gì
+    - điểm chuẩn của nghành quản lý nhà nước năm 2022 là gì
+    - điểm chuẩn của nghành kinh tế quốc tế năm 2022 là gì
+    - điểm chuẩn của chương trình chất lượng cao kinh tế đối ngoại năm 2022 là gì
+    - điểm chuẩn của nghành quản trị kinh doanh năm 2022 là gì
+    - điểm chuẩn của nghành kinh tế phát triển năm 2022 là gì
+    - điểm chuẩn của nghành kế toán năm 2022 là gì
+    - điểm chuẩn của nghành kinh tế số năm 2022 là gì
+    - điểm chuẩn của nghành ngôn ngữ anh năm 2022 là gì
+    - điểm chuẩn 2 năm gần đây của APD
+    - 2 năm gần đây
+    - điểm chuẩn năm 2022 và năm 2023
+    - điểm chuẩn của nghành luật kinh tế năm 2022 và 2023 là gì
+    - điểm chuẩn của nghành  kinh tế năm 2022 và 2023 là gì
+    - điểm chuẩn của nghành Tài chính - ngân hàng  năm 2022 và 2023 là gì
+    - điểm chuẩn của chương trình chất lượng cao năm 2022 và 2023 là gì
+    - điểm chuẩn của nghành quản lý nhà nước năm 2022 và 2023 là gì
+    - điểm chuẩn của nghành kinh tế quốc tế năm 2022 và 2023 là gì
+    - điểm chuẩn của chương trình chất lượng cao kinh tế đối ngoại năm 2022 và 2023 là gì
+    - điểm chuẩn của nghành quản trị kinh doanh năm 2022 và 2023 là gì
+    - điểm chuẩn của nghành kinh tế phát triển năm 2022 và 2023 là gì
+    - điểm chuẩn của nghành kế toán năm 2022 và 2023 là gì
+    - điểm chuẩn của nghành kinh tế số năm 2022 và 2023 là gì
+    - điểm chuẩn của nghành ngôn ngữ anh năm 2022 và 2023 là gì
     - điểm chuẩn của APD năm 2023 thế nào ạ
     - em có thắc mắc về điểm chuẩn năm 2023 của APD
     - điểm chuẩn của nghành luật kinh tế năm 2023 là gì
@@ -2557,9 +2595,21 @@ nlu:
     - điểm chuẩn của chương trình chất lượng cao kinh tế đối ngoại năm 2023 là gì
     - điểm chuẩn của nghành quản trị kinh doanh năm 2023 là gì
     - điểm chuẩn của nghành kinh tế phát triển năm 2023 là gì
-    - điểm chuẩn của nghành kế toàn năm 2023 là gì
+    - điểm chuẩn của nghành kế toán năm 2023 là gì
     - điểm chuẩn của nghành kinh tế số năm 2023 là gì
     - điểm chuẩn của nghành ngôn ngữ anh năm 2023 là gì
+    - điểm chuẩn của nghành luật kinh tế các năm gần đây 
+    - điểm chuẩn của nghành  kinh tế các năm gần đây 
+    - điểm chuẩn của nghành Tài chính - ngân hàng  các năm gần đây 
+    - điểm chuẩn của chương trình chất lượng các năm gần đây 
+    - điểm chuẩn của nghành quản lý nhà nước các năm gần đây 
+    - điểm chuẩn của nghành kinh tế quốc tế các năm gần đây 
+    - điểm chuẩn của chương trình chất lượng cao kinh tế đối ngoại các năm gần đây 
+    - điểm chuẩn của nghành quản trị kinh doanh các năm gần đây 
+    - điểm chuẩn của nghành kinh tế phát triển các năm gần đây 
+    - điểm chuẩn của nghành kế toán các năm gần đây 
+    - điểm chuẩn của nghành kinh tế số các năm gần đây 
+    - điểm chuẩn của nghành ngôn ngữ anh các năm gần đây 
     
 - intent: ask_ktpt
   examples: |
@@ -2691,4 +2741,234 @@ nlu:
     - chương trình học của ngôn ngữ anh
     - thông tin chương trình học của ngôn ngữ anh
     - khoa ngôn ngữ anh của APD
-    
+
+- intent: ask_giam_doc
+  examples: |
+    - lãnh đạo của APD hiện nay là ai
+    - ban giám đốc của APD
+    - ban giám đốc của học viện có những ai
+    - ban giám đốc của trường
+    - giới thiệu về ban giám đốc
+    - giám đốc hiện tại
+    - ai là giám đốc hiện tại
+    - phó giám đốc là ai
+    - ai là phó giám đôc
+    - ban giám đốc hiện nay có những ai
+    - giám đốc và phó giám đốc hiện nay
+
+- intent: ask_qly_dtao
+  examples: |
+    - nhân sự phòng quản lý đào tạo
+    - phòng quản lý đào tạo gồm có những ai
+    - trưởng phòng quản lý đào tạo là ai
+    - ai là trưởng phòng quản lý đào tạo
+    - phòng quản lý đào tạo gồm có những ai
+    - hiện nay ai phụ trách phòng quản lý đào tạo
+    - trưởng phòng quản lý đào tạo của học viện
+    - phòng quản lý đào tạo
+
+- intent: ask_ctri_sv
+  examples: |
+    - ai là trường phòng chính trị và công tác sinh viên
+    - trưởng phòng chính trị và công tác sinh viên hiện nay là ai
+    - chức năng của phòng chính trị và công tác sinh viên
+    - những cán bộ ở phòng chính trị và công tác sinh viên
+    - phòng chính trị và công tác sinh viên
+    - phòng chính trị và công tác sinh viên là gì
+    - nhân sự của phòng chính trị và công tác sinh viên
+    - bộ phận nào đảm nhận việc hỗ trợ sinh viên
+    - phòng ban nào phát thẻ và làm lại thẻ cho sinh viên
+    - phòng ban nào xử lý việc hành chính cho sinh viên tại học viện
+    - sinh viên cần hỗ trợ thì liên hệ với phòng ban nào
+
+- intent: ask_phong_khao_thi
+  examples: |
+    - phòng khảo thí và đảm bảo chất lượng
+    - khảo thí và đảm bảo chất lượng là phòng ban gì
+    - phòng ban nào quản lý và chịu trách nhiệm về việc chấm bài thi của sinh viên
+    - phòng ban nào xâu dựng bộ ngân hàng câu hỏi cho việc thi kết thúc học phần sinh viên
+    - các cán bộ công tác của phòng khảo thí có những ai
+    - trưởng phòng khảo thí là ai
+    - ai là trưởng phòng khảo thí
+    - phòng ban nào thanh tra việc thi kết thúc phần của sinh viên
+    - phòng ban nào đảm bảo chất lượng giáo dục tại học viện
+
+- intent: gth_dll
+  examples: |
+    - bạn có thể giới thiệu về nghành phân tích dữ liệu lớn trong kinh tế và kinh doanh không
+    - giới thiệu cho em về chuyên nghành phân tích dữ liệu lớn 
+    - nghành phân tích dữ liệu lớn trong kinh tế và kinh doanh là nghành gì
+    - cho em thêm thông tin về phân tích dữ liệu lớn trong kinh tế và kinh doanh
+    - nghành phân tích dữ liệu
+    - phân tích dữ liệu lớn trong kinh tế và kinh doanh
+    - em muốn có thêm các thông tin về chuyên nghành phân tích dữ liệu của kinh tế số
+    - nghành phân tích dữ liệu lớn trong kinh tế và kinh doanh là nghành gì
+
+- intent: gth_kds
+  examples: |
+    - giới thiệu cho tôi về chuyên nghành học kinh tế kinh doanh số
+    - bạn có thể giới thiệu về nghành kinh doanh số của khoa kinh tế số không
+    - chuyên nghành kinh doanh số của khoa kinh tế số
+    - nghành kinh doanh số là nghành gì
+    - em muốn hiểu rõ hơn về nghành kinh tế kinh doanh số
+
+- intent: ask_chyen_nghanh_kte_dtu
+  examples: |
+    - chuyên nghành đầu tư
+    - Chuyên nghành đầu tư
+    - giới thiệu về chuyên nghành đầu tư
+    - bạn có thể giới thiệu về chuyên nghành đầu tư của khoa kinh tế không
+    - cho em hỏi về chuyên nghành đầu tư của khoa kinh tế
+    - chuyên nghành đầu tư tại APD
+    - thông tin về chuyên nghành đầu tư của khoa kinh tế
+    - chuyên nghành đầu tư của khoa kinh tế
+    - em muốn biết thêm về chuyên nghành đầu tư của khoa kinh tế
+
+- intent: ask_chuyen_nghanh_dthau_duan
+  examples: |
+    - chuyên ngành đấu thầu và đầu tư dự án
+    - Chuyên ngành Đấu thầu và đầu tư dự án
+    - giới thiệu về chuyên ngành đấu thầu và đầu tư dự án
+    - bạn có thể giới thiệu về chuyên ngành đấu thầu và đầu tư dự án của khoa kinh tế không
+    - cho em hỏi về chuyên nghành chuyên ngành đấu thầu và đầu tư dự án khoa kinh tế
+    - chuyên ngành đấu thầu và đầu tư dự án tại APD
+    - thông tin về chuyên ngành đấu thầu và đầu tư dự án của khoa kinh tế
+    - chuyên ngành đấu thầu và đầu tư dự án của khoa kinh tế
+    - em muốn biết thêm về chuyên ngành đấu thầu và đầu tư dự án của khoa kinh tế
+
+- intent: ask_chuyen_nghanh_kte_qlynl
+  examples: |
+    - chuyên ngành Kinh tế và quản lý nguồn nhân lực
+    - Chuyên ngành Kinh tế và Quản lý nguồn nhân lực
+    - giới thiệu về chuyên ngành Kinh tế và quản lý nguồn nhân lực
+    - bạn có thể giới thiệu về chuyên ngành Kinh tế và quản lý nguồn nhân lực của khoa kinh tế không
+    - cho em hỏi về chuyên ngành Kinh tế và quản lý nguồn nhân lực khoa kinh tế
+    - chuyên ngành Kinh tế và quản lý nguồn nhân lực tại APD
+    - thông tin về chuyên ngành Kinh tế và quản lý nguồn nhân lực của khoa kinh tế
+    - chuyên ngành Kinh tế và quản lý nguồn nhân lực của khoa kinh tế
+    - em muốn biết thêm về chuyên ngành Kinh tế và quản lý nguồn nhân lực
+
+- intent: ask_chuyen_nghanh_kehoach_pt
+  examples: |
+    - chuyên nghành kế hoạch phát triển
+    - chuyên nghành Kế hoạch phát triển
+    - giới thiệu về chuyên nghành kế hoạch phát triển
+    - bạn có thể giới thiệu về chuyên nghành kế hoạch phát triển của khoa kinh tế phát triển không
+    - cho em hỏi về chuyên nghành kế hoạch phát triển của khoa kinh tế phát triển
+    - chuyên nghành kế hoạch phát triển của khoa kinh tế phát triển tại APD
+    - thông tin về chuyên nghành kế hoạch phát triển của khoa kinh tế phát triển
+    - chuyên nghành kế hoạch phát triển của khoa kinh tế phát triển
+    - em muốn biết thêm về chuyên nghành kế hoạch phát triển của khoa kinh tế phát triển
+
+- intent: ask_chuyen_nghanhktpt
+  examples: |
+    - chuyên nghành kinh tế phát triển 
+    - chuyên nghành Kinh tế phát triển 
+    - giới thiệu về chuyên nghành kinh tế phát triển
+    - bạn có thể giới thiệu về chuyên nghành  kinh tế phát triển của khoa kinh tế phát triển không
+    - cho em hỏi về chuyên nghành  kinh tế phát triển của khoa kinh tế phát triển
+    - chuyên nghành  kinh tế phát triển của khoa kinh tế phát triển tại APD
+    - thông tin về chuyên nghành  kinh tế phát triển của khoa kinh tế phát triển
+    - chuyên nghành kinh tế phát triển của khoa kinh tế phát triển
+    - em muốn biết thêm về chuyên nghành kinh tế phát triển của khoa kinh tế phát triển
+    - chuyên nghành kinh tế phát triển
+    - tôi muốn biết về chuyên nghành kinh tế phát triển 
+
+- intent: ask_cnxhkh
+  examples: |
+    - Chủ nghĩa xã hội khoa học
+    - Tổng quan về môn Chủ nghĩa xã hội khoa học
+    - thông tin về môn CNXHKH
+    - cho slide về môn chủ nghĩa xã hội khoa học
+    - tài liệu về môn Chủ nghĩa xã hội khoa học
+    - bạn có thể cho mình tài liệu về môn chủ nghĩa xã hội khoa học được không
+    - môn chủ nghĩa xã hội khoa học
+    - tài liệu phục vụ học tập môn Chủ nghĩa xã hội khoa học
+
+- intent: ask_ktct
+  examples: |
+    - Kinh Tế Chính Trị Mác - Lênin
+    - Tổng quan về môn Kinh Tế Chính Trị Mác - Lênin
+    - thông tin về môn KTCT Mác
+    - cho slide về môn kinh tế chính trị Mác - Lênin
+    - tài liệu về môn kinh tế chính trị Mác - Lênin
+    - bạn có thể cho mình tài liệu về môn kinh tế chính trị Mác - Lênin được không
+    - môn kinh tế chính trị Mác - Lênin
+    - tài liệu phục vụ học tập môn kinh tế chính trị Mác - Lênin
+
+- intent: ask_ktvi_mo
+  examples: |
+    - Kinh tế vi mô 
+    - Tổng quan về môn Kinh tế vi mô
+    - thông tin về môn kinh tế vi mô
+    - cho slide về môn kinh tế vi mô
+    - tài liệu về môn kinh tế vi mô
+    - bạn có thể cho mình tài liệu về môn kinh tế vi mô được không
+    - môn kinh tế vi mô
+    - tài liệu phục vụ học tập môn kinh tế vi mô
+
+- intent: ask_ktvix_mo
+  examples: |
+    - Kinh tế vĩ mô
+    - Tổng quan về môn Kinh tế vĩ mô
+    - thông tin về môn kinh tế vĩ mô
+    - cho slide về môn kinh tế vĩ mô
+    - tài liệu về môn kinh tế vĩ mô
+    - bạn có thể cho mình tài liệu về môn kinh tế vĩ mô được không
+    - môn kinh tế vĩ mô
+    - tài liệu phục vụ học tập môn kinh tế vĩ mô
+
+- intent: ask_lsd
+  examples: |
+    - Lịch Sử Đảng Cộng Sản Việt Nam
+    - Tổng quan về môn lịch Sử Đảng Cộng Sản Việt Nam
+    - thông tin về môn lịch Sử Đảng Cộng Sản Việt Nam
+    - cho slide về môn lịch Sử Đảng Cộng Sản Việt Nam
+    - tài liệu về môn lịch Sử Đảng Cộng Sản Việt Nam
+    - bạn có thể cho mình tài liệu về môn lịch Sử Đảng Cộng Sản Việt Nam được không
+    - môn lịch Sử Đảng Cộng Sản Việt Nam
+    - tài liệu phục vụ học tập môn lịch Sử Đảng Cộng Sản Việt Nam
+
+- intent: ask_xstk
+  examples: |
+    - Lý thuyết xác suất thống kê toán
+    - Tổng quan về môn lý thuyết xác suất thống kê toán
+    - thông tin về môn Lý thuyết xác suất thống kê toán
+    - cho slide về môn lý thuyết xác suất thống kê toán
+    - tài liệu về môn Lý thuyết xác suất thống kê toán
+    - bạn có thể cho mình tài liệu về môn lý thuyết xác suất thống kê toán được không
+    - môn Lý thuyết xác suất thống kê toán
+    - tài liệu phục vụ học tập môn Lý thuyết xác suất thống kê toán
+
+- intent: ask_tin_hoc
+  examples: |
+    - Tin học đại cương
+    - Tổng quan về môn Tin học đại cương
+    - thông tin về môn tin học đại cương
+    - cho slide về môn tin học đại cương
+    - tài liệu về môn tin học đại cương
+    - bạn có thể cho mình tài liệu về môn tin học đại cương
+    - môn tin học đại cương
+    - tài liệu phục vụ học tập môn tin học đại cương
+
+- intent: ask_triet_hoc
+  examples: |
+    - Triết học
+    - Tổng quan về môn Triết học
+    - thông tin về môn triết học
+    - cho slide về môn triết học
+    - tài liệu về môn triết học
+    - bạn có thể cho mình tài liệu về môn triết học
+    - môn triết học
+    - tài liệu phục vụ học tập môn triết học
+
+- intent: ask_tt_hcm
+  examples: |
+    - Tư tưởng Hồ Chí Minh
+    - Tổng quan về môn tư tưởng Hồ Chí Minh
+    - thông tin về môn Tư tưởng Hồ Chí Minh
+    - cho slide về môn tư tưởng Hồ Chí Minh
+    - tài liệu về môn Tư tưởng Hồ Chí Minh
+    - bạn có thể cho mình tài liệu về môn tư tưởng Hồ Chí Minh
+    - môn tư tưởng Hồ Chí Minh
+    - tài liệu phục vụ học tập môn tư tưởng Hồ Chí Minh

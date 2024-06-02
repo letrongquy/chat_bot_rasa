@@ -16,3 +16,13 @@ rules:
   steps:
     - action: utter_modau
     - intent: chào
+
+- rule: Activate utter_ask_chuyen_nghanhktpt
+  steps:
+    - intent: ask_chuyen_nghanhktpt
+    - action: utter_ask_chuyen_nghanhktpt
+
+- rule: Activate utter_ask_ktpt
+  steps:
+    - intent: ask_ktpt
+    - action: utter_ask_ktpt

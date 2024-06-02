@@ -229,3 +229,31 @@ class ActionFallback(Action):
         dispatcher.utter_message(template="utter_khong_hieu_y_dinh")
 
         return []
+
+
+class ActionChuyenNganhKTPt(Action):
+    def name(self) -> Text:
+        return "action_chuyen_nganh_ktpt"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        # Xử lý logic ở đây, ví dụ:
+        dispatcher.utter_message(
+            "Chuyên ngành Kinh tế phát triển là một trong những chuyên ngành hàng đầu của Khoa Kinh tế phát triển, nó tập trung vào...")
+
+        return []
+
+
+class ActionKTPt(Action):
+    def name(self) -> Text:
+        return "action_ktpt"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        # Xử lý logic ở đây, ví dụ:
+        dispatcher.utter_message(
+            "Khoa Kinh tế phát triển cung cấp nhiều chương trình học phong phú và cơ hội nghiên cứu đa dạng...")
+
+        return []

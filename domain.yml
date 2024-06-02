@@ -119,6 +119,27 @@ intents:
   - ask_ktoan
   - ask_qly_nhanuoc
   - ask_ngonngu_anh
+  - ask_giam_doc
+  - ask_qly_dtao
+  - ask_ctri_sv
+  - ask_phong_khao_thi
+  - gth_dll
+  - gth_kds
+  - ask_chyen_nghanh_kte_dtu
+  - ask_chuyen_nghanh_dthau_duan
+  - ask_chuyen_nghanh_kte_qlynl
+  - ask_chuyen_nghanh_kehoach_pt
+  - ask_chuyen_nghanhktpt
+  - ask_cnxhkh
+  - ask_ktct
+  - ask_ktvi_mo
+  - ask_ktvix_mo
+  - ask_lsd
+  - ask_xstk
+  - ask_tin_hoc
+  - ask_triet_hoc
+  - ask_tt_hcm
+
 entities:
   - user_name
 
@@ -212,161 +233,24 @@ responses:
                 \n - Ngày 23/12, sinh viên lớp DLL12 đã có trải nghiệm đầy bổ ích tại Công ty TNHH Giải pháp Phân tích Dữ liệu Insight Data. Tại đây các bạn sinh viên có cơ hội được tham quan môi trường làm việc của các phòng ban, tìm hiểu về quy trình làm việc, các công cụ và kỹ thuật sử dụng trong phân tích dữ liệu"
 
   utter_ask_chuong_trinh_hoc_dll:
-    - text: "Sau đây là các môn học trong chương trình đạo tạo của chuyên ngành Phân tích dữ liệu lớn trong kinh tế và kinh doanh:
-            \n Giáo dục chuyên nghiệp (Bắt buộc) - Chuyên ngành (Bắt buộc): 
-              \n +) Công nghệ tài chính: 3 tín
-              \n +) Học máy và trí tuệ nhân tạo: 3 tín
-              \n +) Khai phá dữ liệu cho phân tích kinh doanh: 3 tín
-              \n +) Quản trị dữ liệu lớn với Apache Spark: 3 tín
-              \n +) Phân tích dữ liệu lớn với R: 3 tín
-            \n Giáo dục chuyên nghiệp (Bắt buộc) - Cơ sở ngành (Bắt buộc):
-              \n +) Chính sách công: 3 tín
-              \n +) Dữ liệu lớn trong kinh tế và kinh doanh: 3 tín
-              \n +) Kinh tế lượng: 3 tín
-              \n +) Lập trình căn bản: 3 tín
-              \n +) Lý thuyết kinh tế số: 2 tín
-              \n +) Lý thuyết Tài chính tiền tệ: 3 tín
-              \n +) Marketing căn bản: 3 tín
-            \n Giáo dục chuyên nghiệp (Bắt buộc) - Ngành (Bắt buộc):
-              \n +) Chuyên đề thực tế: 2 tín
-              \n +) Hệ quản trị cơ sở dữ liệu: 3 tín
-              \n +) Pháp luật kinh tế: 3 tín
-              \n +) Quản trị marketing: 3 tín
-              \n +) Tài chính doanh nghiệp: 3 tín
-              \n +) Thương mại điện tử: 3 tín
-            \n Giáo dục chuyên nghiệp (Lựa chọn) - Chuyên ngành (Bắt buộc):
-              \n +) Các mô hình kinh doanh số: 3 tín
-              \n +) Chuyển đổi số: 3 tín
-              \n +) Khoa học quản lý: 2 tín
-              \n +) Logic Toán: 2 tín
-              \n +) Marketing số: 3 tín
-              \n +) Phân tích và dự báo kinh tế vĩ mô: 3 tín
-              \n +) Quản trị rủi ro: 3 tín
-              \n +) Quản trị tổ chức sự kiện: 3 tín
-              \n +) Truyền thông đa phương tiện: 2 tín
-            \n Giáo dục chuyên nghiệp (Lựa chọn) - Cơ sở ngành (Bắt buộc):
-              \n +) Cơ sở của khoa học dữ liệu: 3 tín
-              \n +) Kinh tế đầu tư: 3 tín
-              \n +) Nguyên lý kế toán: 3 tín
-              \n +) Nguyên lý thống kê kinh tế: 3 tín
-              \n +) Kinh tế quốc tế: 3 tín
-              \n +) Quản trị học: 3 tín
-              \n +) Thương mại quốc tế: 3 tín
-            \n Giáo dục chuyên nghiệp (Lựa chọn) - Ngành (Bắt buộc):
-              \n +) Kế toán tài chính: 3 tín
-              \n +) Khởi nghiệp đổi mới sáng tạo: 3 tín
-              \n +) Nhập môn lập trình phân tích dữ liệu với Python: 3 tín
-              \n +) Phân tích báo cáo tài chính: 3 tín
-              \n +) Phân tích chuỗi thời gian trong tài chính: 3 tín
-              \n +) Phân tích thống kê nhiều chiều: 3 tín
-              \n +) Thị trường chứng khoán: 3 tín
-              \n +) Toán tài chính: 3 tín
-              \n +) Phân tích kỹ thuật trong đầu tư: 3 tín
-            \n Giáo dục đại cương (Bắt buộc): 
-              \n +) Chủ nghĩa xã hội khoa học: 2 tín
-              \n +) Kinh tế Chính trị Mác - Lênin: 2 tín
-              \n +) Kinh tế vi mô 1: 3 tín
-              \n +) Kinh tế vĩ mô 1: 3 tín
-              \n +) Lịch sử Đảng cộng sản Việt Nam: 2 tín
-              \n +) Lý thuyết xác suất và thống kê toán: 3 tín
-              \n +) Phương pháp nghiên cứu khoa học: 3 tín
-              \n +) Tiếng Anh cơ bản 2: 3 tín
-              \n +) Tiếng Anh cơ bản 3: 3 tín
-              \n +) Tiếng Anh cơ bản 4: 3 tín
-              \n +) Tin học đại cương: 3 tín
-              \n +) Toán cao cấp: 3 tín
-              \n +) Triết học Mác - Lênin: 3 tín
-              \n +) Tư tưởng Hồ Chí Minh: 2 tín
-              \n +) Pháp luật đại cương: 3 tín
-            \n Giáo dục quốc phòng (Bắt buộc):
-              \n +) Giáo dục quốc phòng: 8 tín
-            \n Giáo dục thể chất (Bắt buộc):
-              \n +) Giáo dục thể chất 1: 2 tín
-              \n +) Giáo dục thể chất 2: 2 tín
-              \n +) Giáo dục thể chất 3: 2 tín
-            \n Không tính điểm (Bắt buộc):
-              \n +) Tiếng Anh cơ bản 1: 3 tín
-            \n 	Thực tập và Khoá luận tốt nghiệp (Bắt buộc):
-              \n Khóa luận tốt nghiệp: 6 tín
-              \n Thực tập tốt nghiệp: 4 tín"
+    - text: "Để có thể làm việc trong ngành phân tích dữ liệu thì bạn sẽ cần học những kiến thức chính thuộc 3 khối: Toán học và thống kê, Khoa học máy tính và Kiến thức về lĩnh vực chuyên sâu (chẳng hạn như kiến thức về Kinh tế và Kinh doanh, Y tế…). Cụ thể hơn, một số môn học chuyên ngành cần thiết bao gồm:
+              \n - Toán học (Đại số, xác suất thống kê)
+              \n - Thống kê ứng dụng, Kinh tế lượng
+              \n - Ngôn ngữ lập trình: Python, R
+              \n - Hệ quản trị cơ sở dữ liệu, ngôn ngữ SQL
+              \n - Trực quan hoá dữ liệu: Excel, Tableau, PowerBI
+              \n - Công cụ thu thập dữ liệu (Scrapy/ Beautiful Soup)
+              \n - Nhập môn Khoa học máy tính/ Khoa học dữ liệu
+              \n - Khai phá dữ liệu (Data Mining)
+              \n - Học máy (Machine Learning)…
+              \n - Do đó, nếu bạn có nền tảng Toán học cơ bản và có chút thiên hướng đam mê công nghệ thì sẽ là rất phù hợp để bạn theo học ngành này."
 
   utter_ask_chuong_trinh_hoc_ktkds:
-    - text: "Sau đây là các môn học trong chương trình đạo tạo của chuyên ngành Kinh tế và kinh doanh số:
-            \n Giáo dục chuyên nghiệp (Bắt buộc) - Chuyên ngành (Bắt buộc): 
-              \n +) Chuyển đổi số: 3 tín
-              \n +) Công nghệ tài chính: 3 tín
-              \n +) Digital Marketing: 3 tín
-              \n +) Luật thương mạ: 3 tín
-              \n +) Thiết kế website thương mại điện tử: 3 tín
-            \n Giáo dục chuyên nghiệp (Bắt buộc) - Cơ sở ngành (Bắt buộc):
-              \n +) Chính sách công: 3 tín
-              \n +) Dữ liệu lớn trong kinh tế và kinh doanh: 3 tín
-              \n +) Kinh tế lượng: 3 tín
-              \n +) Lập trình căn bản: 3 tín
-              \n +) Lý thuyết kinh tế số: 2 tín
-              \n +) Lý thuyết Tài chính tiền tệ: 3 tín
-              \n +) Marketing căn bản: 3 tín
-            \n Giáo dục chuyên nghiệp (Bắt buộc) - Ngành (Bắt buộc):
-              \n +) Chuyên đề thực tế: 2 tín
-              \n +) Hệ quản trị cơ sở dữ liệu: 3 tín
-              \n +) Pháp luật kinh tế: 3 tín
-              \n +) Quản trị marketing: 3 tín
-              \n +) Tài chính doanh nghiệp: 3 tín
-              \n +) Thương mại điện tử: 3 tín
-            \n Giáo dục chuyên nghiệp (Lựa chọn) - Chuyên ngành (Bắt buộc):
-              \n +) An toàn và bảo mật thương mại điện tử: 3 tín
-              \n +) Các mô hình kinh doanh số: 3 tín
-              \n +) Khoa học quản lý: 2 tín
-              \n +) Nghiên cứu thị trường: 2 tín
-              \n +) Quản trị rủi ro: 3 tín
-              \n +) Quản trị tổ chức sự kiện: 3 tín
-              \n +) Truyền thông đa phương tiện: 2 tín
-              \n +) Nghiên cứu thị trường: 3 tín
-              \n +) Quản trị chuỗi cung ứng: 3 tín
-              \n +) Quản trị nhân lực: 3 tín
-            \n Giáo dục chuyên nghiệp (Lựa chọn) - Cơ sở ngành (Bắt buộc):
-              \n +) Kinh tế đầu tư: 3 tín
-              \n +) Nguyên lý kế toán: 3 tín
-              \n +) Nguyên lý thống kê kinh tế: 3 tín
-              \n +) Quan hệ công chúng: 3 tín
-              \n +) Kinh tế quốc tế: 3 tín
-              \n +) Quản trị học: 3 tín
-              \n +) Thương mại quốc tế: 3 tín
-            \n Giáo dục chuyên nghiệp (Lựa chọn) - Ngành (Bắt buộc):
-              \n +) Kế toán tài chính: 3 tín
-              \n +) Khởi nghiệp đổi mới sáng tạo: 3 tín
-              \n +) Mạng máy tính và truyền thông số: 3 tín
-              \n +) Phân tích báo cáo tài chính: 3 tín
-              \n +) Thanh toán điện tử: 3 tín
-              \n +) Thị trường chứng khoán: 3 tín
-              \n +) Hệ thống thông tin quản lý: 3 tín
-            \n Giáo dục đại cương (Bắt buộc): 
-              \n +) Chủ nghĩa xã hội khoa học: 2 tín
-              \n +) Kinh tế Chính trị Mác - Lênin: 2 tín
-              \n +) Kinh tế vi mô 1: 3 tín
-              \n +) Kinh tế vĩ mô 1: 3 tín
-              \n +) Lịch sử Đảng cộng sản Việt Nam: 2 tín
-              \n +) Lý thuyết xác suất và thống kê toán: 3 tín
-              \n +) Phương pháp nghiên cứu khoa học: 3 tín
-              \n +) Tiếng Anh cơ bản 2: 3 tín
-              \n +) Tiếng Anh cơ bản 3: 3 tín
-              \n +) Tiếng Anh cơ bản 4: 3 tín
-              \n +) Tin học đại cương: 3 tín
-              \n +) Toán cao cấp: 3 tín
-              \n +) Triết học Mác - Lênin: 3 tín
-              \n +) Tư tưởng Hồ Chí Minh: 2 tín
-              \n +) Pháp luật đại cương: 3 tín
-            \n Giáo dục quốc phòng (Bắt buộc):
-              \n +) Giáo dục quốc phòng: 8 tín
-            \n Giáo dục thể chất (Bắt buộc):
-              \n +) Giáo dục thể chất 1: 2 tín
-              \n +) Giáo dục thể chất 2: 2 tín
-              \n +) Giáo dục thể chất 3: 2 tín
-            \n Không tính điểm (Bắt buộc):
-              \n +) Tiếng Anh cơ bản 1: 3 tín
-            \n 	Thực tập và Khoá luận tốt nghiệp (Bắt buộc):
-              \n Khóa luận tốt nghiệp: 6 tín
-              \n Thực tập tốt nghiệp: 4 tín"
+    - text: "Các môn học của kinh doanh số liên quan đến các lĩnh vực:
+            \n - Thương mại điện tử.
+            \n - Truyền thông số
+            \n - Marketing số
+            \n - Chuyển đổi số trong doanh nghiệp"
 
   utter_ask_thi_dau_vao:
     - text: "Tất cả các sinh viên khi mới nhập học ở APD đều phải làm bài thi đánh giá năng lực tiếng anh đầu vào. Nội dung đề thi đánh giá năng lực tiếng anh đầu vào gồm kỹ năng với thang điểm 900, với các bạn đạt từ 450 điểm trở lên sẽ được học thẳng lên học phần tiếng anh cơ bản 2, đối với những bạn sinh viên dưới 450 điểm sẽ phải học tiếng anh cơ bản 1"
@@ -510,6 +394,11 @@ responses:
               \n - Phân tích dữ liệu lớn trong Kinh tế và Kinh doanh: Đây là nghành học sử dụng những công nghệ hiện đại áp dụng vào viêc phân tích dữ liệu để đưa ra những cơ sở cho quyết định kinh doanh đạt hiệu quả
               \n - Kinh tế kinh doanh số: Đây là nghành học áp dụng việc sử dụng công nghệ để đạt hiệu quả kinh doanh cao hơn
             \n Với năm 2023 điểm chuẩn của nghành kinh tế số là: 24,6 điểm (xét tuyển bằng kết quả thi THPT) và 26,0 điểm (Xét tuyển tổ hợp 3 môn theo học bạ THPT) với chỉ tiêu 140 sinh viên trên cả nước. Kinh tế số xét kết quả thi những tổ hợp xét tuyển: A00,A1,D01,C01. Nếu như bạn định học nghành này mà không có nền tảng về lập trình hay toán không tốt bạn vẫn sẽ có thể học được nghành này.
+            \n Năm nay khoa Kinh tế số có 3 phương thức tuyển sinh: 
+              \n \t - Phương thức 1: tuyển thẳng (1% tổng chỉ tiêu)
+              \n \t - Phương thức 2: xét tuyển theo phương thức xét tuyển riêng (54% tổng chỉ tiêu) bao gồm các phướng thức: Xét tuyển dựa trên kết quả bài thi đánh giá năng lực, Xét tuyển kết hợp dựa theo giấy chứng nhận đạt giải trong kỳ thi Học sinh giỏi cấp Tỉnh kết hợp với học lực THPT, Xét tuyển kết hợp dựa theo chứng chỉ quốc tế và học lực THPT,  Xét tuyển dựa trên kết quả học tập THPT, Phương thức HCP06, Phương thức HCP07
+              \n \t - Phương thức 3: xét tuyển theo kết quả thi tốt nghiệp THPT năm 2023 (45% tổng chỉ tiêu)
+            \n Nhận hồ sơ trực tuyến từ ngày 15/03/2024 đến hết 24h00’ ngày 15/06/2024. Thông kết quả xét tuyển vào cuối tháng 6/2024.
              \n Bài viết về 2 chuyên nghành của khoa kinh tế số: http://apd.edu.vn/cac-chuong-trinh-dao-tao6/-/asset_publisher/oZMtrdKOuKAe/content/id/505595"
 
   utter_ask_ptts:
@@ -956,7 +845,7 @@ responses:
     - text: "Chương trình giáo dục Quốc phòng an ninh của APD được tổ chức tại đại học Hùng Vương tại Việt Trì, Phú Thọ. Chương trình đào tạo sẽ kéo dài khoảng 28 ngày, với hai phần học chính lý thuyết và thực hành. Môn học này gồm 8 tín và bạn sẽ đóng thêm tiền ăn khi tham gia môn học này."
 
   utter_thay_Tu:
-    - text: "TS. Đàm Thanh Tú - Trưởng Khoa kinh tế số (Phụ trách)
+    - text: "TS. Đàm Thanh Tú - Phó Khoa kinh tế số (Phụ trách)
             \n TS. Đàm Thanh Tú đã học đã học Thạc sĩ ngành Đàm bảo toán học cho máy tính và hệ thống tính toán tại Trường Đại học Khoa học tự nhiên – ĐHQG Hà Nội (2005), Tiến sĩ kinh tế tại Học viện Tài chính (2017). TS Tú có nhiều kinh nghiệm về các lĩnh vực: Thống kê; Kinh tế lượng; Phân tích và dự báo; Phân tích dữ liệu lớn,… TS Tú đã hướng dẫn nhiều thế hệ sinh viên tham gia dự Olympic Kinh tế lượng và ứng dụng toàn quốc. Ngoài ra, TS Tú là tác giả 04 sách giáo trình, 05 bài viết trên Tạp chí và Hội thảo quốc tế, hơn 25 bài báo đăng trên các tạp chí chuyên ngành trong nước và chủ nhiệm nhiều đề tài NCKH cấp Học viện.
             \n Các môn tham gia giảng dạy: Kinh tế lượng, Phân tích dữ liệu lớn với R, Lý thuyết kinh tế số, Dữ liệu lớn trong kinh tế và kinh doanh, Chuyển đổi số, Các mô hình kinh doanh số,…"
 
@@ -1066,37 +955,53 @@ responses:
 
   utter_ask_diem_chuan_2023:
     - text: "Bạn có thể tham khảo điểm chuẩn thi tốt nghiệp THPT của APD năm 2023:
-              \n Luật kinh tế (7380107): 25.50
-              \n Kinh tế (7310101): 24.40
-              \n Tài chính - Ngân hàng (7340201): 7340201
-              \n Chương trình tài chính chất lượng cao (7340201_CLC): 23.50
-              \n Quản lý nhà nước (7310205): 23.50
-              \n Kinh tế quốc tế (7310106): 24.80
-              \n Chương trình kinh tế đối ngoại chất lượng cao (7310106_CLC): 23.50
-              \n Quản trị kinh doanh (7340101): 24.39
-              \n Kinh tế phát triển (7310105): 24.50
-              \n Kế toán (7340301): 25.20
-              \n Kinh tế số (7310109): 24.90
-              \n Ngôn ngữ Anh (7220201): 32.30"
+              \n - Luật kinh tế (7380107): 25.50
+              \n - Kinh tế (7310101): 24.40
+              \n - Tài chính - Ngân hàng (7340201): 24.85
+              \n - Chương trình tài chính chất lượng cao (7340201_CLC): 23.50
+              \n - Quản lý nhà nước (7310205): 23.50
+              \n - Kinh tế quốc tế (7310106): 24.80
+              \n - Chương trình kinh tế đối ngoại chất lượng cao (7310106_CLC): 23.50
+              \n - Quản trị kinh doanh (7340101): 24.39
+              \n - Kinh tế phát triển (7310105): 24.50
+              \n - Kế toán (7340301): 25.20
+              \n - Kinh tế số (7310109): 24.90
+              \n - Ngôn ngữ Anh (7220201): 32.30
+            \n Điểm chuẩn thi tốt nghiệp THPT năm 2022:
+              \n - Luật kinh tế (7380107): 27
+              \n - Kinh tế (7310101): 24.2
+              \n - Tài chính - Ngân hàng (7340201): 24.5
+              \n - Chương trình tài chính chất lượng cao (7340201_CLC): 23.50
+              \n - Quản lý nhà nước (7310205): 24.2
+              \n - Kinh tế quốc tế (7310106): 24.7
+              \n - Quản trị kinh doanh (7340101): 24.5
+              \n - Kinh tế phát triển (7310105): 24.45
+              \n - Kế toán (7340301): 25
+              \n - Kinh tế số (7310109): 24.6
+              \n - Ngôn ngữ Anh (7220201): 30.8."
 
   utter_ask_ktpt:
     - text: "Khoa Kinh tế Phát triển(7310105) được thành lập dựa trên cơ sở khoa Kế hoạch phát triển theo Quyết định số 298/QD-HVCSPT ngày 26/04/2019 của giám Đốc học việc, là một trong những khoa chuyên nghành quan trọng của Học viện. Hiện nay, khoa có đào tạo 3 chuyên nghành sau:
                 \n - Kinh tế phát triển
                 \n - Kế hoạch phát triển
-                \n - Kinh tế hợp tác."
+                \n - Kinh tế hợp tác
+              \n Tổ hợp xét tuyển cho cả 3 chuyên ngành vào năm 2024:(A00,A01,D01,C02)."
 
   utter_ask_tc_nh:
     - text: "Trải qua gần 15 năm hình thành và phát triển, Khoa Tài chính – Ngân hàng(7340201) của Học viện Chính sách và Phát triển đã có những bước tiến vượt bậc cả về số lượng và chất lượng. Cho tới nay Khoa đã có 12 cán bộ giảng viên (Trong đó có 1 PGS.TS, 06 Tiến sỹ và 05 Thạc sỹ) thực hiện nhiệm vụ giảng dạy ngành Tài chính - Ngân hàng với 02 chuyên ngành: 
               \n - Tài chính 
               \n - Ngân hàng.
-            \n Đội ngũ giảng viên tâm huyết, có trình độ cao, được đào tạo ở các nước phát triển trên thế giới với phần lớn tốt nghiệp tại các nước có hệ thống tài chính, ngân hàng phát triển bậc nhất tại Anh, Pháp, Úc,.... Bên cạnh đó, Khoa cũng có đội ngũ cán bộ hỗ trợ có nhiều kinh nghiệm phụ trách các công việc hành chính và công tác giấy tờ, thủ tục để hỗ trợ sinh viên trong quá trình học tập. Chương trình giảng dạy có tính hội nhập cao và định hướng toàn cầu, với nội dung cập nhật các kiến thức của kỷ nguyên 4.0, kết hợp với các giá trị truyền thống tạo nên thương hiệu cho Học viện Chính sách và Phát triển - Bộ Kế hoạch và Đầu tư."
+            \n Đội ngũ giảng viên tâm huyết, có trình độ cao, được đào tạo ở các nước phát triển trên thế giới với phần lớn tốt nghiệp tại các nước có hệ thống tài chính, ngân hàng phát triển bậc nhất tại Anh, Pháp, Úc,.... Bên cạnh đó, Khoa cũng có đội ngũ cán bộ hỗ trợ có nhiều kinh nghiệm phụ trách các công việc hành chính và công tác giấy tờ, thủ tục để hỗ trợ sinh viên trong quá trình học tập. Chương trình giảng dạy có tính hội nhập cao và định hướng toàn cầu, với nội dung cập nhật các kiến thức của kỷ nguyên 4.0, kết hợp với các giá trị truyền thống tạo nên thương hiệu cho Học viện Chính sách và Phát triển - Bộ Kế hoạch và Đầu tư.
+            \n Tổ hợp xét tuyển cho 3 chuyên ngành (A00,A01,D01,D07)."
 
   utter_ask_ktqt:
     - text: "Năm 2010, Khoa Kinh tế quốc tế(7310106) được thành lập theo quyết định của Giám đốc Học viện Chính sách và Phát triển, với tên gọi Khoa Kinh tế đối ngoại. Năm 2018, Khoa được đổi tên thành Khoa Kinh tế quốc tế. khoa Kinh tế quốc tế có đội ngũ giảng viên chất lượng, với 2 tiến sĩ và 7 thạc sĩ. Khoa Kinh tế quốc tế được giao nhiệm vụ triển khai các hoạt động nghiên cứu khoa học và đào tạo ngành Kinh tế quốc tế gồm hai chuyên ngành:
                 \n - chuyên ngành Kinh tế đối ngoại 
                 \n - chuyên ngành Thương mại quốc tế 
                 \n - logistics.
-              \n Chương trình đào tạo tại Học viện Chính sách và Phát triển nói chung, khoa Kinh tế quốc tế nói riêng luôn gắn với thực tiễn đáp ứng yêu cầu của nhà tuyển dụng. Hơn nữa, với đội ngũ giảng viên có nhiều kinh nghiệm thực tiễn làm việc tại các cơ quan Chính phủ như Bộ Kế hoạch và Đầu tư, tổ chức phi Chính phủ, doanh nghiệp. Do đó, các bài giảng cũng cập nhật các chính sách về kinh tế vĩ mô, kinh tế quốc tế và thực tiễn hoạt động tại các doanh nghiệp, đồng thời Khoa Kinh tế đối ngoại luôn tổ chức cho các bạn các chuyến thăm quan tại doanh nghiệp đầu tư nước ngoài, cơ quan nhà nước như Sở Kế hoạch & Đầu tư, Sở Công Thương, Ban quản lý các KCN, cảng biển & logistics tại các địa phương sẽ giúp sinh viên tự tin tìm việc sau khi tốt nghiệp."
+              \n Chương trình đào tạo tại Học viện Chính sách và Phát triển nói chung, khoa Kinh tế quốc tế nói riêng luôn gắn với thực tiễn đáp ứng yêu cầu của nhà tuyển dụng. Hơn nữa, với đội ngũ giảng viên có nhiều kinh nghiệm thực tiễn làm việc tại các cơ quan Chính phủ như Bộ Kế hoạch và Đầu tư, tổ chức phi Chính phủ, doanh nghiệp. Do đó, các bài giảng cũng cập nhật các chính sách về kinh tế vĩ mô, kinh tế quốc tế và thực tiễn hoạt động tại các doanh nghiệp, đồng thời Khoa Kinh tế đối ngoại luôn tổ chức cho các bạn các chuyến thăm quan tại doanh nghiệp đầu tư nước ngoài, cơ quan nhà nước như Sở Kế hoạch & Đầu tư, Sở Công Thương, Ban quản lý các KCN, cảng biển & logistics tại các địa phương sẽ giúp sinh viên tự tin tìm việc sau khi tốt nghiệp.
+              \n Tổ hợp xét tuyển của Khoa KInh tế quốc tế hệ đại trà vào năm 2024 (A00,A01,D01,D07)
+              \n Tổ hợp xét tuyển của Khoa KInh tế quốc tế hệ  Chất lượng cao vào năm 2024 (A01,D01,D07,D10)"
 
   utter_ask_qtrikd:
     - text: "Khoa Quản trị kinh doanh(7340101) đặt mục tiêu là đào tạo nhân tài và cung cấp nguồn nhân lực chất lượng cao trong lĩnh vực quản trị kinh doanh theo hướng chuyên sâu; sáng tạo và chuyển giao tri thức trong lĩnh vực quản trị kinh doanh đáp ứng yêu cầu của tổ chức, doanh nghiệp và toàn xã hội; phát triển năng lực học tập, nghiên cứu khoa học của sinh viên; rèn luyện kỹ năng làm việc và lối sống trong môi trường quốc tế hiện đạị; phổ biến tri thức khoa học, nghề nghiệp về quản trị kinh doanh cho cộng đồng doanh nghiệp và xã hội. 
@@ -1105,7 +1010,8 @@ responses:
                 \n \t - Chuyên ngành Quản trị doanh nghiệp
                 \n \t - Chuyên ngành Quản trị Marketing
                 \n \t - Chuyên ngành Quản trị kinh doanh du lịch
-            \n Khoa Quản trị kinh doanh có ội ngũ giảng viên nhiệt tình, có trách nhiệm với hơn 70% giảng viên cơ hữu có trình độ từ Tiến Sỹ, được đào tạo từ những trường Đại học có danh tiếng cũng như chuyên gia giàu kinh nghiệm. Chương trình học của khoa Quản trị kinh doanh gắn với xu hướng phát triển cùng chương trình đào tạo gắn lý thuyết với thực chiến tại Doanh nghiệp, trải nghiệm thực tế CLB Startip & Marketing."
+            \n Khoa Quản trị kinh doanh có ội ngũ giảng viên nhiệt tình, có trách nhiệm với hơn 70% giảng viên cơ hữu có trình độ từ Tiến Sỹ, được đào tạo từ những trường Đại học có danh tiếng cũng như chuyên gia giàu kinh nghiệm. Chương trình học của khoa Quản trị kinh doanh gắn với xu hướng phát triển cùng chương trình đào tạo gắn lý thuyết với thực chiến tại Doanh nghiệp, trải nghiệm thực tế CLB Startip & Marketing.
+            \n Tổ hợp xét tuyển cho cả 3 chuyên ngành vào năm 2024:(A00,A01,D01,D07)."
 
   utter_ask_luatkte:
     - text: "Khoa Luật Kinh tế(7380107) trực thuộc Học viện Chính sách và Phát triển (tên tiếng Anh: Faculty of Economic Law, Academy of Policy and Development / tên viết tắt: LAW-APD) là đơn vị đào tạo, nghiên cứu và tư vấn luật, chính sách uy tín, chuyên nghiệp. Tiền thân là Bộ môn Luật Kinh tế thuộc Khoa Cơ bản được thành lập theo Quyết định số 459/QĐ-HVCS&PT ngày 17/9/2009 của Giám đốc Học viện Chính sách và Phát triển, tới ngày 22/7/2019, Khoa Luật Kinh tế chính thức được thành lập trực thuộc Học viện thông qua Quyết định số 1089/QĐ-BKHĐT của Thứ trưởng Bộ Kế hoạch và Đầu tư Nguyễn Đức Trung ký.
@@ -1115,7 +1021,8 @@ responses:
                         \n \t - Bộ môn Pháp luật cơ sở và liên ngành đảm nhận các học phần như: Lý luận Nhà nước và Pháp luật; Luật hiến pháp; Luật hành chính... (dành cho sinh viên chuyên ngành) và các học phần như: Pháp luật đại cương; Pháp luật kinh tế; Pháp luật kinh tế quốc tế (dành cho sinh viên hệ đại trà và chất lượng cao).
                         \n \t - Bộ môn Pháp luật chuyên ngành đảm nhận các học phần như: Pháp luật doanh nghiệp; Pháp luật đầu tư; Luật thương mại; Pháp luật Tài chính và Ngân hàng...
               \n Khoa Luật Kinh tế xét tuyển theo 03 phương thức: Xét tuyển thẳng, Xét tuyển kết hợp và Xét theo điểm thi THPT Quốc gia. Khoa đã bắt đầu nhận hồ sơ từ 15/03/2024.
-              \n Đào tạo hệ sau đại học: Khoa hiện đảm nhận giảng dạy học phần Luật và Chính sách công cho học viên cao học Chính sách công của Học viện."
+              \n Đào tạo hệ sau đại học: Khoa hiện đảm nhận giảng dạy học phần Luật và Chính sách công cho học viên cao học Chính sách công của Học viện.
+              \n Tổ hợp xét tuyển cho Khoa Luật Kinh tế vào năm 2024:(C00,A00,D01,D09)."
 
   utter_ask_kte:
     - text: "Khoa Kinh tế(7310101) được thành lập theo quyết định số 1099/QĐ-BKHĐT ngày 18 tháng 7 năm 2018 của Bộ trưởng Bộ Kế hoạch và Đầu tư. Khoa Kinh tế thuộc Học viện Chính sách và Phát triển là đơn vị tương đương cấp Phòng trong cơ cấu tổ chức của Học viện. Khoa Kinh tế tiền thân là Khoa Quy hoạch phát triển, là một trong bốn khoa đầu tiên của Học viện. Năm 2016, để phù hợp với nhu cầu thị trường và xu thế hội nhập, Học viện mở chuyên ngành đào tạo mới: chuyên ngành Đầu tư thuộc ngành Kinh tế. Khoa Quy hoạch phát triển cũng đc đổi tên thành Khoa Đầu tư. Năm 2020, Khoa Kinh tế được thành lập trên cơ sở sáp nhập Bộ môn Đầu tư, Bộ môn Đấu thầu, Bộ môn Toán Kinh tế.
@@ -1123,19 +1030,22 @@ responses:
               Khoa Kinh tế hiện nay đang đào tạo 3 chuyên nghành:
                 \n - Chuyên nghành kinh tế và quản lý nguồn nhân lực
                 \n - Chuyên nghành đầu tư
-                \n - Chuyên nghành đấu thầu và quản lý dự án."
+                \n - Chuyên nghành đấu thầu và quản lý dự án.
+              \n Tổ hợp xét tuyển cho cả 3 chuyên ngành vào năm 2024:(A00,A01,D01,D07)."
 
   utter_ask_ktoan:
     - text: "Khoa Kế toán – Kiểm toán(7340301) được thành lập theo quyết định số 604/QĐ-BKHĐT ngày 12 tháng 5 năm 2021 của Bộ trưởng Bộ Kế hoạch và Đầu tư. Khoa Kế toán – Kiểm toán thuộc Học viện Chính sách và Phát triển là đơn vị tương đương cấp Phòng trong cơ cấu tổ chức của Học viện. Hiện nay, Khoa Kế toán – Kiểm toán đang giảng dạy chuyên ngành Kế toán -Kiểm toán.
-            \n Mặc dù khoa Kế toán – Kiểm toán chú trọng vào đào tạo chuyên môn, sinh viên của khoa vẫn luôn tích cực tham gia các hoạt động ngoại khóa do Khoa và Học viện tổ chức. Trong suốt thời gian học tập tại nhà trường, sinh viên Kế toán - Kiểm toán đã cùng nhau tham gia rất nhiều hoạt động thể thao, giải trí, các cuộc thi nâng cao chuyên môn và đạt được nhiều giải thưởng chất lượng."
+            \n Mặc dù khoa Kế toán – Kiểm toán chú trọng vào đào tạo chuyên môn, sinh viên của khoa vẫn luôn tích cực tham gia các hoạt động ngoại khóa do Khoa và Học viện tổ chức. Trong suốt thời gian học tập tại nhà trường, sinh viên Kế toán - Kiểm toán đã cùng nhau tham gia rất nhiều hoạt động thể thao, giải trí, các cuộc thi nâng cao chuyên môn và đạt được nhiều giải thưởng chất lượng.
+            \n Tổ hợp xét tuyển cho Khoa Kế toán vào năm 2024 (A00,A01,D01,D07)."
 
   utter_ask_qly_nhanuoc:
-    - text: "Quản lý nhà nước(7310205) đào tạo các cử nhân chuyên ngành Quản lý công có phẩm chất đạo đức tốt, được trang bị kiến thức cơ bản và chuyên sâu về quản lý khu vực công, có kiến thức và kỹ năng phân tích, đánh giá, hoạch định và tổ chức thực hiện các chương trình, dự án phát triển kinh tế – xã hội ở các đô thị, các khu vực và các vùng trong lĩnh vực hành chính sự nghiệp, sản xuất kinh doanh và dịch vụ công; có khả năng nghiên cứu và học tập ở các cấp bậc cao hơn.
+    - text: "Viện chính sách công(7310205) đào tạo các cử nhân chuyên ngành Quản lý nhà nước có phẩm chất đạo đức tốt, được trang bị kiến thức cơ bản và chuyên sâu về quản lý khu vực công, có kiến thức và kỹ năng phân tích, đánh giá, hoạch định và tổ chức thực hiện các chương trình, dự án phát triển kinh tế – xã hội ở các đô thị, các khu vực và các vùng trong lĩnh vực hành chính sự nghiệp, sản xuất kinh doanh và dịch vụ công; có khả năng nghiên cứu và học tập ở các cấp bậc cao hơn.
             \n Giới thiệu về chương trình đào tạo:
               \n - Tổng số tín chỉ: 150 tín
               \n - Các học phần / môn học chuyên ngành: Một số môn bắt buộc của chuyên ngành (Chính sách xã hội; Quản trị chiến lược; Hành chính công; Marketing dịch vụ công; Quản lý nhà nước về kinh tế; Đầu tư công; Quản lý nguồn nhân lực trong tổ chức công; Quản lý tài chính công; Chính sách công…)
               \n - Điểm nổi bật của của ngành/ chuyên ngành : Hiện nay, Khoa Chính sách công đang thực hiện đào tạo 2 chương trình: cử nhân và thạc sĩ và tiến tới đào tạo trình độ tiến sĩ chuyên ngành Chính sách công.Khoa hiện nay đang là địa chỉ tin cậy của các học viên đến từ các cơ quan Trung ương, Địa phương, các Doanh nghiệp và sinh viên mới tốt nghiệp từ các trường đại học trong và ngoài nước có nhu cầu nâng cao trình độ chuyên môn
-              \n - Cơ hội nghề nghiệp: Tham gia quản lý các cơ quan, doanh nghiệp tại khu vực công. Tham gia các tổ chức xã hội, các đơn vị hoạt động của Nhà nước.Làm việc tại các trường Đại học, viện nghiên cứu nhà nước, tham gia các tổ chức nhà nước về tư vấn kinh tế - xã hội."
+              \n - Cơ hội nghề nghiệp: Tham gia quản lý các cơ quan, doanh nghiệp tại khu vực công. Tham gia các tổ chức xã hội, các đơn vị hoạt động của Nhà nước.Làm việc tại các trường Đại học, viện nghiên cứu nhà nước, tham gia các tổ chức nhà nước về tư vấn kinh tế - xã hội.
+            \n Tổ hợp xét tuyển cho Viện Chính sách công vào năm 2024:(A00,A01,D01,D09)."
 
   utter_ask_ngonngu_anh:
     - text: "Ngày 4/5/2022, Bộ Giáo dục và Đào tạo đã ban hành Quyết định số 1219/QĐ-BGDĐT về việc cho phép Học viện Chính sách và Phát triển đào tạo trình độ đại học Ngành Ngôn ngữ Anh. Quyết định này đã đánh dấu một trang mới trong sự phát triển của Bộ môn Ngoại ngữ, thể hiện sự nỗ lực không mệt mỏi của các cán bộ, giảng viên trong Bộ môn. Chương trình đào tạo ngành Ngôn ngữ Anh được xây dựng hướng đến việc đào tạo cử nhân có đủ kiến thức, kỹ năng nghề nghiệp, phẩm chất chính trị, đạo đức, tác phong nghề nghiệp và sức khoẻ tốt để có thể làm việc hiệu quả trong lĩnh vực kinh tế và kinh doanh có sử dụng tiếng Anh, đáp ứng được yêu cầu của xã hội và của nền kinh tế trong quá trình hội nhập quốc tế.
@@ -1143,7 +1053,124 @@ responses:
               \n Cử nhân ngành Ngôn ngữ Anh chuyên ngành Tiếng Anh Kinh tế và Kinh doanh khi ra trường có thể đảm nhận các công việc trong khu vực Nhà nước, tư nhân và các tổ chức khác tại các vị trí như:
                 \n - Biên dịch, quan hệ quốc tế và đối ngoại tại các doanh nghiệp, các cơ quan truyền thông, các tổ chức có các hoạt động kinh tế và kinh doanh của Việt Nam và quốc tế.
                 \n - Nhân viên kinh doanh và các vị trí khác trong các phòng chức năng của các tổ chức, nghiên cứu thị trường trong các đơn vị hoăc tập đoàn kinh doanh, doanh nghiệp Việt Nam và quốc tế với lợi thế đặc biệt về sử dụng tiếng Anh trong lĩnh vực kinh tế và kinh doanh.
-                \n - Nếu được bồi dưỡng thêm về nghiệp vụ sư phạm, các cử nhân tiếng Anh Kinh tế và Kinh doanh cũng có thể đảm nhận công tác giảng dạy tiếng Anh chuyên ngành Tiếng Anh Kinh tế và Kinh doanh tại các cơ sở đào tạo khác nhau."
+                \n - Nếu được bồi dưỡng thêm về nghiệp vụ sư phạm, các cử nhân tiếng Anh Kinh tế và Kinh doanh cũng có thể đảm nhận công tác giảng dạy tiếng Anh chuyên ngành Tiếng Anh Kinh tế và Kinh doanh tại các cơ sở đào tạo khác nhau.
+              \n Tổ hợp xét tuyển cho Khoa Ngôn ngữ anh vào năm 2024:(A01,D01,D07,D10)."
+
+  utter_ask_giam_doc:
+    - text: "Ban giám đốc của APD:
+              \n - Giám đốc của học viện là PGS,TS Trần Trọng Nguyên. Phó Giáo sư ngành Kinh tế; Thành viên Hội đồng khoa học của Trung tâm nghiên cứu ứng dụng toán trong lĩnh vực kinh tế, tài chính - ngân hàng (FMathLab), thuộc Viện Nghiên cứu cao cấp về toán (VIASM). Nguyên Trưởng bộ môn Toán Tài chính, Đại học Kinh tế Quốc dân và Đại học Sư phạm Hà Nội 2. 
+                  \n \t +)Giảng dạy các môn học: Kinh tế lượng, Giải tích ngẫu nhiên, Phân tích chuỗi thời gian, Phân tích thống kê nhiều chiều, Toán tài chính, Các mô hình phân tích và định giá tài sản tài chính, Phân tích kỹ thuật trong tài chính, Quản trị rủi ro tài chính, Khoa học quản lý,... 
+                  \n \t Các lĩnh vực quan tâm: Toán tài chính, Phân tích và định giá tài sản, Đo lường rủi ro, Phân tích kỹ thuật, Phân tích và dự báo, Thống kê kinh tế, Chính sách công, ... \n
+              \n - Phó Giám đốc - TS. Nguyễn Thế Vinh ốt nghiệp Đại học Kinh tế quốc dân, Tiến sĩ tại Viện Chiến lược phát triển (Bộ Kế hoạch và Đầu tư). TS Vinh có nhiều kinh nghiệm trong nghiên cứu và giảng dạy về các lĩnh vực bao gồm đấu thầu, quy hoạch, chiến lược phát triển và marketing. Hiện nay TS Vinh đang là chuyên gia tư vấn cho Ngân hàng thế giới (WB), Ngân hàng phát triển Châu Á (ADB), Công ty tư vấn Mc Kinsey &Company (Mỹ), Roland Berger (Đức)… và tham gia xây dựng các văn bản quy phạm pháp luật, Đề án, đề tài về các lĩnh vực Đấu thầu, Quy hoạch của Bộ Kế hoạch và Đầu tư. 
+                  \n \t +) TS Vinh là chủ biên các giáo trình về Đấu thầu mua sắm, Quy hoạch và có nhiều nghiên cứu khoa học đăng trên các tạp chí khoa học trong và ngoài nước. 
+                  \n \t +) TS. Nguyễn Thế Vinh phụ trách giảng dạy các môn: Đấu thầu mua sắm; Lập hồ sơ mời thầu và Đánh giá hồ sơ dự thầu; Marketing, Quy hoạch phát triển. \n
+              \n - Phó Giám đốc - ThS.Nguyễn Thị Hạnh Vân tốt nghiệp Trường Đại học Kinh tế quốc dân; Thạc sĩ ngành Kinh tế phát triển tại Học viện Chính trị Quốc gia Hồ Chí Minh; cử nhân Anh văn tại Trường Đại học Ngoại ngữ - Đại học quốc gia Hà Nội; thành viên Hội đồng trường Trường Cao đẳng Kinh tế - Kế hoạch Đà Nẵng (Bộ Kế hoạch và Đầu tư). Bà Hạnh Vân đã tham gia các khóa bồi dưỡng kỹ năng lãnh đạo, quản lý, chính sách công, hội nhập quốc tế, phát triển nguồn nhân lực... của các trường đại học: American University, George Mason - Washington DC (Hoa Kỳ); Southampton (Vương quốc Anh); DBB Akademie (CHLB Đức); Guelph-Humber, Toronto (Canada); Trường đại học quốc gia Singapore... Bà Vân có nhiều năm kinh nghiệm phụ trách lĩnh vực đào tạo, bồi dưỡng công chức, viên chức của Bộ Kế hoạch và Đầu tư; phụ trách công tác quản lý nhà nước về giáo dục đào tạo của Bộ Kế hoạch và Đầu tư; xây dựng chính sách về sắp xếp tổ chức bộ máy, biên chế, tuyển dụng, bổ nhiệm, chế độ chính sách... đối với công chức, viên chức Bộ Kế hoạch và Đầu tư. \n
+              \n - Phó giám đốc - TS. Nguyễn Thế Hùng Tiến sỹ Nguyễn Thế Hùng nhận bằng tiến sỹ kinh tế chuyên ngành Tài chính – Ngân hàng tại Học viện Tài chính. Tiến sỹ Thế Hùng từng là Trưởng phòng Khoa học – Hợp tác, Trưởng phòng Quản lý đào tạo trước khi được bổ nhiệm làm Phó giám đốc Học viện. Tiến sỹ Thế Hùng tham gia nhiều khóa đào tạo, hội thảo và tọa đàm trong lĩnh vực tài chính công, quản lý công, thương mại quốc tế tại các quốc gia phát triển như Tây Ban Nha, Bỉ, Hà Lan, Pháp, Nhật Bản, Hàn Quốc … và có thời gian 06 tháng nghiên cứu về quản lý giáo dục tại NewZealand.
+                  \n \t +) Kinh nghiệm giảng dạy đại học và sau đại học các lĩnh vực: Thuế và Chính sách thuế, Tài chính doanh nghiệp, Tài chính doanh nghiệp nâng cao, Thị trường chứng khoán, Quản lý tài chính công, Thuế nhà nước
+                  \n \t +) Kinh nghiệm tư vấn: Tham gia tư vấn về thuế, cổ phần hóa doanh nghiệp nhà nước, quản trị nhân sự, đào tạo bảo hiểm, tư vấn chiến lược tại các tập đoàn, tổng công ty lớn như: Tổng công ty Tài chính dầu khí (PVFC), Tổng công ty bảo hiểm PVI, Công ty Tái bảo hiểm PVI Re, Ban trù bị thành lập ngân hàng Dầu khí, Tổng công ty du lịch Công đoàn, Phòng công an Kinh tế - Công an Tp. Hải phòng, Tổng công ty cổ phần bảo hiểm Quân đội (MIC)... Nghiên cứu nhiều đề án, đề tài cấp Học viện và Cấp Bộ, các bài báo đăng trên tạp chí khoa học liên quan đến lĩnh vực đào tạo đại học và sau đại học, đào tạo nguồn nhân lực, lĩnh vực khởi nghiệp đổi mới sáng tạo, lĩnh vực tài chính – ngân hàng, quản lý nợ công. \n 
+              \n - Phó Giám đốc - ThS. Ngô Văn Giang tốt nghiệp Trường Đại học Kinh tế quốc dân; Thạc sĩ ngành Kinh tế chính trị tại Đại học Quốc gia Hà Nội; Cao cấp lý luận Chính trị - Hành chính tại Học viện Chính trị Quốc gia Hồ Chí Minh, ...  PGĐ Ngô Văn Giang đã tham gia các khóa bồi dưỡng kỹ năng lãnh đạo, quản lý, quản trị hành chính công và quản lý đầu tư, quản lý dự án ODA, ... của các trường: Trường đào tạo công vụ Singapore, Trường đào tạo hành chính Vương quốc Bỉ, Trường Kinh doanh Oxford - Vương quốc Anh, Trường đào tạo Công vụ Cộng hòa Liên bang Đức, Đại học RMIT Úc, Đại học Châu Âu - Bỉ, Đại học Charles - Cộng hòa Séc, ... PGĐ Ngô Văn Giang có nhiều năm kinh nghiệm trong quản lý đào tạo, bồi dưỡng cán bộ, công chức, viên chức; thực hiện các chiến lược, kế hoạch đào tạo, bồi dưỡng của Bộ Kế hoạch và Đầu tư; có nhiều kinh nghiệm trong việc nghiên cứu về quản lý kinh tế và giảng dạy về chuyên môn, nghiệp vụ kế hoạch và đầu tư, các kỹ năng thực thi nhiệm vụ, công vụ cho cán bộ, công chức, viên chức và nhiều đối tượng học viên khác trong và ngoài ngành Kế hoạch và Đầu tư."
+
+  utter_ask_qly_dtao:
+    - text: "Phòng quản lý đào tạo là phòng chức năng Tham mưu, giúp Giám đốc Học viện quản lý công tác đào tạo đại học và sau đại học gồm: tuyển sinh, mở ngành, phát triển chương trình đào tạo, quản lý quá trình đào tạo, xét tốt nghiệp và cấp bằng tốt nghiệp cho sinh viên, học viên cao học và nghiên cứu sinh.Các cán bộ đang công tác tại phòng Quản lý đào tạo APD bao gồm:
+              \n - Trưởng phòng: TS. GVC. Nguyễn Thị Đông, Email:dongvk@gmail.com
+              \n - Chuyên viên: ThS. Lê Thị Cẩm Thơ, Email:camtho0809@gmail.com
+              \n - Giảng viên khoa Kinh tế phát triển kiêm nhiệm: ThS. Nguyễn Đức Hiếu, Email:hieund@apd.edu.vn
+              \n - Chuyên viên: ThS. Nguyễn Thị Phương Quỳnh, Email:phuongquynhtb.228@gmail.com
+              \n - Chuyên viên: ThS. Lê Vũ Trường, Email:levutruong81@gmail.com
+              \n - Chuyên viên: ThS. Nguyễn Thu Phương, Email:30784phuongnt@gmail.com
+              \n - Chuyên viên: Cử nhân Lục Vân Anh, Email:lucvananh@apd.edu.vn
+              \n - Chuyên viên: Cử nhân Trần Thị Diễm My, Email:diemmy@apd.edu.vn
+              \n - Chuyên viên: Cử nhân Nguyễn Xuân Mạnh, Email:manhnguyenapd2505@apd.edu.vn"
+
+  utter_ask_ctri_sv:
+    - text: "Phòng Chính trị và công tác sinh viên là đơn vị thuộc Học viện có chức năng tham mưu giúp Giám đốc Học viện thực hiện  công tác chính trị và quản lý sinh viên; thực hiện công tác tuyên truyền, giáo dục chính trị, tư tưởng, văn hóa; tổ chức sự kiện, văn nghệ, thể dục thể thao… đối với sinh viên, học viên; thực hiện chế độ chính sách, khen thưởng kỷ luật, đánh giá kết quả rèn luyện của sinh viên, phối hợp thực hiện công tác đảm bảo chất lượng; công tác kết nối, phục vụ cộng đồng; công tác y tế học đường và các dịch vụ hỗ trợ sinh viên theo quy định. Đội ngũ cán bộ của đơn vị:
+              \n - Trưởng phòng: TS. Nguyễn Tiến Hùng, Email: Hunghoavi@gmail.com
+              \n - Phó trưởng phòng: ThS. Trần Thị Thanh Minh, Email: thanhminh@apd.edu.vn
+              \n - Chuyên viên: Ths. Vũ Thị Thu Hà, Email: thuha.hcp@gmail.com
+              \n - Chuyên viên: KS. Nguyễn Dương, Email: nguyenduongapd@gmail.com
+            \n Khi sinh viên cần hỗ trợ thì có thể xem các biểu mẫu của bổ phận một cửa: https://apd.edu.vn/van-ban-bieu-mau"
+
+  utter_ask_phong_khao_thi:
+    - text: "Phòng Khảo thí và đảm bảo chất lượng thuộc Học viện Chính sách và Phát triển, thực hiện chức năng tham mưu xây dựng, ban hành và chịu trách nhiệm tổ chức triển khai thực hiện các hoạt động về công tác khảo thí, đảm bảo chất lượng giáo dục và thanh tra các hoạt động liên quan tới hoạt động giáo dục theo đúng quy định của Bộ Giáo dục và Đào tạo và phù hợp với chiến lược phát triển của Học viện. Nhân sự của phòng ban: 
+              \n - Trưởng phòng: Phạm Ngọc Trụ, Email: phamngoctru@apd.edu.vn
+              \n - Phó trưởng phòng: Trần Thị Thanh Minh, Email: thanhminh@apd.edu.vn
+              \n - Chuyên viên: Lê Đình Đại, Email: ledaipt@gmail.com
+              \n - Chuyên viên: Nguyễn Thị Hà, Email: nguyenthiha80@gmail.com
+              \n - chuyên viên chính: Nguyễn Thị Mai, Email: trangmai@apd.edu.vn
+              \n - Chuyên viên: Nguyễn Đức Mạnh, Email: ducmanh@apd.edu.vn"
+
+  utter_gth_dll:
+    - text: "Trong cuộc Cách mạng Công nghệ 4.0, dữ liệu đã trở thành một phần không thể thiếu và là tài sản quan trọng trong các doanh nghiệp. Không chỉ trong các công ty công nghệ mà dữ liệu còn đang chi phối các lĩnh vực như tài chính, kinh doanh, y tế, giáo dục, nông nghiệp… Thông qua việc phân tích dữ liệu, từ đó đưa ra các quyết định kinh doanh hợp lý, nhiều doanh nghiệp đã cải thiện được hiệu quả hoạt động của bộ máy bên trong. Chính vì vậy, hiện nay các doanh nghiệp đều đang có nhu cầu rất cao đối với chuyên gia phân tích dữ liệu.
+            \n Phân tích dữ liệu (Data Analytics) là một ngành với nhiệm vụ là chuyển hoá dữ liệu từ dạng thô thành các dữ liệu có thể sử dụng được. Nó bao gồm nhiều quá trình tương đối phức tạp như kiểm tra, làm sạch, chuyển đổi và mô hình hóa dữ liệu với mục tiêu khám phá thông tin hữu ích, thông báo kết luận và hỗ trợ ra quyết định. Trong thế giới kinh doanh ngày nay, phân tích dữ liệu đóng vai trò giúp đưa ra quyết định khoa học hơn và giúp doanh nghiệp hoạt động hiệu quả hơn."
+
+  utter_gth_kds:
+    - text: "Trong thời đại 4.0, mọi người đã dần quen thuộc trong việc sử dụng các sản phẩm, ứng dụng công nghệ để thực hiện các yêu cầu thiết yếu trong đời sống hằng ngày. Ta không khó để bắt gặp các anh shipper vận chuyển hàng hóa từ các sàn thương mại điện tử của Shopee, Lazada, hay các dịch vụ vận chuyển như Grab, GoViet, Be, Now,.. chở khách hay ship đồ ăn. Khi vào các cửa hàng tiện lợi, khách hàng được lựa chọn với nhiều hình thức thanh toán từ tiền mặt, thẻ tín dụng cho đến quét mã QR và các loại ví điện tử như Momo, Airpay, ZaloPay,... Chính vì vậy, có thể nói rằng trong thời đại hiện nay, chúng ta không thể sống nếu thiếu đi sự góp mặt của công nghệ. Do đó, Kinh doanh số (Digital Business) được xem là một xu hướng mới mở ra nhằm đáp ứng các yêu cầu này."
+
+  utter_ask_chyen_nghanh_kte_dtu:
+    - text: "Chuyên ngành Đầu tư là một chuyên ngành chính của Khoa Kinh tế. Cử nhân tốt nghiệp chuyên ngành Đầu tư được trang bị kỹ năng, kiến thức lý luận và thực tiễn về đầu tư phát triển và đầu tư tài chính.
+            \n Cử nhân tốt nghiệp chuyên ngành Đầu tư sẽ nắm vững nguyên lý, quy luật kinh tế- xã hội, có kiến thức, kỹ năng chuyên sâu và có khả năng làm việc độc lập, sáng tạo, giải quyết những vấn đề thuộc hoạt động kinh tế đầu tư như: Đầu tư tài chính, đầu tư phát triển tại doanh nghiệp và các tổ chức kinh tế; lập kế hoạch và lập dự án đầu tư; quản lý dự án đầu tư; thẩm định dự án đầu tư; quản trị rủi ro trong hoạt động đầu tư; định giá tài sản."
+
+  utter_ask_chuyen_nghanh_dthau_duan:
+    - text: "Chuyên ngành Đấu thầu và đầu tư dự án đào tạo cử nhân đại học ngành Kinh tế có phẩm chất chính trị, đạo đức và sức khỏe tốt, có trách nhiệm với xã hội; nắm vững kiến thức cơ bản về kinh tế, quản lý và quản trị kinh doanh; có kiến thức chuyên sâu về đấu thầu và quản lý dự án; có tư duy nghiên cứu độc lập, có năng lực tự bổ sung kiến thức và tiếp tục học tập nâng cao trình độ để đáp ứng yêu cầu của công việc.
+    \n Cử nhân Kinh tế chuyên ngành Đấu thầu và Quản lý dự án hiểu được những vấn đề về đạo đức và rủi ro trong hoạt động đấu thầu, đầu tư dự án; có phẩm chất chính trị, đạo đức và sức khỏe tốt; có khả năng tư duy độc lập và năng lực tự tìm tòi, bổ sung kiến thức theo yêu cầu của công việc."
+
+  utter_ask_chuyen_nghanh_kte_qlynl:
+    - text: "Cử nhân Kinh tế, chuyên ngành Kinh tế và quản lý nguồn nhân lực sẽ lĩnh hội được các kiến thức cơ bản về kinh tế, xã hội, quản lý làm nền tảng nghiên cứu chuyên sâu về kinh tế và quản lý nguồn nhân lực. Chương trình đào tạo Kinh tế và Quản lý nguồn nhân lực của Khoa kinh tế, Học viện Chính sách Phát triển được xây dựng nhằm đào tạo và cung cấp cho xã hội những nhà hoạch định, quản lý, phát triển nguồn nhân lực ở cả cấp độ quốc gia và tổ chức, tạo ra những cử nhân quản lý nguồn nhân lực có tư duy quản lý nguồn nhân lực trên góc độ kinh tế học kết hợp với các kiến thức chuyên sâu về quản lý nguồn nhân lực cấp độ doanh nghiệp, tổ chức với phương pháp làm việc hiện đại với thái độ tích cực, phù hợp với thời đại chuyển đổi số."
+
+  utter_ask_chuyen_nghanh_kehoach_pt:
+    - text: "Đào tạo cử nhân đại học về chuyên ngành Kế hoạch phát triển có phẩm chất chính trị, đạo đức và sức khỏe tốt, có trách nhiệm với bản thân và với xã hội; nắm vững và có thể liên hệ thực tiễn đối với khối kiến thức cơ bản về kinh tế học; có thể thực hành kiến thức và kỹ năng nghiệp vụ chuyên nghiệp trong phân tích, đánh giá, dự báo các vấn đề kinh tế và xã hội; có tư duy logic về các mô hình phát triển ở cả khu vực công và khu vực tư; có tư duy phản biện; có năng lực phân tích không gian, phân tích định lượng, phân tích định tính, năng lực đọc tổng hợp tài liệu và thu thập thông tin; có năng lực sáng tạo trong nghiên cứu khoa học và trong giải quyết tình huống thực tiễn; có năng lực áp dụng kiến thức và kỹ năng đã học vào thực tế; có khả năng tự cập nhật, bổ sung kiến thức và kỹ năng hiện đại và có thể tiếp tục học tập nâng cao trình độ để đáp ứng yêu cầu công việc."
+
+  utter_ask_chuyen_nghanhktpt:
+    - text: "Đào tạo cử nhân đại học về chuyên ngành Kinh tế Phát triển có phẩm chất chính trị, đạo đức và sức khỏe tốt, có trách nhiệm với bản thân và với xã hội; nắm vững và có thể liên hệ thực tiễn đối với khối kiến thức cơ bản về kinh tế học; có thể thực hành kiến thức và kỹ năng nghiệp vụ chuyên nghiệp trong phân tích, đánh giá, dự báo các vấn đề kinh tế và xã hội; có tư duy logic về các mô hình phát triển ở cả khu vực công và khu vực tư; có tư duy phản biện; có năng lực phân tích không gian, phân tích định lượng, phân tích định tính, năng lực đọc tổng hợp tài liệu và thu thập thông tin; có năng lực sáng tạo trong nghiên cứu khoa học và trong giải quyết tình huống thực tiễn; có năng lực áp dụng kiến thức và kỹ năng đã học vào thực tế; có khả năng tự cập nhật, bổ sung kiến thức và kỹ năng hiện đại và có thể tiếp tục học tập nâng cao trình độ để đáp ứng yêu cầu công việc."
+
+  utter_ask_cnxhkh:
+    - text: "Môn Chủ Nghĩa Xã Hội Khoa Học là một môn học bắt buộc nằm trong hệ thống các môn lý luận chính trị tại Học viện Chính sách và Phát triển. Môn học này tập trung nghiên cứu về hệ tư tưởng, lý thuyết và thực tiễn của chủ nghĩa xã hội, với mục tiêu trang bị cho sinh viên những hiểu biết căn bản về lý luận chính trị và xã hội, góp phần vào việc xây dựng một xã hội công bằng, dân chủ, và văn minh.
+            \n Đây là tài liệu liên quan đến môn học: https://drive.google.com/drive/u/0/folders/1JKPIXDyajoHRCYxpJ-L7ImgNIhfX6Ii2"
+
+  utter_ask_ktct:
+    - text: "Môn Kinh Tế Chính Trị Mác - Lênin là một trong những môn học quan trọng trong hệ thống các môn lý luận chính trị tại Học viện Chính sách và Phát triển. Môn học này tập trung nghiên cứu về những nguyên lý kinh tế cơ bản của chủ nghĩa Mác - Lênin, nhằm trang bị cho sinh viên những kiến thức cần thiết về kinh tế học từ góc độ lý luận và thực tiễn
+            \n Đây là tài liệu liên quan đến môn học: https://drive.google.com/drive/u/0/folders/1JJLNpZcpUpx7BxuI-YntLBiMa-1ATJdG"
+
+  utter_ask_ktvi_mo:
+    - text: "Môn Kinh Tế Vi Mô 1 là một trong những môn học đại cương trong chương trình đào tạo tại Học viện Chính sách và Phát triển. Môn học này tập trung vào việc nghiên cứu hành vi của các cá nhân và doanh nghiệp trong việc ra quyết định về sản xuất, tiêu dùng, và phân phối tài nguyên trong một nền kinh tế. Nội dung chính của môn học là lý thuyết cung và cầu, độ co giãn, lý thuyết hành vi người tiêu dùng, lý thuyết hành vi nhà sản xuất, cấu trúc thị trường, thị trường yếu tố sản xuất.
+    \n Đây là tài liệu liên quan đến môn học: https://drive.google.com/drive/u/0/folders/1VJ0tB3ljJdn2oBIC-J9wiYlUfhl_EbEN"
+
+  utter_ask_ktvix_mo:
+    - text: "Môn Kinh Tế Vĩ Mô là một môn học đại cương và quan trọng trong chương trình đào tạo tại Học viện Chính sách và Phát triển. Môn học này tập trung vào việc nghiên cứu các hoạt động kinh tế ở quy mô toàn bộ nền kinh tế, bao gồm các vấn đề như tăng trưởng kinh tế, lạm phát, thất nghiệp, và chính sách kinh tế vĩ mô của chính phủ. Nội dung chính của môn học là: Tổng sản phẩm quốc nội (GDP), tiêu dùng, tiết kiệm và đầu tư, lạm phát và chỉ số giá, thất nghiệp, chính sách tài khóa, chính sách tiền tệ, tăng trưởng kinh tế, thương mại quốc tế và tỷ giá hối đoái.
+              \n Đây là tài liệu liên quan đến môn học: https://drive.google.com/drive/u/0/folders/1p42E_A8_Fxt7aD4NPQLDl62X8rAvED4_"
+
+  utter_ask_lsd:
+    - text: "Môn học Lịch Sử Đảng Cộng Sản Việt Nam là một phần quan trọng trong chương trình đào tạo tại Học viện Chính sách và Phát triển. Môn học này nhằm trang bị cho sinh viên kiến thức cơ bản và toàn diện về quá trình hình thành, phát triển và những đóng góp của Đảng Cộng Sản Việt Nam trong sự nghiệp cách mạng của dân tộc.
+            \n Nội dung chính:
+                \n \t +) Quá trình hình thành Đảng Cộng sản Việt Nam: Khái quát về bối cảnh lịch sử và các yếu tố dẫn đến sự ra đời của Đảng Cộng sản Việt Nam vào năm 1930.
+                \n \t +) Đảng Cộng sản Việt Nam lãnh đạo cách mạng giải phóng dân tộc (1930-1945): Các hoạt động và phong trào cách mạng do Đảng lãnh đạo, từ cuộc đấu tranh chống thực dân Pháp đến Cách mạng Tháng Tám năm 1945.
+                \n \t +) Đảng lãnh đạo cuộc kháng chiến chống Pháp và chống Mỹ cứu nước (1945-1975): Vai trò của Đảng trong hai cuộc kháng chiến trường kỳ, đưa đất nước đến độc lập, thống nhất.
+                \n \t +) Đảng lãnh đạo xây dựng và bảo vệ tổ quốc trong thời kỳ đổi mới (1975 đến nay): Các chính sách và đường lối đổi mới kinh tế, chính trị và xã hội mà Đảng đã triển khai từ sau năm 1975, đặc biệt là từ Đại hội Đảng lần thứ VI (1986) đến nay.
+            \n Đây là tài liệu liên quan đến môn học: https://drive.google.com/drive/u/0/folders/1j96uNEc9tzE_2DTxq1wAkQGE-9bfhAjH"
+
+  utter_ask_xstk:
+    - text: "Môn học Lý Thuyết Xác Suất Thống Kê là một trong những môn học đại cương trong các chương trình đào tạo của nhiều ngành tại Học viện Chính sách và Phát triển. Môn học này trang bị cho sinh viên những kiến thức cơ bản về xác suất và thống kê, cung cấp nền tảng về đánh giá rủi ro và ra quyết định dựa trên bài toán kinh tế.
+    \n Đây là tài liệu liên quan đến môn học: https://drive.google.com/drive/u/0/folders/1KImyBAFlgLaT8_1nf47p4YczieHRC2up"
+
+  utter_ask_tin_hoc:
+    - text: "Môn học Tin Học Đại Cương là một môn học đại cương quan trọng trong chương trình đào tạo tại tại Học viện Chính sách và Phát triển. Môn học này trang bị cho sinh viên những kiến thức và kỹ năng cơ bản về công nghệ thông tin và máy tính, cách sử dụng Word, Excel, PowerPoint. Giúp sinh viên có thể ứng dụng vào học tập, nghiên cứu và công việc sau này.
+        \n Đây là tài liệu liên quan đến môn học: https://drive.google.com/drive/u/0/folders/13YpCXXx5uFU1zxic2X0nCV_sCRlcLkt8"
+
+  utter_ask_triet_hoc:
+    - text: "Môn học Triết Học là một môn học đại cương quan trọng trong chương trình đào tạo tại tại Học viện Chính sách và Phát triển. Môn học này trang bị cho sinh viên kiến thức về các vấn đề cơ bản của triết học, giúp họ phát triển tư duy phản biện, khả năng phân tích và lý giải các hiện tượng xã hội và tự nhiên.
+        \n Đây là tài liệu liên quan đến môn học: https://drive.google.com/drive/u/0/folders/1tHv9WlT3y9VttFQbzzSiCJWIwc7LAotw"
+
+  utter_ask_tt_hcm:
+    - text: "Môn học Tư tưởng Hồ Chí Minh là một trong những môn học quan trọng trong hệ thống các môn lý luận chính trị tại Học viện Chính sách và Phát triển. Môn học này giúp sinh viên hiểu sâu sắc về hệ thống tư tưởng của Chủ tịch Hồ Chí Minh, người đã đặt nền móng và dẫn dắt cuộc cách mạng Việt Nam đến thắng lợi.
+            \n Nội dung chính:
+              \n \t +) Khái quát về thân thế, sự nghiệp và quá trình hình thành tư tưởng Hồ Chí Minh: Nghiên cứu về cuộc đời, sự nghiệp cách mạng của Hồ Chí Minh và các yếu tố ảnh hưởng đến sự hình thành tư tưởng của Người.
+              \n \t +) Tư tưởng về độc lập dân tộc và chủ nghĩa xã hội: Phân tích quan điểm của Hồ Chí Minh về độc lập dân tộc gắn liền với chủ nghĩa xã hội, và con đường cách mạng để giành và giữ vững độc lập.
+              \n \t +) Tư tưởng về Đảng Cộng sản Việt Nam: Tìm hiểu về quan điểm của Hồ Chí Minh về vai trò lãnh đạo của Đảng Cộng sản, xây dựng Đảng trong sạch, vững mạnh.
+              \n \t +) Tư tưởng về đoàn kết dân tộc và đoàn kết quốc tế: Nghiên cứu về tư tưởng đoàn kết toàn dân, đại đoàn kết dân tộc và tinh thần quốc tế vô sản.
+              \n \t +) Tư tưởng về con người và chiến lược phát triển con người: Phân tích quan điểm của Hồ Chí Minh về vai trò của con người, chính sách phát triển con người toàn diện.
+              \n \t +) Tư tưởng về văn hóa, giáo dục và xây dựng nền văn hóa mới: Nghiên cứu về quan điểm của Hồ Chí Minh về xây dựng nền văn hóa tiên tiến, đậm đà bản sắc dân tộc và phát triển giáo dục.
+            \n Đây là tài liệu liên quan đến môn học: https://drive.google.com/drive/u/0/folders/1QY8iOeYIbR-bTDUipomVejt7aZr4_Cqo"
+
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
@@ -1268,3 +1295,23 @@ actions:
   - utter_ask_ktoan
   - utter_ask_qly_nhanuoc
   - utter_ask_ngonngu_anh
+  - utter_ask_giam_doc
+  - utter_ask_qly_dtao
+  - utter_ask_ctri_sv
+  - utter_ask_phong_khao_thi
+  - utter_gth_dll
+  - utter_gth_kds
+  - utter_ask_chyen_nghanh_kte_dtu
+  - utter_ask_chuyen_nghanh_dthau_duan
+  - utter_ask_chuyen_nghanh_kte_qlynl
+  - utter_ask_chuyen_nghanh_kehoach_pt
+  - utter_ask_chuyen_nghanhktpt
+  - utter_ask_cnxhkh
+  - utter_ask_ktct
+  - utter_ask_ktvi_mo
+  - utter_ask_ktvix_mo
+  - utter_ask_lsd
+  - utter_ask_xstk
+  - utter_ask_tin_hoc
+  - utter_ask_triet_hoc
+  - utter_ask_tt_hcm

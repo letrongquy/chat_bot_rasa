@@ -720,7 +720,107 @@ stories:
   - intent: ask_qly_nhanuoc
   - action: utter_ask_qly_nhanuoc
 
-- story: hoi ngon ngu anh
+- story: ask ngon ngu anh
   steps:
   - intent: ask_ngonngu_anh
   - action: utter_ask_ngonngu_anh
+
+- story: ask ban giam doc
+  steps:
+  - intent: ask_giam_doc
+  - action: utter_ask_giam_doc
+
+- story: ask ban qlydt
+  steps:
+  - intent: ask_qly_dtao
+  - action: utter_ask_qly_dtao
+
+- story: ask ctri va sv
+  steps:
+  - intent: ask_ctri_sv
+  - action: utter_ask_ctri_sv
+
+- story: ask khao thi
+  steps:
+  - intent: ask_phong_khao_thi
+  - action: utter_ask_phong_khao_thi
+
+- story: ask dll
+  steps:
+  - intent: gth_dll
+  - action: utter_gth_dll
+
+- story: ask ktds gth
+  steps:
+  - intent: gth_kds
+  - action: utter_gth_kds
+
+- story: ask chuyen nghanh dtu cua khoa kte gth
+  steps:
+  - intent: ask_chyen_nghanh_kte_dtu
+  - action: utter_ask_chyen_nghanh_kte_dtu
+
+- story: ask dau thau du an gth
+  steps:
+  - intent: ask_chuyen_nghanh_dthau_duan
+  - action: utter_ask_chuyen_nghanh_dthau_duan
+
+- story: ask kte va quan ly nguon nhan luc
+  steps:
+  - intent: ask_chuyen_nghanh_kte_qlynl
+  - action: utter_ask_chuyen_nghanh_kte_qlynl
+
+- story: ask ke hoach phat trien
+  steps:
+  - intent: ask_chuyen_nghanh_kehoach_pt
+  - action: utter_ask_chuyen_nghanh_kehoach_pt
+
+- story: ask kinh te phat trien
+  steps:
+  - intent: ask_chuyen_nghanhktpt
+  - action: utter_ask_chuyen_nghanhktpt
+
+- story: ask cnxhkh
+  steps:
+  - intent: ask_cnxhkh
+  - action: utter_ask_cnxhkh
+
+- story: ask ktctr
+  steps:
+  - intent: ask_ktct
+  - action: utter_ask_ktct
+
+- story: ask kte vi mo
+  steps:
+  - intent: ask_ktvi_mo
+  - action: utter_ask_ktvi_mo
+
+- story: ask kte vĩx mo
+  steps:
+  - intent: ask_ktvix_mo
+  - action: utter_ask_ktvix_mo
+
+- story: ask kte lsu dang
+  steps:
+  - intent: ask_lsd
+  - action: utter_ask_lsd
+
+- story: ask xstk
+  steps:
+  - intent: ask_xstk
+  - action: utter_ask_xstk
+
+- story: ask tin hoc dai cuong
+  steps:
+  - intent: ask_tin_hoc
+  - action: utter_ask_tin_hoc
+
+- story: ask triet hoc
+  steps:
+  - intent: ask_triet_hoc
+  - action: utter_ask_triet_hoc
+
+- story: ask tt hcm
+  steps:
+  - intent: ask_tt_hcm
+  - action: utter_ask_tt_hcm
