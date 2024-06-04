@@ -380,7 +380,10 @@ nlu:
     - có phải sinh viên ở APD được đào tạo theo hệ thống tín chỉ hay không
     - ở APD có đào tạo theo hệ thống tín chỉ không
     - các nghành đào tạo hiện nay của APD
-
+    - bạn có thể giới thiệu chuyên nghành học cho tôi không
+    - hãy giới thiệu một vài nghành học tại APD
+    - giới thiệu cho e một vài nghành học ở APD với ạ
+    - tôi muốn bạn giới thiệu nghành học của học viện chính sách và phát triển
 
 - intent: ask_nghanh_clc
   examples: |
@@ -2803,6 +2806,7 @@ nlu:
     - phân tích dữ liệu lớn trong kinh tế và kinh doanh
     - em muốn có thêm các thông tin về chuyên nghành phân tích dữ liệu của kinh tế số
     - nghành phân tích dữ liệu lớn trong kinh tế và kinh doanh là nghành gì
+    - Chuyên ngành phân tích dữ liệu lớn trong kinh tế và kinh doanh tại Học viện Chính sách và Phát triển đào tạo gì
 
 - intent: gth_kds
   examples: |
@@ -2811,6 +2815,7 @@ nlu:
     - chuyên nghành kinh doanh số của khoa kinh tế số
     - nghành kinh doanh số là nghành gì
     - em muốn hiểu rõ hơn về nghành kinh tế kinh doanh số
+    - Chuyên ngành kinh tế kinh doanh số tại Học viện Chính sách và Phát triển đào tạo gì
 
 - intent: ask_chyen_nghanh_kte_dtu
   examples: |
@@ -2823,6 +2828,7 @@ nlu:
     - thông tin về chuyên nghành đầu tư của khoa kinh tế
     - chuyên nghành đầu tư của khoa kinh tế
     - em muốn biết thêm về chuyên nghành đầu tư của khoa kinh tế
+    - Chuyên ngành đầu tư tại Học viện Chính sách và Phát triển đào tạo gì
 
 - intent: ask_chuyen_nghanh_dthau_duan
   examples: |
@@ -2834,7 +2840,7 @@ nlu:
     - chuyên ngành đấu thầu và đầu tư dự án tại APD
     - thông tin về chuyên ngành đấu thầu và đầu tư dự án của khoa kinh tế
     - chuyên ngành đấu thầu và đầu tư dự án của khoa kinh tế
-    - em muốn biết thêm về chuyên ngành đấu thầu và đầu tư dự án của khoa kinh tế
+    - Chuyên ngành đấu thầu và đầu tư dự án tại Học viện Chính sách và Phát triển đào tạo gì
 
 - intent: ask_chuyen_nghanh_kte_qlynl
   examples: |
@@ -2847,6 +2853,7 @@ nlu:
     - thông tin về chuyên ngành Kinh tế và quản lý nguồn nhân lực của khoa kinh tế
     - chuyên ngành Kinh tế và quản lý nguồn nhân lực của khoa kinh tế
     - em muốn biết thêm về chuyên ngành Kinh tế và quản lý nguồn nhân lực
+    - Chuyên ngành Kinh tế và quản lý nguồn nhân lực tại Học viện Chính sách và Phát triển đào tạo gì
 
 - intent: ask_chuyen_nghanh_kehoach_pt
   examples: |
@@ -2859,6 +2866,7 @@ nlu:
     - thông tin về chuyên nghành kế hoạch phát triển của khoa kinh tế phát triển
     - chuyên nghành kế hoạch phát triển của khoa kinh tế phát triển
     - em muốn biết thêm về chuyên nghành kế hoạch phát triển của khoa kinh tế phát triển
+    - Chuyên ngành kế hoạch phát triển tại Học viện Chính sách và Phát triển đào tạo gì
 
 - intent: ask_chuyen_nghanhktpt
   examples: |
@@ -2873,6 +2881,23 @@ nlu:
     - em muốn biết thêm về chuyên nghành kinh tế phát triển của khoa kinh tế phát triển
     - chuyên nghành kinh tế phát triển
     - tôi muốn biết về chuyên nghành kinh tế phát triển 
+    - Chuyên ngành kinh tế phát triển  tại Học viện Chính sách và Phát triển đào tạo gì
+
+- intent: ask_chuyen_nghanhkteht
+  examples: |
+    - chuyên nghành kinh tế hợp tác
+    - chuyên nghành kinh tế hợp tác
+    - giới thiệu về chuyên nghành kinh tế hợp tác
+    - bạn có thể giới thiệu về chuyên nghành kinh tế hợp tác của khoa kinh tế phát triển không
+    - cho em hỏi về chuyên nghành  kinh tế hợp tác của khoa kinh tế phát triển
+    - chuyên nghành  kinh tế hợp tác của khoa kinh tế phát triển tại APD
+    - thông tin về chuyên nghành  kinh tế hợp tác của khoa kinh tế phát triển
+    - chuyên nghành kinh tế hợp tác của khoa kinh tế phát triển
+    - em muốn biết thêm về chuyên nghành kinh tế hợp tác của khoa kinh tế phát triển
+    - chuyên nghành kinh tế hợp tác
+    - tôi muốn biết về chuyên nghành kinh tế hợp tác
+    - Chuyên ngành kinh tế hợp tác tại Học viện Chính sách và Phát triển đào tạo gì
+
 
 - intent: ask_cnxhkh
   examples: |
@@ -2972,3 +2997,138 @@ nlu:
     - bạn có thể cho mình tài liệu về môn tư tưởng Hồ Chí Minh
     - môn tư tưởng Hồ Chí Minh
     - tài liệu phục vụ học tập môn tư tưởng Hồ Chí Minh
+
+- intent: ask_qtri_dn
+  examples: |
+    - chuyên nghành quản trị doanh nghiệp
+    - chuyên nghành Quản trị doanh nghiệp
+    - giới thiệu về chuyên nghành quản trị doanh nghiệp
+    - bạn có thể giới thiệu về chuyên nghành quản trị doanh nghiệp của khoa Quản Trị Kinh Doanh không
+    - cho em hỏi về chuyên nghành  quản trị doanh nghiệp của khoa quản Trị Kinh Doanh
+    - chuyên nghành quản trị doanh nghiệp của khoa khoa quản Trị Kinh Doanh tại APD
+    - thông tin về chuyên nghành  quản trị doanh nghiệp của khoa quản Trị Kinh Doanh
+    - chuyên nghành quản trị doanh nghiệp của khoa quản trị kinh doanh
+    - em muốn biết thêm về chuyên nghành quản trị doanh nghiệp của khoa Quản Trị Kinh Doanh
+    - chuyên nghành quản trị doanh nghiệp
+    - tôi muốn biết về chuyên nghành quản trị doanh nghiệp
+
+- intent: ask_qtri_kddl
+  examples: |
+    - chuyên nghành quản trị kinh doanh du lịch
+    - Chuyên ngành quản trị kinh doanh du lịch
+    - giới thiệu về chuyên nghành quản trị kinh doanh du lịch
+    - bạn có thể giới thiệu về chuyên nghành quản trị kinh doanh du lịch của khoa Quản Trị Kinh Doanh không
+    - cho em hỏi về chuyên nghành quản trị kinh doanh du lịch của khoa quản Trị Kinh Doanh
+    - chuyên nghành quản trị kinh doanh du lịch của khoa quản Trị Kinh Doanh tại APD
+    - thông tin về chuyên nghành quản trị kinh doanh du lịch của khoa quản Trị Kinh Doanh
+    - chuyên nghành quản trị kinh doanh du lịch của khoa quản trị kinh doanh
+    - em muốn biết thêm về chuyên nghành quản trị kinh doanh du lịch của khoa Quản Trị Kinh Doanh
+    - chuyên nghành quản trị kinh doanh du lịch
+    - tôi muốn biết về chuyên nghành quản trị kinh doanh du lịch
+    - Chuyên ngành quản trị kinh doanh du lịch tại Học viện Chính sách và Phát triển đào tạo gì
+
+- intent: ask_qtri_mkt
+  examples: |
+    - chuyên nghành quản trị marketing
+    - Chuyên ngành Quản trị Marketing
+    - giới thiệu về chuyên nghành quản trị marketing
+    - bạn có thể giới thiệu về chuyên nghành quản trị marketing của khoa Quản Trị Kinh Doanh không
+    - cho em hỏi về chuyên nghành quản trị marketing của khoa quản Trị Kinh Doanh
+    - chuyên nghành quản trị marketing của khoa quản Trị Kinh Doanh tại APD
+    - thông tin về chuyên nghành quản trị marketing của khoa quản Trị Kinh Doanh
+    - chuyên nghành quản trị marketing của khoa quản trị kinh doanh
+    - em muốn biết thêm về chuyên nghành quản trị marketing của khoa Quản Trị Kinh Doanh
+    - chuyên nghành quản trị marketing
+    - tôi muốn biết về chuyên nghành quản trị marketing
+    - Chuyên ngành quản trị marketing tại Học viện Chính sách và Phát triển đào tạo gì
+
+- intent: ask_kt_dn
+  examples: |
+    - chuyên nghành kinh tế đối ngoại
+    - Chuyên ngành Kinh tế đối ngoại
+    - giới thiệu về chuyên nghành kinh tế đối ngoại
+    - bạn có thể giới thiệu về chuyên nghành kinh tế đối ngoại của khoa Kinh Tế Quốc Tế không
+    - cho em hỏi về chuyên nghành kinh tế đối ngoại của khoa Kinh Tế Quốc Tế
+    - chuyên nghành kinh tế đối ngoại của khoa kinh tế quốc tế  tại APD
+    - thông tin về chuyên nghành kinh tế đối ngoại của khoa kinh tế quốc tế
+    - chuyên nghành kinh tế đối ngoại của khoa kinh tế quốc tế
+    - em muốn biết thêm về chuyên nghành kinh tế đối ngoại của khoa kinh tế quốc tế
+    - chuyên nghành kinh tế đối ngoại
+    - tôi muốn biết về chuyên nghành kinh tế đối ngoại
+    - Chuyên ngành kinh tế đối ngoại tại Học viện Chính sách và Phát triển đào tạo gì
+
+- intent: ask_tmqt_logistics
+  examples: |
+    - chuyên nghành thương mại quốc tế và logistics 
+    - Chuyên ngành Thương mại quốc tế và Logistics 
+    - giới thiệu về chuyên nghành Thương mại quốc tế và Logistics 
+    - bạn có thể giới thiệu về chuyên nghành thương mại quốc tế và logistics của khoa Kinh Tế Quốc Tế không
+    - cho em hỏi về Thương mại quốc tế và Logistics của khoa Kinh Tế Quốc Tế
+    - chuyên nghành Thương mại quốc tế và Logistics của khoa kinh tế quốc tế  tại APD
+    - thông tin về chuyên nghành Thương mại quốc tế và Logistics của khoa kinh tế quốc tế
+    - chuyên nghành Thương mại quốc tế và Logistics của khoa kinh tế quốc tế
+    - em muốn biết thêm về chuyên nghành Thương mại quốc tế và Logistics của khoa kinh tế quốc tế
+    - chuyên nghành Thương mại quốc tế và Logistics
+    - tôi muốn biết về chuyên nghành Thương mại quốc tế và Logistics 
+    - Chuyên ngành Thương mại quốc tế và Logistics tại Học viện Chính sách và Phát triển đào tạo gì
+
+
+- intent: ask_luat_dt_kd
+  examples: |
+    - chuyên nghành luật đầu tư - kinh doanh
+    - Chuyên ngành Luật đầu tư - Kinh doanh
+    - giới thiệu về chuyên nghành luật đầu tư kinh doanh
+    - bạn có thể giới thiệu về chuyên nghành luật đầu tư - kinh doanh của khoa Luật kinh Tế không
+    - cho em hỏi về luật đầu tư kinh doanh của khoa luật kinh tế
+    - chuyên nghành luật đầu tư - kinh doanh của khoa luật kinh tế tại APD
+    - thông tin về chuyên nghành luật đầu tư - kinh doanh của khoa luật kinh tế
+    - chuyên nghành luật đầu tư - kinh doanh của khoa luật kinh tế
+    - em muốn biết thêm về chuyên nghành luật đầu tư - kinh doanh của khoa luật kinh tế
+    - chuyên nghành luật đầu tư kinh doanh
+    - tôi muốn biết về chuyên nghành luật đầu tư kinh doanh
+    - Chuyên ngành luật đầu tư kinh doanh tại Học viện Chính sách và Phát triển đào tạo gì
+
+- intent: ask_chuyen_nghanh_ngan_hang
+  examples: |
+    - chuyên nghành ngân hàng
+    - Chuyên ngành Ngân hàng
+    - giới thiệu về chuyên nghành ngân hàng
+    - bạn có thể giới thiệu về chuyên nghành ngân hàng của khoa Tài Chính Ngân Hàng
+    - cho em hỏi về chuyên nghành ngân hàng của khoa Tài Chính Ngân Hàng
+    - chuyên nghành ngân hàng của khoa tài chính ngân hàng tại APD
+    - thông tin về chuyên nghành ngân hàng của khoa tài chính ngân hàng
+    - chuyên nghành  ngân hàng của khoa Tài Chính Ngân Hàng
+    - em muốn biết thêm về chuyên nghành ngân hàng của khoa tài chính ngân hàng
+    - chuyên nghành ngân hàng
+    - tôi muốn biết về chuyên nghành ngân hàng
+    - Chuyên ngành ngân hàng tại Học viện Chính sách và Phát triển đào tạo gì
+
+- intent: ask_chuyen_nghanh_tai_chinh
+  examples: |
+    - chuyên nghành tài chính
+    - Chuyên ngành Tài chính
+    - giới thiệu về chuyên nghành Tài chính
+    - bạn có thể giới thiệu về chuyên nghành Tài chính của khoa Tài Chính Ngân Hàng
+    - cho em hỏi về chuyên nghành tài chính của khoa Tài Chính Ngân Hàng
+    - chuyên nghành tài chính của tài khoa chính ngân hàng  tại APD
+    - thông tin về chuyên nghành tài chính của khoa tài chính ngân hàng
+    - chuyên nghành tài chính của khoa Tài Chính Ngân Hàng
+    - em muốn biết thêm về chuyên nghành tài chính của khoa tài chính ngân hàng
+    - chuyên nghành tài chính
+    - tôi muốn biết về chuyên nghành tài chính
+    - Chuyên ngành tài chính tại Học viện Chính sách và Phát triển đào tạo gì
+
+- intent: ask_chuyen_nghanh_kt_kt
+  examples: |
+    - chuyên nghành Kế toán – Kiểm toán
+    - Chuyên ngành Kế toán – Kiểm toán
+    - giới thiệu về chuyên nghành kế toán kiểm toán
+    - bạn có thể giới thiệu về chuyên nghành Kế toán – Kiểm toán của khoa Kế toán
+    - cho em hỏi về chuyên nghành kế toán – kiểm toán của khoa kế toán 
+    - chuyên nghành Kế toán Kiểm toán của khoa Kế toán tại APD
+    - thông tin về chuyên nghành kế kiểm  của khoa kế toán 
+    - chuyên nghành kế toán kiểm toán của khoa kế toán
+    - em muốn biết thêm về chuyên nghành kế toán - kiểm toán của khoa Kế toán
+    - chuyên nghành Kế toán – Kiểm toán
+    - tôi muốn biết về chuyên nghành Kế toán – Kiểm toán
+    - Chuyên ngành Kế toán – Kiểm toán tại Học viện Chính sách và Phát triển đào tạo gì

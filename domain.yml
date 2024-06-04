@@ -139,6 +139,16 @@ intents:
   - ask_tin_hoc
   - ask_triet_hoc
   - ask_tt_hcm
+  - ask_chuyen_nghanhkteht
+  - ask_qtri_dn
+  - ask_qtri_kddl
+  - ask_qtri_mkt
+  - ask_kt_dn
+  - ask_tmqt_logistics
+  - ask_luat_dt_kd
+  - ask_chuyen_nghanh_ngan_hang
+  - ask_chuyen_nghanh_tai_chinh
+  - ask_chuyen_nghanh_kt_kt
 
 entities:
   - user_name
@@ -985,21 +995,55 @@ responses:
                 \n - Kinh tế phát triển
                 \n - Kế hoạch phát triển
                 \n - Kinh tế hợp tác
-              \n Tổ hợp xét tuyển cho cả 3 chuyên ngành vào năm 2024:(A00,A01,D01,C02)."
+              \n Tổ hợp xét tuyển cho cả 3 chuyên ngành vào năm 2024:(A00,A01,D01,C02).
+              \n Đội ngũ giảng viên của khoa Kinh tế Phát trển:
+                \n \t +) Phó Trưởng khoa TS.Bùi Thị Hoàng Mai có chuyên môn về Kinh tế học, Kinh tế phát triển. Hiện nay đang giảng dạy các môn Kinh tế vi mô 1, Kinh tế vĩ mô 1, Hệ thống tài khoản quốc gia, Phân tích và dự báo kinh tế vĩ mô
+                \n \t +) Giảng viên Thạc sĩ Tô Trọng Hùng có chuyên môn về Kinh tế học, Kinh tế phát triển. Giảng dạy các môn Kinh tế vĩ mô 2, Kinh tế phát triển, Kinh tế phát triển so sánh
+                \n \t +) Giảng viên Thạc sĩ Phan Lê Nga có chuyên môn Kinh tế học, Kế hoạch phát triển. Hiện nay đang giảng dạy các môn Kinh tế vĩ mô 1, Kế hoạch Phát triển
+                \n \t +) Giảng viên Thạc sĩ Hoàng Kim Thu chuyên môn Kinh tế và Tài chính. Giảng dạy môn Kinh tế vi mô 1, Kinh tế vĩ mô 1
+                \n \t +) Giảng viên Thạc sĩ Nguyễn Đức Hiếu chuyên môn Quản lý Kinh tế. Giảng dạy môn Kinh tế vi mô 1
+                \n \t +) Giảng viên Thạc sĩ Đỗ Thị Hà Anh chuyên môn Quản trị, Kinh tế phát triển. Giảng dạy môn Phân tích và Dự báo kinh tế vĩ mô
+                \n \t +) Trợ lý khoa TS.Hoàng Thị Thu Huyền
+              \n Ngoài ra còn có 8 giảng viên thỉnh giảng khác có trình độ Thạc sĩ trở lên"
 
   utter_ask_tc_nh:
     - text: "Trải qua gần 15 năm hình thành và phát triển, Khoa Tài chính – Ngân hàng(7340201) của Học viện Chính sách và Phát triển đã có những bước tiến vượt bậc cả về số lượng và chất lượng. Cho tới nay Khoa đã có 12 cán bộ giảng viên (Trong đó có 1 PGS.TS, 06 Tiến sỹ và 05 Thạc sỹ) thực hiện nhiệm vụ giảng dạy ngành Tài chính - Ngân hàng với 02 chuyên ngành: 
               \n - Tài chính 
               \n - Ngân hàng.
             \n Đội ngũ giảng viên tâm huyết, có trình độ cao, được đào tạo ở các nước phát triển trên thế giới với phần lớn tốt nghiệp tại các nước có hệ thống tài chính, ngân hàng phát triển bậc nhất tại Anh, Pháp, Úc,.... Bên cạnh đó, Khoa cũng có đội ngũ cán bộ hỗ trợ có nhiều kinh nghiệm phụ trách các công việc hành chính và công tác giấy tờ, thủ tục để hỗ trợ sinh viên trong quá trình học tập. Chương trình giảng dạy có tính hội nhập cao và định hướng toàn cầu, với nội dung cập nhật các kiến thức của kỷ nguyên 4.0, kết hợp với các giá trị truyền thống tạo nên thương hiệu cho Học viện Chính sách và Phát triển - Bộ Kế hoạch và Đầu tư.
+            \n Đội ngũ giảng viên:
+              \n \t +) Phó trưởng khoa TS. Phạm Mỹ Hằng Phương
+              \n \t +) Giảng viên, Chuyên gia cao cấp PGS, TS. Đào Văn Hùng
+              \n \t +) Giảng viên TS. Nguyễn Thạc Hoát
+              \n \t +) Giảng viên TS. Đào Thị Bích Hạnh
+              \n \t +) Giảng viên TS. Vũ Thị Nhài
+              \n \t +) Giảng viên TS. Đỗ Thanh Hương
+              \n \t +) Giảng viên TS. Nguyễn Duy Tùng
+              \n \t +) Giảng viên ThS. Đặng Thùy Nhung
+              \n \t +) Giảng viên ThS. Nguyễn Hoàng Diệu Linh
+              \n \t +) Giảng viên ThS. Nguyễn Tuấn Phong
+              \n \t +) Giảng viên ThS. Trần Hoàng Minh
+              \n \t +) Trợ lý khoa ThS. Đỗ Thị Anh
+            \n Ngoài ra còn có hơn 14 giảng viên thỉnh giảng khác
             \n Tổ hợp xét tuyển cho 3 chuyên ngành (A00,A01,D01,D07)."
 
   utter_ask_ktqt:
     - text: "Năm 2010, Khoa Kinh tế quốc tế(7310106) được thành lập theo quyết định của Giám đốc Học viện Chính sách và Phát triển, với tên gọi Khoa Kinh tế đối ngoại. Năm 2018, Khoa được đổi tên thành Khoa Kinh tế quốc tế. khoa Kinh tế quốc tế có đội ngũ giảng viên chất lượng, với 2 tiến sĩ và 7 thạc sĩ. Khoa Kinh tế quốc tế được giao nhiệm vụ triển khai các hoạt động nghiên cứu khoa học và đào tạo ngành Kinh tế quốc tế gồm hai chuyên ngành:
                 \n - chuyên ngành Kinh tế đối ngoại 
-                \n - chuyên ngành Thương mại quốc tế 
-                \n - logistics.
+                \n - chuyên ngành Thương mại quốc tế và Logistics
+                \n - chuyên ngành Thương mại quốc tế và Logistics (chất lượng cao)
               \n Chương trình đào tạo tại Học viện Chính sách và Phát triển nói chung, khoa Kinh tế quốc tế nói riêng luôn gắn với thực tiễn đáp ứng yêu cầu của nhà tuyển dụng. Hơn nữa, với đội ngũ giảng viên có nhiều kinh nghiệm thực tiễn làm việc tại các cơ quan Chính phủ như Bộ Kế hoạch và Đầu tư, tổ chức phi Chính phủ, doanh nghiệp. Do đó, các bài giảng cũng cập nhật các chính sách về kinh tế vĩ mô, kinh tế quốc tế và thực tiễn hoạt động tại các doanh nghiệp, đồng thời Khoa Kinh tế đối ngoại luôn tổ chức cho các bạn các chuyến thăm quan tại doanh nghiệp đầu tư nước ngoài, cơ quan nhà nước như Sở Kế hoạch & Đầu tư, Sở Công Thương, Ban quản lý các KCN, cảng biển & logistics tại các địa phương sẽ giúp sinh viên tự tin tìm việc sau khi tốt nghiệp.
+              \n Đội ngũ giảng viên:
+                \n \t +) Trưởng khoa Tiến sĩ Bùi Thúy Vân 
+                \n \t +) Phó trưởng khoa Tiến sĩ Phan Thị Thanh Huyền
+                \n \t +) Trợ lý khoa Thạc sĩ Phạm Hoàng Ngân
+                \n \t +) Giảng viên Thạc sĩ Phạm Thị Quỳnh Liên
+                \n \t +) Giảng viên Thạc sĩ Đặng Kim Dung
+                \n \t +) Giảng viên Thạc sĩ Phạm Huyền Trang
+                \n \t +) Giảng viên Thạc sĩ Nguyễn Thị Thùy Linh
+                \n \t +) Giảng viên Thạc sĩ Nguyễn Việt Hưng
+                \n \t +) Giảng viên Thạc sĩ Lê Xuân Trường
+              \n Ngoài ra còn có 12 giảng viên thỉnh giảng khác
               \n Tổ hợp xét tuyển của Khoa KInh tế quốc tế hệ đại trà vào năm 2024 (A00,A01,D01,D07)
               \n Tổ hợp xét tuyển của Khoa KInh tế quốc tế hệ  Chất lượng cao vào năm 2024 (A01,D01,D07,D10)"
 
@@ -1010,7 +1054,22 @@ responses:
                 \n \t - Chuyên ngành Quản trị doanh nghiệp
                 \n \t - Chuyên ngành Quản trị Marketing
                 \n \t - Chuyên ngành Quản trị kinh doanh du lịch
-            \n Khoa Quản trị kinh doanh có ội ngũ giảng viên nhiệt tình, có trách nhiệm với hơn 70% giảng viên cơ hữu có trình độ từ Tiến Sỹ, được đào tạo từ những trường Đại học có danh tiếng cũng như chuyên gia giàu kinh nghiệm. Chương trình học của khoa Quản trị kinh doanh gắn với xu hướng phát triển cùng chương trình đào tạo gắn lý thuyết với thực chiến tại Doanh nghiệp, trải nghiệm thực tế CLB Startip & Marketing.
+            \n Khoa Quản trị kinh doanh có đội ngũ giảng viên nhiệt tình, có trách nhiệm với hơn 70% giảng viên cơ hữu có trình độ từ Tiến Sỹ, được đào tạo từ những trường Đại học có danh tiếng cũng như chuyên gia giàu kinh nghiệm. Chương trình học của khoa Quản trị kinh doanh gắn với xu hướng phát triển cùng chương trình đào tạo gắn lý thuyết với thực chiến tại Doanh nghiệp, trải nghiệm thực tế CLB Startip & Marketing.
+            \n Đội ngũ giảng viên:
+              \n \t +) Trưởng khoa Tiến sĩ Vũ Thị Minh Luận 
+              \n \t +) Phó khoa Tiến sĩ Trịnh Tùng
+              \n \t +) Phó trưởng bộ môn Quản trị kinh doanh Tiến sĩ Lâm Thùy Dương
+              \n \t +) Phó trưởng bộ môn Marketing Tiến sĩ Nguyễn Thị Phương Anh 
+              \n \t +) Giảng viên Tiến sĩ Đàm Thị Hiền giảng viên bộ môn Marketing
+              \n \t +) Giảng viên Tiến sĩ Nguyễn Lan Anh giảng viên bộ môn Quản trị kinh doanh
+              \n \t +) Giảng viên Tiến sĩ Lê Thị Thanh Huyền giảng viên bộ môn Quản trị kinh doanh
+              \n \t +) Giảng viên Tiến sĩ Phùng Đình Vịnh iảng viên bộ môn Quản trị kinh doanh
+              \n \t +) Giảng viên Thạc sĩ, NCS Nguyễn Tuấn Tài giảng viên bộ môn Quản trị kinh doanh
+              \n \t +) Giảng viên Thạc sĩ, NCS Nguyễn Văn Quân giảng viên bộ môn Marketing
+              \n \t +) Giảng viên Thạc sĩ Nguyễn Thị Hà giảng viên bộ môn Marketing
+              \n \t +) Giảng viên Thạc sĩ Phạm Hoàng Cường giảng viên bộ môn Marketing
+              \n \t +) Trợ lý khoa Thạc sĩ Lê Thị Hoài Thương
+            \n Ngoài ra còn có 10 giảng viên thỉnh giảng khác
             \n Tổ hợp xét tuyển cho cả 3 chuyên ngành vào năm 2024:(A00,A01,D01,D07)."
 
   utter_ask_luatkte:
@@ -1020,6 +1079,19 @@ responses:
                     \n Hoạt động giảng dạy các học phần cử nhân chuyên ngành Luật Đầu tư - Kinh doanh được phân công cho 02 Bộ môn phụ trách gồm: 
                         \n \t - Bộ môn Pháp luật cơ sở và liên ngành đảm nhận các học phần như: Lý luận Nhà nước và Pháp luật; Luật hiến pháp; Luật hành chính... (dành cho sinh viên chuyên ngành) và các học phần như: Pháp luật đại cương; Pháp luật kinh tế; Pháp luật kinh tế quốc tế (dành cho sinh viên hệ đại trà và chất lượng cao).
                         \n \t - Bộ môn Pháp luật chuyên ngành đảm nhận các học phần như: Pháp luật doanh nghiệp; Pháp luật đầu tư; Luật thương mại; Pháp luật Tài chính và Ngân hàng...
+              \n Đội ngũ giảng viên: 
+                \n \t +) Trưởng Khoa Tiến sĩ Nguyễn Như Hà chuyên môn về Luật Thương mại quốc tế, Tư pháp quốc tế, Sở hữu trí tuệ, Luật và Chính sách công, Lý thuyết trò chơi, Tư duy pháp lý
+                \n \t +) Giảng viên  Tiến sĩ, Nguyên Phó Viện trưởng VKSNDTC Lê Hữu Thể chuyên môn về Luật Hình sự, Luật Tố tụng hình sự
+                \n \t +) Phụ trách Bộ môn Pháp luật chuyên ngành Thạc sĩ, NCS Lưu Thị Tuyết chuyên môn về Luật Doanh nghiệp; Luật Thương mại; Luật Lao động
+                \n \t +) Phụ trách Bộ môn Pháp luật cơ sở và liên ngành Thạc sĩ, NCS Nguyễn Tiến Đạt chuyên môn về Luật Hiến pháp nước ngoài; Công pháp quốc tế; Luật cạnh tranh; Luật Đầu tư; Luật Đầu tư quốc tế.
+                \n \t +) Giảng viên Thạc sĩ, NCS Đặng Minh Phương chuyên môn về Luật Dân sự, Luật Sở hữu trí tuệ, Tư pháp quốc tế.
+                \n \t +) Giảng viên Thạc sĩ  Lương Mỹ Linh chuyên môn về Luật Thương mại Quốc tế, Luật Đầu tư quốc tế.
+                \n \t +) Giảng viên Thạc sĩ, Luật sư Hoàng Việt Hà chuyên môn về Pháp luật Kinh tế; Luật Doanh nghiệp; Luật Đầu tư; Pháp luật đất đai.
+                \n \t +) Giảng viên Thạc sĩ Mai Phi Hoàng chuyên môn về Luật Hành chính, Luật Hiến pháp nước ngoài, Luật So sánh.
+                \n \t +) Giảng viên Thạc sĩ Nguyễn Thị Hương Giang chuyên môn về Pháp luật Đại cương, Pháp luật Kinh tế; Pháp luật Tài chính và Ngân hàng.
+                \n \t +) Giảng viên Thạc sĩ Phạm Thị Thanh Hoa chuyên môn về Luật quốc tế; Luật hình sự; Pháp luật tố tụng hình sự.
+                \n \t +) Trợ lý khoa Lê Thị Hoài Thương chuyên môn về Trợ lý Khoa - Khoa Luật Kinh tế kiêm nhiệm Trợ lý Khoa - Khoa Quản trị kinh doanh
+                \n \t +) Trợ giảng Cử nhân Lê Túc Vân
               \n Khoa Luật Kinh tế xét tuyển theo 03 phương thức: Xét tuyển thẳng, Xét tuyển kết hợp và Xét theo điểm thi THPT Quốc gia. Khoa đã bắt đầu nhận hồ sơ từ 15/03/2024.
               \n Đào tạo hệ sau đại học: Khoa hiện đảm nhận giảng dạy học phần Luật và Chính sách công cho học viên cao học Chính sách công của Học viện.
               \n Tổ hợp xét tuyển cho Khoa Luật Kinh tế vào năm 2024:(C00,A00,D01,D09)."
@@ -1031,20 +1103,51 @@ responses:
                 \n - Chuyên nghành kinh tế và quản lý nguồn nhân lực
                 \n - Chuyên nghành đầu tư
                 \n - Chuyên nghành đấu thầu và quản lý dự án.
+              \n Đội ngũ giảng viên: 
+                \n \t +) Trưởng khoa TS. Nguyễn Thanh Bình chuyên môn về Tài chính, thẩm định giá, Kế toán
+                \n \t +) Phó trưởng Bộ môn Kinh tế đầu tư Tiến sĩ  Lê Thị Nhung chuyên môn về Tài chính, Đầu tư
+                \n \t +) Giảng viên Lê Hồng Minh chuyên môn về Kinh tế đầu tư, Quản trị kinh doanh
+                \n \t +) Giảng viên Thạc sĩ Trần Thị Ninh chuyên môn về Kinh tế đầu tư, Kinh tế phát triển. Giảng dạy các học phần thuộc Bộ môn Đầu tư và chuyên ngành Kinh tế & Quản lý nguồn nhân lực.
+                \n \t +) Giảng viên Thạc sĩ Phạm Thị Hiền chuyên môn về Kinh tế, quản trị kinh doanh. Giảng dạy học phần Kinh tế đầu tư và các học phần thuộc chuyên ngành Kinh tế & Quản lý nguồn nhân lực
+                \n \t +) Giảng viên Thạc sĩ Nguyễn Bách Điệp chuyên môn về Tài chính, Đầu tư, Chính sách công. Giảng dạy các học phần thuộc Bộ môn Đầu tư.
+                \n \t +) Giảng viên Thạc sĩ Nguyễn Minh Hoàng chuyên môn về Đầu tư, Quản trị nhân lực. Giảng dạy các học phần thuộc Bộ môn Đầu tư, chuyên ngành Kinh tế nguồn nhân lực.
+                \n \t +) Phụ trách Bộ môn Đấu thầu và Quản lý dự án TS. GVC. Đỗ Kiến Vọng chuyên môn vè Quản lý kinh tế, Đấu thầu 
+                \n \t +) Giảng viên TS. Nguyễn Duy Đồng chuyên môn về Đấu thầu, quản lý dự án. Giảng dạy các học phần thuộc Bộ môn Đấu thầu &QLDA.
+                \n \t +) Giảng viên ThS. Nguyễn Trần Phương Chuyên môn về  Kinh tế xây dựng, Đấu thầu, quản lý dự án
+                \n \t +) Trợ lý khoa ThS. Tường Thị Lan Anh 
+              \n Bên cạnh đó, Khoa Kinh tế còn mời các Thầy/Cô tư vấn xây dựng, thẩm định chương trình đào tạo, các chuyên gia, thầy/cô thỉnh giảng, doanh nhân nói chuyện chuyên đề, chia sẻ, cung cấp cho sinh viên các kiến thức thực tiễn nhất, những kinh nghiệm quý báu nhất.
               \n Tổ hợp xét tuyển cho cả 3 chuyên ngành vào năm 2024:(A00,A01,D01,D07)."
 
   utter_ask_ktoan:
     - text: "Khoa Kế toán – Kiểm toán(7340301) được thành lập theo quyết định số 604/QĐ-BKHĐT ngày 12 tháng 5 năm 2021 của Bộ trưởng Bộ Kế hoạch và Đầu tư. Khoa Kế toán – Kiểm toán thuộc Học viện Chính sách và Phát triển là đơn vị tương đương cấp Phòng trong cơ cấu tổ chức của Học viện. Hiện nay, Khoa Kế toán – Kiểm toán đang giảng dạy chuyên ngành Kế toán -Kiểm toán.
             \n Mặc dù khoa Kế toán – Kiểm toán chú trọng vào đào tạo chuyên môn, sinh viên của khoa vẫn luôn tích cực tham gia các hoạt động ngoại khóa do Khoa và Học viện tổ chức. Trong suốt thời gian học tập tại nhà trường, sinh viên Kế toán - Kiểm toán đã cùng nhau tham gia rất nhiều hoạt động thể thao, giải trí, các cuộc thi nâng cao chuyên môn và đạt được nhiều giải thưởng chất lượng.
+            \n Đội ngũ giảng viên: 
+              \n \t +) Phụ trách khoa Tiến sĩ Mai Thị Hoa Giảng dạy các học phần chuyên ngành Kế toán - Kiểm toán.
+              \n \t +) Giảng viên Tiến sĩ Ngô Tiến Dũng giảng dạy các học phần chuyên ngành Kế toán - Kiểm toán
+              \n \t +) Giảng viên Thạc sĩ Nguyễn Thị Dung giảng dạy các học phần chuyên ngành Kế toán, Kiểm toán
+              \n \t +) Giảng viên Thạc sĩ Nguyễn Thị Phương Thanh giảng dạy các học phần chuyên ngành Kế toán- Kiểm toán
+              \n \t +) Giảng viên Thạc sĩ Đỗ Ngọc Phương Anh giảng dạy các học phần chuyên ngành Kế toán - Kiểm toán
+              \n \t +) Trợ lý Khoa Đỗ Thị Anh
+            \n Ngoài ra còn có 4 giảng viên thỉnh giảng khác
             \n Tổ hợp xét tuyển cho Khoa Kế toán vào năm 2024 (A00,A01,D01,D07)."
 
   utter_ask_qly_nhanuoc:
-    - text: "Viện chính sách công(7310205) đào tạo các cử nhân chuyên ngành Quản lý nhà nước có phẩm chất đạo đức tốt, được trang bị kiến thức cơ bản và chuyên sâu về quản lý khu vực công, có kiến thức và kỹ năng phân tích, đánh giá, hoạch định và tổ chức thực hiện các chương trình, dự án phát triển kinh tế – xã hội ở các đô thị, các khu vực và các vùng trong lĩnh vực hành chính sự nghiệp, sản xuất kinh doanh và dịch vụ công; có khả năng nghiên cứu và học tập ở các cấp bậc cao hơn.
+    - text: "Viện chính sách công đào tạo các cử nhân chuyên ngành Quản lý nhà nước(7310205) có phẩm chất đạo đức tốt, được trang bị kiến thức cơ bản và chuyên sâu về quản lý khu vực công, có kiến thức và kỹ năng phân tích, đánh giá, hoạch định và tổ chức thực hiện các chương trình, dự án phát triển kinh tế – xã hội ở các đô thị, các khu vực và các vùng trong lĩnh vực hành chính sự nghiệp, sản xuất kinh doanh và dịch vụ công; có khả năng nghiên cứu và học tập ở các cấp bậc cao hơn.
             \n Giới thiệu về chương trình đào tạo:
               \n - Tổng số tín chỉ: 150 tín
               \n - Các học phần / môn học chuyên ngành: Một số môn bắt buộc của chuyên ngành (Chính sách xã hội; Quản trị chiến lược; Hành chính công; Marketing dịch vụ công; Quản lý nhà nước về kinh tế; Đầu tư công; Quản lý nguồn nhân lực trong tổ chức công; Quản lý tài chính công; Chính sách công…)
               \n - Điểm nổi bật của của ngành/ chuyên ngành : Hiện nay, Khoa Chính sách công đang thực hiện đào tạo 2 chương trình: cử nhân và thạc sĩ và tiến tới đào tạo trình độ tiến sĩ chuyên ngành Chính sách công.Khoa hiện nay đang là địa chỉ tin cậy của các học viên đến từ các cơ quan Trung ương, Địa phương, các Doanh nghiệp và sinh viên mới tốt nghiệp từ các trường đại học trong và ngoài nước có nhu cầu nâng cao trình độ chuyên môn
               \n - Cơ hội nghề nghiệp: Tham gia quản lý các cơ quan, doanh nghiệp tại khu vực công. Tham gia các tổ chức xã hội, các đơn vị hoạt động của Nhà nước.Làm việc tại các trường Đại học, viện nghiên cứu nhà nước, tham gia các tổ chức nhà nước về tư vấn kinh tế - xã hội.
+            \n Đội ngũ giảng viên:  
+              \n \t +) Giám đốc học viện kiêm viện trưởng Viện chính sách công PGS.TS Trần Trọng Nguyên có nhiều kinh nghiệm giảng giạy trong các lĩnh vực: Chính sách công, Tài chính Ngân hàng, Quản lý giáo dục, Toán kinh tế và Kinh tế số.
+              \n \t +) Giảng viên cao cấp PGS.TS Ngô Phúc Hạnh có 24 năm kinh nghiệm trong lĩnh vực nghiên cứ và giảng dạy. Cô còn là thành viên của Tổ chức các nhà khoa học Chính trị Hoa Kỳ, thành viên Hiệp hội chính sách công quốc tế với hơn 20 bài báo quốc tế.
+              \n \t +) Giảng viên cao cấp Nguyễn Khắc Bình 25 năm công tác tại Bộ giáo dục và đào tạo, có nhiều kinh nghiệm về hoạch định chính sách giáo dục. Chủ trì nhiều đề tào nghiên cứu cấp bộ trong lĩnh vực Chính sách công.
+              \n \t +) Giảng viên chính Thạc sĩ Lê Hồng Hạnh có 20 năm kinh nghiệm làm công tác giảng dạy và nghiên cứu về Chính sách công, Quản lý công, Hành chính công.
+              \n \t +) Giảng viên chính ThS.Nguyễn Thị Thu có hơn 20 năm kinh nghiệm trong thiết kế nghiên cứu, thực hiện hoạt động điều tra, khảo sát, đánh giá nhu cầu, đánh giá các chính sách, chương trình, dự án và tăng cường năng lực cho các tổ chức, cán bộ địa phương.
+              \n \t +) Giảng viên ThS.Vũ Thị Tâm có hơn 10 năm kinh nghiệm trong lĩnh vực nghiên cứu và giảng dạy. Cô là thành viên Hiệp hội Chính sách công quốc tế.
+              \n \t +) Giảng viên TS.Trần Thị Huyền Trang có hơn 12 năm kinh nghiệm trong lĩnh vực nghiên cứu, giảng dạy về chính sách công, chính sách lao động, nhân lực, việc làm, an sinh xã hội. Cô cũng có nhiều kinh nghiệm thực tiễn trong bộ nội vụ
+              \n \t +) Trợ lý khoa Phạm Hoàng Ngân với hơn 17 năm kinh nghiệm làm các công việc hành chính.
+            \n Ngoài ra, còn có hơn 8 giảng viên thỉnh giảng khác.
             \n Tổ hợp xét tuyển cho Viện Chính sách công vào năm 2024:(A00,A01,D01,D09)."
 
   utter_ask_ngonngu_anh:
@@ -1108,20 +1211,130 @@ responses:
 
   utter_ask_chyen_nghanh_kte_dtu:
     - text: "Chuyên ngành Đầu tư là một chuyên ngành chính của Khoa Kinh tế. Cử nhân tốt nghiệp chuyên ngành Đầu tư được trang bị kỹ năng, kiến thức lý luận và thực tiễn về đầu tư phát triển và đầu tư tài chính.
-            \n Cử nhân tốt nghiệp chuyên ngành Đầu tư sẽ nắm vững nguyên lý, quy luật kinh tế- xã hội, có kiến thức, kỹ năng chuyên sâu và có khả năng làm việc độc lập, sáng tạo, giải quyết những vấn đề thuộc hoạt động kinh tế đầu tư như: Đầu tư tài chính, đầu tư phát triển tại doanh nghiệp và các tổ chức kinh tế; lập kế hoạch và lập dự án đầu tư; quản lý dự án đầu tư; thẩm định dự án đầu tư; quản trị rủi ro trong hoạt động đầu tư; định giá tài sản."
+            \n Cử nhân tốt nghiệp chuyên ngành Đầu tư sẽ nắm vững nguyên lý, quy luật kinh tế- xã hội, có kiến thức, kỹ năng chuyên sâu và có khả năng làm việc độc lập, sáng tạo, giải quyết những vấn đề thuộc hoạt động kinh tế đầu tư như: Đầu tư tài chính, đầu tư phát triển tại doanh nghiệp và các tổ chức kinh tế; lập kế hoạch và lập dự án đầu tư; quản lý dự án đầu tư; thẩm định dự án đầu tư; quản trị rủi ro trong hoạt động đầu tư; định giá tài sản.
+            \n Chương trình đào tạo gồm có 128 tín tương đương 3.5 - 4 năm học
+            \n Các học phần chuyên nghành:
+              \n \t +) Thẩm định dự án đầu tư
+              \n \t +) Quản lý dự án đầu tư
+              \n \t +) Quản trị rủi ro
+              \n \t +) Phân tích báo cáo tài chính
+              \n \t +) Quản lý danh mục đầu tư
+              \n \t +) Phân tích kỹ thuật trong đầu tư
+              \n \t +) Định giá tài sản
+              \n \t +) Chứng khoán phái sinh
+              \n \t +) Dự án đầu tư theo hình thức đối tác công tư PPP
+              \n \t +) Đầu tư công
+              \n \t +) Giám sát và đánh giá dự án
+              \n \t +) Lập hồ sơ mời thầu và đánh giá hồ sơ dự thầu
+            \n Kỹ năng nghề nghiệp:
+              \n \t +) Kỹ năng phân tích: Thành thạo trong việc phân tích, tổng hợp và xử lý những vấn đề liên quan đến hoạt động kinh tế đầu tư
+              \n \t +) Kỹ năng hoạch định chính sách: Có khả năng xây dựng các chiến lược, kế hoạch đầu tư, xây dựng các chương trình xúc tiến đầu tư
+              \n \t +) Kỹ năng quản lý và giám sát các chương trình hay dự án đầu tư
+              \n \t +) Kỹ năng thiết lập và thẩm định dự án đầu tư
+            \n Đặc điểm nổi bật của chuyên ngành:
+              \n \t +) Chương trình đào tạo Đầu tư được thiết kế hiện đại, các môn học được lựa chọn cẩn thận trên cơ sở khảo sát các chương trình đào tạo trong nước và quốc tế
+              \n \t +) Chương trình đào tạo chuyên ngành Đầu tư được thiết kế cân đối nhằm cung cấp kiến thức cả đầu tư phát triển và đầu tư tài chính. Do vậy, cơ hội việc làm của cử nhân tốt nghiệp sẽ rộng mở hơn các chương trình đào tạo tập trung duy nhất vào đầu tư phát triển
+              \n \t +) Các môn học có tính thực tiễn và khả năng vận dụng cao, các môn chuyên ngành của chương trình đào tạo yêu cầu làm các bài tiểu luận như nhiệm vụ một chuyên viên tại các đơn vị thực hiện, quản lý đầu tư. Do vậy, người học có thể vận dụng được hiệu quả kiến thức vào thực tiễn ngay khi mới ra trường
+            \n Với chương trình đào tạo hiện đại, sát với thực tiễn nên sinh viên tốt nghiệp chuyên ngành Đầu tư được đào tạo bài bản cả về lý thuyết và thực tiễn về hoạt động đầu tư phát triển và đầu tư tài chính. Do vậy, cử nhân chuyên ngành Đầu tư có thể nhanh chóng tiếp cận và làm việc hiệu quả tại các cơ quan, tổ chức:
+              \n \t +) Tư vấn đầu tư tại các cơ quan quản lý nhà nước trong hoạt động đầu tư, các quỹ đầu tư, công ty chứng khoán, công ty tài chính, ngân hàng đầu tư,...
+              \n \t +) Tham gia hoạt động lập dự án, thẩm định dự án và quản trị dự án đầu tư tại các doanh nghiệp
+              \n \t +) Tham gia hoạt động lập dự án, thẩm định dự án và quản trị dự án đầu tư tại các ban quản lý dự án của khu vực công, khu vực doanh nghiệp và các tổ chức kinh tế
+              \n \t +) ham gia thực hiện các nghiệp vụ đầu tư ngoại hối, đầu tư tài chính và thẩm định dự án đầu tư để tài trợ tín dụng tại các ngân hàng thương mại
+              \n \t +) Tự khởi nghiệp kinh doanh và đầu tư cá nhân nhằm xây dựng doanh nghiệp, tổ chức đầu tư do mình làm chủ sau khi tích lũy kinh nghiệm hành nghề thực tiễn
+              \n \t +) Thực hiện các công việc nghiên cứu, giảng dạy tại các viện nghiên cứu và trường đại học
+              \n \t +) Học tiếp lên Thạc sĩ, Tiến sĩ ở trong nước và nước ngoài trong lĩnh vực Đầu tư"
 
   utter_ask_chuyen_nghanh_dthau_duan:
     - text: "Chuyên ngành Đấu thầu và đầu tư dự án đào tạo cử nhân đại học ngành Kinh tế có phẩm chất chính trị, đạo đức và sức khỏe tốt, có trách nhiệm với xã hội; nắm vững kiến thức cơ bản về kinh tế, quản lý và quản trị kinh doanh; có kiến thức chuyên sâu về đấu thầu và quản lý dự án; có tư duy nghiên cứu độc lập, có năng lực tự bổ sung kiến thức và tiếp tục học tập nâng cao trình độ để đáp ứng yêu cầu của công việc.
-    \n Cử nhân Kinh tế chuyên ngành Đấu thầu và Quản lý dự án hiểu được những vấn đề về đạo đức và rủi ro trong hoạt động đấu thầu, đầu tư dự án; có phẩm chất chính trị, đạo đức và sức khỏe tốt; có khả năng tư duy độc lập và năng lực tự tìm tòi, bổ sung kiến thức theo yêu cầu của công việc."
+          \n Cử nhân Kinh tế chuyên ngành Đấu thầu và Quản lý dự án hiểu được những vấn đề về đạo đức và rủi ro trong hoạt động đấu thầu, đầu tư dự án; có phẩm chất chính trị, đạo đức và sức khỏe tốt; có khả năng tư duy độc lập và năng lực tự tìm tòi, bổ sung kiến thức theo yêu cầu của công việc.
+          \n Chương trình đào tạo gồm có 128 tín chỉ tương đương 3.5 - 4 năm
+          \n Các học phâ chuyên nghành: 
+            \n \t +) Thẩm định dự án đầu tư
+            \n \t +) Quản lý dự án đầu tư
+            \n \t +) Đấu thầu mua sắm 2
+            \n \t +) Đấu thầu qua mạng
+            \n \t +) Đấu thầu tư vấn
+            \n \t +) Lập Hồ sơ mời thầu
+            \n \t +) Đầu tư công
+            \n \t +) Đầu tư quốc tế
+            \n \t +) iám sát và đánh giá dự án
+          \n Kỹ năng nghề nghiệp:
+            \n \t +) Kỹ năng phân tích, xử lý tình huống: Vận dụng tốt các kiến thức được trang bị để phân tích, hoạch định và tổ chức thực hiện các hoạt động đấu thầu, quản lý dự án phát triển kinh tế xã hội, các dự án phát triển sản xuất kinh doanh, các hoạt động đầu tư trong doanh nghiệp; Có kỹ năng giải quyết vấn đề, xử lý tình huống trong đấu thầu, quản lý dự án, sáng tạo trong công việc.
+            \n \t +) Có kỹ năng làm việc độc lập: khả năng tự học, và nghiên cứu khoa học độc lập, tư duy phản biện, tư duy hệ thống; có kỹ năng làm việc và tổ chức công việc theo nhóm
+            \n \t +) Có kỹ năng phân tích, hoạch định và tổ chức thực hiện các hoạt động đấu thầu, quản lý dự án đầu tư phát triển ở cấp độ doanh nghiệp, cấp độ nền kinh tế; nghiên cứu các vấn đề kinh tế dưới góc độ tác động của Đấu thầu và Quản lý Dự án
+          \n Cơ hội nghề nghiệp:
+            \n \t +) Công tác tại các cơ quan từ cấp Trung ương như: Bộ Kế hoạch và Đầu tư, Kiểm toán nhà nước, Thanh tra chính phủ… ở cấp tỉnh, thành phố như: Sở Kế hoạch và Đầu tư; thanh tra nhà nước cấp tỉnh… hoặc ở cấp quận, huyện như: Phòng Tài chính kế hoạch… với công việc là giám sát, kiểm tra công tác đấu thầu nhà thầu tại các đơn vị có sử dụng vốn nhà nước theo phạm vi phân cấp
+            \n \t +) Các doanh nghiệp hoạt động trong các lĩnh vực xây dựng cơ bản, doanh nghiệp cung cấp hàng hóa, dịch vụ, các nhà thầu trong nước và quốc tế
+            \n \t +) Các tổ chức quốc tế; các trường đại học, cao đẳng, trung học chuyên nghiệp
+            \n \t +) Công tác tại các cơ quan nhà nước từ cấp trung ương đến địa phương (các cơ quan có dự án đầu tư xây dựng công trình); công tác tại các Ban quản lý dự án khu vực hoặc chuyên ngành với nhiệm vụ là lập Hồ sơ mời thầu và đánh giá Hồ sơ dự thầu của các nhà thầu tham gia
+            \n \t +) Công tác tại các tập đoàn lớn có vốn tư nhân trong công tác đấu thầu. làm việc cho các công ty tư vấn về đấu thầu với vai trò tư vấn cho Chủ đầu tư, Bên mời thầu lựa chọn được nhà thầu xây lắp đáp ứng tất cả yêu cầu và có giá thấp nhất"
 
   utter_ask_chuyen_nghanh_kte_qlynl:
-    - text: "Cử nhân Kinh tế, chuyên ngành Kinh tế và quản lý nguồn nhân lực sẽ lĩnh hội được các kiến thức cơ bản về kinh tế, xã hội, quản lý làm nền tảng nghiên cứu chuyên sâu về kinh tế và quản lý nguồn nhân lực. Chương trình đào tạo Kinh tế và Quản lý nguồn nhân lực của Khoa kinh tế, Học viện Chính sách Phát triển được xây dựng nhằm đào tạo và cung cấp cho xã hội những nhà hoạch định, quản lý, phát triển nguồn nhân lực ở cả cấp độ quốc gia và tổ chức, tạo ra những cử nhân quản lý nguồn nhân lực có tư duy quản lý nguồn nhân lực trên góc độ kinh tế học kết hợp với các kiến thức chuyên sâu về quản lý nguồn nhân lực cấp độ doanh nghiệp, tổ chức với phương pháp làm việc hiện đại với thái độ tích cực, phù hợp với thời đại chuyển đổi số."
+    - text: "Cử nhân Kinh tế, chuyên ngành Kinh tế và quản lý nguồn nhân lực sẽ lĩnh hội được các kiến thức cơ bản về kinh tế, xã hội, quản lý làm nền tảng nghiên cứu chuyên sâu về kinh tế và quản lý nguồn nhân lực. Chương trình đào tạo Kinh tế và Quản lý nguồn nhân lực của Khoa kinh tế, Học viện Chính sách Phát triển được xây dựng nhằm đào tạo và cung cấp cho xã hội những nhà hoạch định, quản lý, phát triển nguồn nhân lực ở cả cấp độ quốc gia và tổ chức, tạo ra những cử nhân quản lý nguồn nhân lực có tư duy quản lý nguồn nhân lực trên góc độ kinh tế học kết hợp với các kiến thức chuyên sâu về quản lý nguồn nhân lực cấp độ doanh nghiệp, tổ chức với phương pháp làm việc hiện đại với thái độ tích cực, phù hợp với thời đại chuyển đổi số.
+            \n Chương trình đào tạo gồm 128 tín chỉ tương đương 3.5 - 4 năm
+            \n Các học phần chuyên nghành:
+              \n \t +) Phát triển nguồn nhân lực
+              \n \t +) Kinh tế nguồn nhân lực 1, 2
+              \n \t +) Phân tích và quản lý thực hiện công việc
+              \n \t +) Phân tích dữ liệu nhân sự
+              \n \t +) Tổ chức và định mức lao động
+              \n \t +) Phát triển kỹ năng lãnh đạo
+              \n \t +) Quản trị nhân lực
+              \n \t +) Quản lý nguồn nhân lực
+            \n Kỹ năng nghề nghiệp chuyên biệt:
+              \n \t +) Thành thạo phương pháp nghiên cứu định tính và định lượng để thực hiện các hoạt động nghiên cứu các nội dung về kinh tế và quản lý nguồn nhân lực
+              \n \t +) Sử dụng thành thạo các công cụ để khai thác dữ liệu lớn do các tổ chức chuyên nghiệp cung cấp nhằm thực hiện các hoạt động nghiên cứu về kinh tế và quản lý nhân lực
+              \n \t +) Thành thạo các kỹ năng chuyên môn, kỹ năng quản lý nhân lực để xây dựng nhóm làm việc để thực hiện các nhiệm vụ hoạch định chiến lược, kế hoạch, thực thi chính sách quản lý nhân lực cho các doanh nghiệp, tổ chức và các cơ quan quản lý nhà nước
+              \n \t +) Thành thạo các phương pháp sử dụng kỹ năng quản lý, lãnh đạo để tạo động lực cho các cán bộ cấp dưới để hoàn thành nhiệm vụ chung của tổ chức, doanh nghiệp
+            \n Đặc điểm nổi bật của chuyên ngành:
+              \n \t +) Chương trình đào tạo Kinh tế và quản lý nguồn nhân lực được thiết kế hiện đại, các môn học được lựa chọn cẩn thận trên cơ sở khảo sát các chương trình đào tạo trong nước và quốc tế
+              \n \t +) Chương trình đào tạo chuyên ngành Kinh tế và quản lý nguồn nhân lực được thiết kế trên góc độ kinh tế học kết hợp với các kiến thức chuyên sâu về quản lý nguồn nhân lực cấp độ doanh nghiệp, tổ chức. Do vậy, cơ hội việc làm của cử nhân tốt nghiệp chuyên ngành Kinh tế và quản lý nguồn nhân lựuc sẽ rộng mở hơn các chương trình đào tạo tập trung vào mảng quản trị nhân lực
+              \n \t +) Các môn học có tính thực tiễn và khả năng vận dụng cao, các môn chuyên ngành của chương trình đào tạo yêu cầu làm các bài tiểu luận như nhiệm vụ của một nhân viên làm về mảng nhân lực tại các cơ quan, doanh nghiệp. Do vậy, người học có thể vận dụng được hiệu quả kiến thức vào thực tiễn ngay khi mới ra trường
+            \n Cử nhân tốt nghiệp chuyên ngành Kinh tế và quản lý nguồn nhân lực sẽ lĩnh hội được tư duy quản lý nguồn nhân lực trên góc độ kinh tế học kết hợp với các kiến thức chuyên sâu về quản lý nguồn nhân lực cấp độ doanh nghiệp, tổ chức. Do vậy, cử nhân tốt nghiệp có thể đảm nhiệm các vị trí chuyên viên, cán bộ quản lý, cán bộ lãnh đạo phát triển nguồn nhân lực cả ở các cơ quan quản lý, hoạch định chiến lược và cấp độ doanh nghiệp, tổ chức kinh tế:
+              \n \t +) Cơ quan quản lý hành chính nhà nước, tổ chức đoàn thể, xã hội từ cấp trung ương đến địa phương
+              \n \t +) Các công ty, doanh nghiệp, ngân hàng và các tổ chức kinh tế với các vị trí chuyên viên, quản lý phòng, ban nhân sự
+              \n \t +) Thực hiện các công việc nghiên cứu, giảng dạy tại các viện nghiên cứu và trường đại học về kinh tế và quản lý
+              \n \t +) ự khởi nghiệp, thành lập, vận hành các tổ chức cung ứng lao động, giới thiệu việc làm, tư vấn phát triển nguồn nhân lực
+              \n \t +) Cử nhân ngành Kinh tế và quản lý nguồn nhân lực được trang bị kiến thức nền tảng tốt để phát triển lên các vị trí lãnh đạo các cơ quan quản lý nhà nước, các doanh nghiệp và các tổ chức kinh tế"
 
   utter_ask_chuyen_nghanh_kehoach_pt:
-    - text: "Đào tạo cử nhân đại học về chuyên ngành Kế hoạch phát triển có phẩm chất chính trị, đạo đức và sức khỏe tốt, có trách nhiệm với bản thân và với xã hội; nắm vững và có thể liên hệ thực tiễn đối với khối kiến thức cơ bản về kinh tế học; có thể thực hành kiến thức và kỹ năng nghiệp vụ chuyên nghiệp trong phân tích, đánh giá, dự báo các vấn đề kinh tế và xã hội; có tư duy logic về các mô hình phát triển ở cả khu vực công và khu vực tư; có tư duy phản biện; có năng lực phân tích không gian, phân tích định lượng, phân tích định tính, năng lực đọc tổng hợp tài liệu và thu thập thông tin; có năng lực sáng tạo trong nghiên cứu khoa học và trong giải quyết tình huống thực tiễn; có năng lực áp dụng kiến thức và kỹ năng đã học vào thực tế; có khả năng tự cập nhật, bổ sung kiến thức và kỹ năng hiện đại và có thể tiếp tục học tập nâng cao trình độ để đáp ứng yêu cầu công việc."
+    - text: "Đào tạo cử nhân đại học về chuyên ngành Kế hoạch phát triển có phẩm chất chính trị, đạo đức và sức khỏe tốt, có trách nhiệm với bản thân và với xã hội; nắm vững và có thể liên hệ thực tiễn đối với khối kiến thức cơ bản về kinh tế học; có thể thực hành kiến thức và kỹ năng nghiệp vụ chuyên nghiệp trong phân tích, đánh giá, dự báo các vấn đề kinh tế và xã hội; có tư duy logic về các mô hình phát triển ở cả khu vực công và khu vực tư; có tư duy phản biện; có năng lực phân tích không gian, phân tích định lượng, phân tích định tính, năng lực đọc tổng hợp tài liệu và thu thập thông tin; có năng lực sáng tạo trong nghiên cứu khoa học và trong giải quyết tình huống thực tiễn; có năng lực áp dụng kiến thức và kỹ năng đã học vào thực tế; có khả năng tự cập nhật, bổ sung kiến thức và kỹ năng hiện đại và có thể tiếp tục học tập nâng cao trình độ để đáp ứng yêu cầu công việc.
+          \n Chương trình đào tạo gồm có 130 tín chỉ tương đương 3.5 - 4 năm
+          \n Các học phần chuyên nghành bao gồm: 
+            \n \t +) Phân tích và dự báo kinh tế vĩ mô
+            \n \t +) Phân tích chi phí lợi ích
+            \n \t +) Phân tích không gian
+            \n \t +) Kế hoạch hóa phát triển
+            \n \t +) Thẩm định dự án đầu tư
+          \n Các kỹ năng nghề nghiệp chuyên nghiệp:
+            \n \t +) Sử dụng các phần mềm nghiệp vụ chuyên dụng và ứng dụng lý thuyết vào thực tiễn để lập kế hoạch kinh doanh ở khu vực tư nhân
+            \n \t +) Áp dụng linh hoạt các kiến thức và các công cụ phân tích mô tả, phân tích định lượng, phân tích không gian trong lập kế hoạch phát triển kinh tế xã hội
+          \n Điểm nổi bật của chuyên nghành: 
+            \n \t +) Có kiến thức chuyên sâu về lý thuyết và phương pháp lập kế hoạch khu vực doanh nghiệp và lập kế hoạch cho phát triển kinh tế xã hội địa phương/quốc gia
+          \n Cơ hội nghề nghiệp:
+            \n \t +) Làm việc tại doanh nghiệp
+            \n \t +) Bộ phận phân tích, lập kế hoạch tại các Ngân hàng, công ty quản lý quỹ, công ty chứng khoan
+            \n \t +) Viện nghiên cứu, cơ quan nhà nước
+            \n \t +) Tổ chức phi chính phủ."
 
   utter_ask_chuyen_nghanhktpt:
-    - text: "Đào tạo cử nhân đại học về chuyên ngành Kinh tế Phát triển có phẩm chất chính trị, đạo đức và sức khỏe tốt, có trách nhiệm với bản thân và với xã hội; nắm vững và có thể liên hệ thực tiễn đối với khối kiến thức cơ bản về kinh tế học; có thể thực hành kiến thức và kỹ năng nghiệp vụ chuyên nghiệp trong phân tích, đánh giá, dự báo các vấn đề kinh tế và xã hội; có tư duy logic về các mô hình phát triển ở cả khu vực công và khu vực tư; có tư duy phản biện; có năng lực phân tích không gian, phân tích định lượng, phân tích định tính, năng lực đọc tổng hợp tài liệu và thu thập thông tin; có năng lực sáng tạo trong nghiên cứu khoa học và trong giải quyết tình huống thực tiễn; có năng lực áp dụng kiến thức và kỹ năng đã học vào thực tế; có khả năng tự cập nhật, bổ sung kiến thức và kỹ năng hiện đại và có thể tiếp tục học tập nâng cao trình độ để đáp ứng yêu cầu công việc."
+    - text: "Đào tạo cử nhân đại học về chuyên ngành Kinh tế Phát triển có phẩm chất chính trị, đạo đức và sức khỏe tốt, có trách nhiệm với bản thân và với xã hội; nắm vững và có thể liên hệ thực tiễn đối với khối kiến thức cơ bản về kinh tế học; có thể thực hành kiến thức và kỹ năng nghiệp vụ chuyên nghiệp trong phân tích, đánh giá, dự báo các vấn đề kinh tế và xã hội; có tư duy logic về các mô hình phát triển ở cả khu vực công và khu vực tư; có tư duy phản biện; có năng lực phân tích không gian, phân tích định lượng, phân tích định tính, năng lực đọc tổng hợp tài liệu và thu thập thông tin; có năng lực sáng tạo trong nghiên cứu khoa học và trong giải quyết tình huống thực tiễn; có năng lực áp dụng kiến thức và kỹ năng đã học vào thực tế; có khả năng tự cập nhật, bổ sung kiến thức và kỹ năng hiện đại và có thể tiếp tục học tập nâng cao trình độ để đáp ứng yêu cầu công việc.
+          \n Chương trình đào tạo gồm có 130 tín chỉ tương đương 3.5 - 4 năm
+          \n Các học phần chuyên nghành bao gồm:
+              \n \t +) Phân tích và dự báo kinh tế vĩ mô
+              \n \t +) Phát triển bền vững
+              \n \t +) Phân tích không gian
+              \n \t +) Nghiên cứu thị trường
+              \n \t +) Phân tích chi phí lợi ích
+          \n Các kỹ năng nghề nghiệp chuyên nghiệp:
+              \n \t +) Sử dụng các phần mềm nghiệp vụ chuyên dụng để phân tích, đánh giá mô hình phát triển của quốc gia, địa phương, các tập đoàn lớn, xây dựng và đánh giá các chương trình dự án phát triển
+              \n \t +) Áp dụng linh hoạt các kiến thức và công cụ phân tích mô tả, phân tích định lượng, phân tích không gian trong xây dựng các chương trình và dự án phát triển, các nhiệm vụ nghiên cứu cũng như nhiệm vụ thực tiễn khác
+          \n Điểm nổi bật của chuyên ngành:
+              \n \t +) Có kiến thức chuyên sâu về lý thuyết và phương pháp phân tích, đánh giá mô hình phát triển của quốc gia, địa phương, các tập đoàn lớn; xây dựng và đánh giá các chương trình và dự án phát triển
+          \n Cơ hội nghề nghiệp:
+              \n \t +) Bộ phận phân tích, lập kế hoạch tại các Ngân hàng, công ty quản lý quỹ, công ty chứng khoán
+              \n \t +) Viện nghiên cứu, cơ quan nhà nước
+              \n \t +) Tổ chức phi chính phủ..."
 
   utter_ask_cnxhkh:
     - text: "Môn Chủ Nghĩa Xã Hội Khoa Học là một môn học bắt buộc nằm trong hệ thống các môn lý luận chính trị tại Học viện Chính sách và Phát triển. Môn học này tập trung nghiên cứu về hệ tư tưởng, lý thuyết và thực tiễn của chủ nghĩa xã hội, với mục tiêu trang bị cho sinh viên những hiểu biết căn bản về lý luận chính trị và xã hội, góp phần vào việc xây dựng một xã hội công bằng, dân chủ, và văn minh.
@@ -1170,6 +1383,230 @@ responses:
               \n \t +) Tư tưởng về con người và chiến lược phát triển con người: Phân tích quan điểm của Hồ Chí Minh về vai trò của con người, chính sách phát triển con người toàn diện.
               \n \t +) Tư tưởng về văn hóa, giáo dục và xây dựng nền văn hóa mới: Nghiên cứu về quan điểm của Hồ Chí Minh về xây dựng nền văn hóa tiên tiến, đậm đà bản sắc dân tộc và phát triển giáo dục.
             \n Đây là tài liệu liên quan đến môn học: https://drive.google.com/drive/u/0/folders/1QY8iOeYIbR-bTDUipomVejt7aZr4_Cqo"
+
+  utter_ask_chuyen_nghanhkteht:
+    - text: "Đào tạo cử nhân chuyên nghành Kinh tế Hợp tác chuyên sâu về phát triển các mô hình kinh tế tập thể, có năng lực và kỹ năng tốt về hợp tác phát triển trong kinh tế và kinh doanh, có năng lực tổng hợp của sinh viên khối các trường kinh tế như marketing, quản trị, tài chính - kế toán, thống kê và các kiến thức cơ bản về kinh tế và kinh doanh khác.
+            \n Điểm nổi bật của chuyên nghành: Sinh viên được cung cấp những nguyên lý và thực tiễn phát triển khu vực kinh tế hợp tác trong và ngoài nước, được trang bị kiến thức và kỹ năng về hợp tác phát triển, nghiệm thu thường xuyên tại các tổ chức kinh tế hợp tác, đồng thời được đa dạng hóa kiến thức và kỹ năng nghiệp vụ theo tập hợp môn học mà sinh viên lựa chọn
+            \n Chương trình đào tạo gồm có 130 tín chỉ tương đương 3.5 - 4 năm
+            \n Các học phần chuyên nghành: 
+                \n \t +) Hợp tác phát triển
+                \n \t +) Chính sách và pháp luật trong hoạt động kinh tế và hợp tác
+                \n \t +) Quản lý đơn vị kinh tế hợp tác
+                \n \t +) Nghiên cứu thị trường.
+            \n Cơ hội nghề nghiệp:
+                \n \t +) Làm việc tại các tổ chức kinh tế hợp tác như hợp tác xã, tổ hợp tác
+                \n \t +) Quản lý hoặc tự xây dựng tổ chức kinh tế hợp tác 
+                \n \t +) Chuyên viên, nghiên cứu viên tại các bộ, sở, ban, nghành hoặc các tổ chức phi chính phủ, đặc biệt tại các cơ quan có liên quan đến quản lý và phát triển khu vực kinh tế tập thể
+                \n \t +) Các vị trí công việc liên quan đến xây dựng quan hệ hợp tác phát triển trong kinh tế và kinh doanh như: phát triển thị trường, phát triển chuỗi giá trị"
+
+  utter_ask_qtri_dn:
+    - text: "Chuyên ngành quản trị doanh nghiệp thuộc ngành quản trị kinh doanh đào tạo kiến thức chuyên sâu về kinh tế, quản trị kinh doanh; các nghiệp vụ quan trọng để trở thành chuyên viên, nhà quản trị các lĩnh vực khác nhau của tổ chức, doanh nghiệp, hoặc tự khởi nghiệp, thành lập và vận hành doanh nghiệp.
+              \n Chương trình đào tạo gồm có 130 tín chỉ
+              \n Các học phần chuyên nghành: 
+                  \n \t +) Digital Marketing
+                  \n \t +) Nghiên cứu thị trường
+                  \n \t +) Quản lý bán hàng
+                  \n \t +) Quản lý chuỗi cung ứng
+                  \n \t +) Quản trị tổ chức sự kiện
+                  \n \t +) Quản trị công nghệ
+                  \n \t +) Quản trị chiến lược
+                  \n \t +) Quản trị nhân lực
+                  \n \t +) Khởi nghiệp đổi mới sáng tạo
+                  \n \t +) Tài chính doanh nghiệp
+              \n Các kỹ năng nghề nghiệp:
+                \n \t +) Người học nắm vững kỹ năng xây dựng chiến lược kinh doanh, mô hình kinh doanh truyền thống và mô hình đổi mới sáng tạo, thành thạo công cụ thu thập và phân tích dữ liệu từ khách hàng, đối thủ cạnh tranh, các đối tác liên quan để giải quyết các vấn đề kinh doanh
+                \n \t +) Người học vận dụng linh hoạt và thành thạo các công cụ kinh doanh online; hiểu và ứng dụng các công nghệ 4.0 trong doanh nghiệp để nâng cao năng lực cạnh tranh; đồng thời thực hiện được các cuộc điều tra nghiên cứu thị trường và phân tích môi trường kinh doanh
+                \n \t +) Cập nhật và vận dụng được sự thay đổi về chính sách, qui định liên quan đến sản xuất kinh doanh ở Việt Nam để giải quyết một số vấn đề cơ bản trong thực tế
+              \n Điểm nổi bật chuyên nghành:
+                \n \t +) Sinh viên quản trị doanh nghiệp sẽ được cung cấp hệ thống kiến thức về khởi nghiệp, quản trị tổ chức, quản trị doanh nghiệp, lập phương án kinh doanh, quản trị tài chính, quản trị nhân lực, quản trị marketing, quản trị bán hàng… Ngoài ra, sinh viên còn nắm vững các kỹ năng mềm cần thiết. Sinh viên có cơ hội giao lưu, gặp gỡ các chuyên gia giàu kinh nghiệm. Chương trình đề cao tính thực tiễn, sinh viên sớm được thực hành, thực tiễn tại doanh nghiệp
+              \n Cơ hội nghề nghiệp:
+                \n \t +) Chuyên viên kinh doanh
+                \n \t +) Chuyên viên thẩm định dự án
+                \n \t +) Chuyên viên quản lý tài chính
+                \n \t +) Chuyên viên chăm sóc khách hàng
+                \n \t +) Chuyên viên nghiên cứu thị trường
+                \n \t +) Chuyên viên marketing
+                \n \t +) Chuyên viên quản trị nhân lực
+                \n \t +) Tự khởi sự và phát triển doanh nghiệp"
+
+  utter_ask_qtri_kddl:
+    - text: " Chuyên ngành quản trị kinh doanh du lịch được thiết kế cập nhật theo chương trình của các trường nổi tiếng của thế giới và tiêu chuẩn nghề du lịch Việt Nam đáp ứng các tiêu chuẩn trong đào tạo lĩnh vực quản trị và kinh doanh du lịch.
+              \n Chương trình đào tạo gồm 130 tín chỉ
+              \n Các học phần chuyên nghành:
+                  \n \t +) Digital Marketing/Marketing du lịch
+                  \n \t +) Quản trị kinh doanh lữ hành
+                  \n \t +) Quản trị kinh doanh cơ sở lưu trú du lịch
+                  \n \t +) Kinh doanh du lịch trực tuyến
+                  \n \t +) Quản trị điểm đến du lịch
+                  \n \t +) Quản trị chiến lược
+                  \n \t +) Quản trị lễ tân và buồng khách sạn
+                  \n \t +) Quản trị kinh doanh nhà hàng
+                  \n \t +) Quản trị điều hành chương trình du lịch
+                  \n \t +) Nghiệp vụ hướng dẫn du lịch
+                  \n \t +) Quy hoạch và chiến lược phát triển du lịch
+              \n Các kỹ năng nghề nghiệp chuyên nghiệp:
+                  \n \t +) Thành lập, điều hành một doanh nghiệp du lịch dịch vụ
+                  \n \t +) Thiết kế, diều hành chương trình du lịch
+                  \n \t +) Hướng dẫn du lịch
+                  \n \t +) Điều hành, quản trị các nghiệp vụ tại các co sở lưu trú
+                  \n \t +) Thiết kế, điều hành các chiến lược kinh doanh du lịch trực tuyến
+                  \n \t +) Xây dựng các chiến lược Marketing dưới quan điểm Marketing số
+              \n Điểm nổi bật của chuyên nghành: 
+                  \n \t +) Sinh viên được trang bị kiến thức sâu rộng về du lịch, văn hoá, kỹ năng nghiệp vụ vững chắc về quản trị kinh doanh du lịch, quản lý và điều hành tour, thiết kế và quản trị sự kiện du lịch. Sinh viên có cơ hội giao lưu, gặp gỡ các chuyên gia giàu kinh nghiệm. Chương trình đề cao tính thực tiễn, sinh viên sớm được thực hành, thực tiễn tại doanh nghiệp du lịch.
+              \n Cơ hội nghề nghiệp:
+                  \n \t +) Hướng dẫn viên du lịch
+                  \n \t +) Quản lý lưu trú
+                  \n \t +) Quản trị tổ chức sự kiện
+                  \n \t +) Quản lý dịch vụ ăn uống chuyên nghiệp
+                  \n \t +) Truyền thông và quan hệ khách hàng
+                  \n \t +) Marketing và kinh doanh dịch vụ
+                  \n \t +) Đại lý du lịch và lữ hành
+                  \n \t +) Chuyên viên tại các sở, ban ngành về du lịch"
+
+  utter_ask_qtri_mkt:
+    - text: "Chuyên ngành quản trị marketing hướng đến mục tiêu trạng bị cho sinh viên các kiến thức, kinh nghiệm và kĩ năng chuyên sâu về quản trị marketing trong doanh nghiệp và tổ chức; đáp ứng nghiệp vụ của các cơ quan dịch vụ marketing.
+            \n Tổng số tín chỉ của chương trình đào tạo là 130 tín
+            \n Các học phần chuyên ngành:
+              \n \t +) Quản trị marketing
+              \n \t +) Quản trị thương hiệu
+              \n \t +) Digital Marketing
+              \n \t +) Thương mại điện tử
+              \n \t +) Marketing dịch vụ
+              \n \t +) Quản trị công nghệ
+              \n \t +) Quản trị chiến lược
+              \n \t +) Truyền thông marketing tích hợp
+              \n \t +) Quản trị tổ chức sự kiện
+            \n Các kỹ năng nghề nghiệp:
+              \n \t +)  Người học thiết kế các mô hình kinh doanh cho doanh nghiệp, đặc biệt đề xuất dưới quan điểm marketing; Sử dụng thành thạo các công cụ truyền thông marketing dựa trên nền tảng truyền thống và nền tảng số.
+              \n \t +) Người học thực hiện được các cuộc điều tra nghiên cứu marketing và phân tích môi trường kinh doanh; Sử dụng được một số công cụ phần mềm, phân tích, giải thích các vấn đề cơ bản trong thực tiễn quản trị marketing; Nắm vững việc lập kế hoạch marketing của tổ chức/doanh nghiệp trong môi trường truyền thống và môi trường internet. Sử dụng thành thạo các công cụ định vị thương hiệu và quản trị thương hiệu đối với tổ chức/doanh nghiệp
+            \n Điểm nổi bật của chuyên nghành: 
+              \n \t +) Sinh viên được cung cấp khối kiến thức có hệ thống, toàn vẹn về chuyên ngành Quản trị Marketing với những lĩnh vực cụ thể như: Nghiên cứu thị trường, Quản trị bán hàng, Quan hệ công chúng, Quản trị thương hiệu… Qua đó, giúp sinh viên có kiến thức và kỹ năng chuyên sâu thuộc chuyên ngành Quản trị Marketing. Sinh viên có cơ hội giao lưu, gặp gỡ các chuyên gia giàu kinh nghiệm. Chương trình đề cao tính thực tiễn, sinh viên sớm được thực hành, thực tiễn tại doanh nghiệp
+            \n Cơ hội nghề nghiệp:
+              \n \t +) Chuyên viên Digital Marketing
+              \n \t +) Chuyên viên Marketing
+              \n \t +) Quản trị phân phối và bán hàng
+              \n \t +) Chuyên viên chăm sóc khách hàng
+              \n \t +) Chuyên viên phát triển và quản trị thương hiệu"
+
+  utter_ask_kt_dn:
+    - text: "Chương trình đào tạo cử nhân chuyên ngành Kinh tế đối ngoại có kiến thức cơ bản về kinh tế, chính trị, khoa học công nghệ và xã hội, kiến thức cơ bản về cơ sở khoa học của ngành Kinh tế đối ngoại, kiến thức về công cụ và phương pháp nghiên cứu khoa học trong lĩnh vực Kinh tế đối ngoại, vận dụng trong môi trường hội nhập quốc tế. Cử nhân Kinh tế đối ngoại chương trình Chuẩn quốc tế nắm vững và vận dụng được các kiến thức chuyên sâu về khía cạnh kinh tế học và kinh tế quốc tế: Sinh viên được trang bị kiến thức nền tảng về kinh tế học và chuyên sâu về kinh tế quốc tế, khía cạnh tài chính và tài chính quốc tế: Sinh viên được trang bị kiến thức nền tảng về tài chính/kế toán và chuyên sâu về tài chính quốc tế, ...
+          \n Các kỹ năng cứng được đào tạo: 
+            \n \t +) Đánh giá, phân tích và tổng hợp được một số vấn đề chuyên sâu và một số nghiệp vụ cụ thể về thương mại quốc tế, đầu tư quốc tế, thị trường quốc tế, tài chính quốc tế, luật kinh tế quốc tế, quản lý đầu tư... trong thực tiễn, công việc chuyên môn
+            \n \t +) Có nghiệp vụ về thống kê, thanh toán quốc tế, thẩm định, soạn thảo hợp đồng
+            \n \t +) Có khả năng lập luận, tư duy theo hệ thống các tổ chức quốc tế, các doanh nghiệp trong lĩnh vực kinh doanh xuất nhập khẩu, thương mại quốc tế
+            \n \t +) Có kỹ năng hình thành các giả thuyết; thu thập, phân tích và xử lý thông tin trong lĩnh thương mại quốc tế, đầu tư quốc tế, thị trường quốc tế, tài chính quốc tế, luật kinh tế quốc tế, tài chính quốc tế
+            \n \t +) Có thể nhận thức các vấn đề thực tiễn và bối cảnh của tổ chức để vận dụng linh hoạt vào các hoạt động trong thương mại quốc tế, đầu tư quốc tế, thị trường quốc tế, tài chính quốc tế, luật kinh tế quốc tế, tài chính quốc tế trong đơn vị, có năng lực sáng tạo trong công việc, phát triển vị trí cá nhân trong lĩnh vực trên
+            \n \t +) Vận dụng các kiến thức cơ bản về toán, khoa học tự nhiên và kiến thức của nhóm ngành kinh tế và thương mại quốc tế, đầu tư quốc tế, thị trường quốc tế, tài chính quốc tế, luật kinh tế quốc tế, tài chính quốc tế vào giải quyết các vấn đề lý luận và thực tiễn liên quan hoạt động trên
+          \n Các kỹ năng mềm được đào tạo: 
+            \n \t +) Kỹ năng tự lập kế hoạch trong kinh doanh/công việc; kỹ năng thuyết trình, kỹ năng giao tiếp giữa các đồng nghiệp cùng làm trong lĩnh vực kinh tế đối ngoại (bao gồm giao dịch trực tiếp qua điện thoại, văn bản, thư điện tử)
+            \n \t +) Kỹ năng giao tiếp (có khả năng giao tiếp thành thạo bằng tiếng Anh), thuyết trình, đàm phán quốc tế, giải quyết xung đột...
+          \n Cơ hội vị trí việc làm sau khi tốt nghiệp:
+            \n \t +) Khối/ban xuất nhập khẩu của các doanh nghiệp trong và ngoài nước
+            \n \t +) Khối/ban tài chính, quản lý ngoại hối và thanh toán quốc tế của các doanh nghiệp, quỹ đầu tư, ngân hàng trong và ngoài nước
+            \n \t +) Các công ty có vốn đầu tư nước ngoài
+            \n \t +) Các cơ quan quản lý nhà nước liên quan đến quản lý các hoạt động ngoại thương/tài chính/đầu tư quốc tế ở cấp Trung ương đến địa phương
+            \n \t +)  Các tổ chức phát triển quốc tế (KOICA, JICA, World Bank, ADB ….)
+            \n \t +) Các trường Đại học, viện nghiên cứu, tổ chức tài chính quốc tế (World Bank, ADB, IMF)."
+
+  utter_ask_tmqt_logistics:
+    - text: "Mục tiêu đào tạo của chuyên nghành Thương mại quốc tế và Logistics: Nắm vững kiến thức cơ bản về kinh tế quốc tế; có kiến thức và kỹ năng chuyên sâu về các hoạt động thương mại quốc tế và logistics trong bối cảnh hội nhập quốc tế và của cuộc cách mạng công nghiệp 4.0. Người học có thể vận dụng kiến thức chuyên ngành vào tổ chức hoạt động thương mại quốc tế, tổ chức và vận hành, điều hành logistics của các doanh nghiệp trong và ngoài nước, đặc biệt các công ty logistics, doanh nghiệp vận tải và các tổ chức trong môi trường năng động và phức tạp của thị trường kinh doanh toàn cầu.
+              \n Kỹ năng: Thành thạo kỹ năng phân tích, tổng hợp vấn đề chuyên môn liên quan đến hoạt động kinh doanh quốc tế và logistics. Biết phát triển kỹ năng hình thành ý tưởng, thiết kế, triển khai, vận hành hệ thống logistics trong doanh nghiệp và các tổ chức xã hội khác. Có kỹ năng thiết lập hệ thống trong trao đổi và buôn bán quốc tế.
+              \n Điểm nổi bật của chuyên nghành: 
+                \n \t +) Một trong những điểm mạnh của chuyên ngành TMQT & Logistics của APD là chương trình đào tạo được xây dựng cân đối dựa trên kiến thức hàn lâm và thực tiễn đáp ứng yêu cầu của thị trường lao động. Trong chương trình giảng dạy sẽ có các môn học nền tảng và chuyên sâu về như Kinh tế quốc tế, Thương mại quốc tế, Đầu tư quốc tế, Chính sách logistics,…Đây là các lĩnh vực thuộc thế mạnh của Bộ Kế hoạch và Đầu tư, với đội ngũ chuyên gia am hiểu, giàu kinh nghiệm thực tiễn.
+                \n \t +) Trang bị các kiến thức, kỹ năng chuyên sâu về kinh doanh quốc tế, quản trị logistics trong doanh nghiệp, quản lý chuỗi cung ứng, vận tải quốc tế, Hệ thống thông tin quản lý trong logistics, tiếng Anh trong TMQT & Logistics…nhằm đáp ứng yêu cầu của thị trường lao động. Ngoài ra sinh viên có khả năng nghiên cứu và học tập ở cấp bậc cao hơn.
+                \n \t +) Đồng thời, chương trình đào tạo cũng tăng cường cơ hội trải nghiệm thực tiễn và thực hành cho sinh viên qua học tập các môn nghiệp vụ chuyên sâu như Logistics trong doanh nghiệp, Vận tải quốc tế, Quản trị kho bãi và bao bì…đồng thời liên kết với các cơ quan quản lý Nhà nước; doanh nghiệp, tổ chức trong triển khai chuyên đề thực tế nhằm tăng kỹ năng nghiệp vụ cho sinh viên.
+              \n Vị trí việc làm sau khi tốt nghiệp:
+                \n \t +) Hoạch định chính sách Thương mại quốc tế & Logistics
+                \n \t +) Tổ chức bảo đảm dịch vụ logistics và chuỗi cung ứng quốc tế
+                \n \t +) Điều hành phân phối trong nước và quốc tế
+                \n \t +) Quản lý chuỗi cung ứng
+                \n \t +) Quản lý kho vận
+                \n \t +) Giao dịch xuất nhập khẩu
+                \n \t +) Tư vấn giao dịch ngoại thương và logistics"
+
+  utter_ask_luat_dt_kd:
+    - text: "Đào tạo cử nhân đại học ngành Luật Kinh tế có phẩm chất chính trị, đạo đức và sức khỏe tốt; có kiến thức cơ bản về kinh tế - xã hội, quản lý kinh tế; có kiến thức chuyên sâu về pháp luật trong các lĩnh vực kinh tế đặc biệt chú trọng pháp luật doanh nghiệp, pháp luật đầu tư, pháp luật đấu thầu, luật thương mại quốc tế; có tư duy khoa học, độc lập và sáng tạo; có khả năng tự nghiên cứu bổ sung kiến thức, tích lũy kinh nghiệm nghề nghiệp. Trang bị cho sinh viên những kiến thức cơ bản trong lĩnh vực tư tưởng chính trị, khoa học xã hội và nhân văn, kinh tế học, chính sách công và pháp luật và nhà nước cũng như khả năng phân tích, đánh giá và nhìn nhận các vấn đề cơ bản đó trong bối cảnh thực tiễn Việt Nam hiện nay
+            \n Chương trình đào tạo định hướng sinh viên đạt được những kỹ năng chuyên môn cơ bản như: áp dụng các quy định pháp luật để giải quyết các công việc hàng ngày; đảm bảo tuân thủ đúng pháp luật, tránh các rủi ro pháp lý; tư vấn, soạn thảo các văn bản pháp lý liên quan tới doanh nghiệp trong giao dịch, hợp đồng, đầu tư; đề xuất phương án và tham gia xử lý những tình huống pháp lý phát sinh trong kinh doanh, cạnh tranh, giải quyết tranh chấp kinh tế
+            \n Chương trình đào tạo gồm 126 tín chỉ 
+            \n Một số kỹ năng sinh viên sẽ được đào tạo:
+              \n \t +) Kỹ năng soạn thảo văn bản: hồ sơ thủ tục hành chính; hợp đồng dân sự, di chúc, đơn khởi kiện và văn bản khác trong quan hệ dân sự; đơn khiếu nại, đơn tố cáo trong quan hệ hành chính
+              \n \t +) Kỹ năng tư vấn, đàm phán: tư vấn, đàm phán hợp đồng thương mại, hợp đồng mua bán hàng hóa quốc tế, giải quyết tranh chấp thương mại
+              \n \t +) Kỹ năng giao tiếp và thuyết trình: hùng biện, phản biện, tranh luận; làm việc nhóm; nghiên cứu khoa học, phát hiện và giải quyết các tình huống pháp lý
+            \n Cơ hội nghề nghiệp:
+              \n \t +) Cán bộ pháp lý, cán bộ quản trị trong doanh nghiệp và các tổ chức kinh tế
+              \n \t +) cán bộ, công chức trong các cơ quan nhà nước hoặc cơ quan tư như công ty luật hay văn phòng công chứng
+              \n \t +) nghiên cứu viên, giảng viên giảng dạy trong các cơ sở nghiên cứu, đào tạo luật
+              \n \t +) nghiên cứu, thực hành pháp luật tại các đơn vị dịch vụ tư vấn pháp luật, các tổ chức xã hội."
+
+  utter_ask_chuyen_nghanh_ngan_hang:
+    - text: "Cử nhân chuyên ngành Ngân hàng được trang bị hệ thống kiến thức cơ bản về kinh tế, tài chính, quản lý; có kiến thức chuyên sâu về lĩnh vực ngân hàng, hoạt động của các ngân hàng thương mại và các tổ chức tài chính trung gian phi ngân hàng, phân tích tài chính doanh nghiệp; nắm vững kiến thức về cấu trúc, cơ chế vận hành và quản lý của hệ thống ngân hàng trong nền kinh tế thị trường. Cử nhân chuyên ngành Ngân hàng có khả năng nghiên cứu, phân tích và đánh giá, đề xuất chính sách về hoạt động và sự phát triển của hệ thống ngân hàng, từ đó góp phần vào sự ổn định và phát triển nền kinh tế.
+            \n Tổng số tín chỉ gồm 128 tín chỉ tương đương 3.5 - 4 năm
+            \n Các học phần chuyên nghành: 
+              \n \t +) Ngân hàng thương mại
+              \n \t +) Kế toán Ngân hàng
+              \n \t +) Phân tích báo cáo tài chính
+              \n \t +) Thẩm định tín dụng
+              \n \t +) Ngân hàng trung ương
+              \n \t +) Marketing Ngân hàng
+            \n Các kỹ năng nghề nghiệp chuyên biệt:
+              \n \t +) Cử nhân chuyên ngành Ngân hàng có kỹ năng về nghiệp vụ chuyên nghiệp trên hoạt động của các loại hình ngân hàng và các tổ chức tín dụng khác trong nước và quốc tế như kế toán, nguồn vốn, tín dụng, thanh toán quốc tế, đầu tư tài chính, quản trị rủi ro, vv. và một số kỹ năng nghiệp vụ quan trọng khác trong đầu tư, tài chính doanh nghiệp, tài chính công, tài chính quốc tế. Cử nhân chuyên ngành Ngân hàng có khả năng nghiên cứu, phát hiện và giải quyết vấn đề lý luận và thực tiễn một cách khoa học; có kỹ năng làm việc theo nhóm, kỹ năng thu thập và xử lý thông tin, kỹ năng bán hàng, kỹ năng thuyết trình, kỹ năng giao tiếp, kỹ năng sử dụng ngoại ngữ và tin học để giải quyết cá công việc liên quan.
+            \n Điểm nổi bật của chuyên nghành: 
+              \n \t +) Chương trình học của chuyên ngành Ngân hàng được xây dựng với phương pháp giáo dục đổi mới, phát huy hiệu quả khả năng tự học, tự nghiên cứu của sinh viên. Đồng thời, chuyên ngành Ngân hàng cũng cung cấp cho sinh viên kỹ năng nghề nghiệp và kiến thức thực tiễn được thiết kế qua các môn học chuyên ngành và chương trình kiến tập, thực tập tại các ngân hàng, tổ chức tài chính; giúp sinh viên tự tin và sẵn sàng với công việc sau khi ra trường
+            \n Cơ hội nghề nghiệp:
+              \n \t +) Chuyên viên tại các ngân hàng, đoanh nghiệp, tổ chức tài chính và tổ chức tín dụng khác trong nước cũng như quốc tế: Chuyên viên nguồn vốn, chuyên viên tín dụng, chuyên viên đầu tư, chuyên viên kế toán, chuyên viên quản trị rủi ro, chuyên viên thanh toán quốc tế, chuyên viên quan hệ khách hàng, giao dịch viên, kế toán viên, kiểm soát viên, kiểm toán viên nội bộ…
+              \n \t +) Nhà quản trị, nhà quản lý, nhà điều hành tại các ngân hàng, doanh nghiệp, tổ chức tài chính và các tổ chức tín dụng khác sau một thời gian tích lũy kinh nghiệm và kiến thức, năng lực chuyên môn
+              \n \t +) Giảng viên, nghiên cứu viên ngành Tài chính – Ngân hàng tại các trường đại học và viện nghiên cứu trong nước, nước ngoài"
+
+  utter_ask_chuyen_nghanh_tai_chinh:
+    - text: "Cử nhân chuyên ngành Tài chính được trang bị kiến thức giáo dục đại cương là nền tảng chung, góp phần xây dựng thế giới quan, nhân sinh quan, phương pháp luận để học tập, nghiên cứu và làm việc trọn đời; kiến thức cơ bản về khối ngành kinh doanh và quản lý cho phép sinh viên vận dụng các công cụ phân tích kinh tế và kinh doanh,giải quyết các vấn đề quản lý nhà nước và quản trị doanh nghiệp; kiến thức cơ sở ngành và kiến thức ngành tài chính – ngân hàng là các kiến thức cốt lõi đặc trưng, liên quan trực tiếp ngành tài chính – ngân hàng, làm nền tảng cho sinh viên tiếp cận các kiến thức chuyên ngành. Đặc biệt, khối kiến thức chuyên ngành sẽ tập trung vào các kiến thức cơ bản về kinh tế, quản lý, tài chính liên quan đến các hoạt động đầu tư, quản trị, phân tích tài chính.... Đồng thời, cử nhân chuyên ngành Tài chính có kiến thức rộng về lý luận và thực tiễn của kinh tế thị trường; có đủ năng lực tham gia phân tích, hoạch định và tổ chức thực hiện chính sách, chương trình đầu tư tài chính trên phạm vi nền kinh tế, của ngành và từng địa phương cũng như các doanh nghiệp. Những kiến thức chuyên ngành tập trung nhiều vào khả năng thực hiện các hoạt động đầu tư và quản lý đầu tư tài chính.
+            \n Tổng số tín chỉ của chương trình đào tạo gồm 128 tín chỉ tuong đương 3.5 - 4 năm
+            \n Các học phần chuyên nghành
+              \n \t +) Tài chính doanh nghiệp
+              \n \t +) Thuế
+              \n \t +) Kế toán quản trị
+              \n \t +) Thẩm định dự án đầu tư
+              \n \t +) Thị trường chứng khoán
+              \n \t +) Quản lý danh mục đầu tư
+              \n \t +) Chứng khoán phái sinh
+            \n Các kỹ năng nghề nghiệp chuyên biệt:
+              \n \t +) Cử nhân chuyên ngành Tài chính có kỹ năng và nghiệp vụ chuyên nghiệp trên tất cả các mặt hoạt động của lĩnh vực Tài chính; có kỹ năng phân tích, tổng hợp và đánh giá một cách toàn diện các vấn đề kinh tế tài chính ở tầm vĩ mô và vi mô, đặc biệt là các nghiệp vụ phân tích tài chính, phân tích đầu tư, thẩm định tín dụng, thẩm định tài chính dự án, nghiệp vụ quản lý quỹ đầu tư chứng khoán và quản lý danh mục đầu tư chứng khoán; có kỹ năng làm việc theo nhóm, kỹ năng thu thập và xử lý thông tin, kỹ năng bán hàng, kỹ năng thuyết trình, kỹ năng giao tiếp trong giải quyết công việc hàng ngày
+            \n Điểm nổi bật của chuyên ngành:
+              \n \t +) Chương trình học của chuyên ngành Tài chính được thiết kế đặc thù, cập nhật xu hướng phát triển mới nhất của thị trường. Đồng thời, chuyên ngành Tài chính cũng cung cấp cho sinh viên kỹ năng nghề nghiệp đa dạng, phục vụ cho nhiều vị trí công việc khác nhau từ quản lý tài chính công, quản trị tài chính doanh nghiệp cho tới quản lý đầu tư.
+            \n Cơ hội nghề nghiệp: 
+              \n \t +) Sau khi tốt nghiệp, cử nhân chuyên ngành Tài chính có thể làm việc tại nhiều tổ chức khác nhau. Đồng thời, cử nhân Tài chính có triển vọng nghề nghiệp trở thành các nhà quản lý, nhà quản trị cấp cao, chủ doanh nghiệp hoặc chuyên gia về Tài chính ở phạm vi quốc gia và quốc tế
+            \n Một số cơ hội nghề nghiệp cụ thể như sau:
+              \n \t +) Khối/ban tài chính – kế toán của các doanh nghiệp
+              \n \t +) Ngân hàng thương mại và các tổ chức tín dụng khác
+              \n \t +) Công ty chứng khoán, công ty tài chính, quỹ đầu tư
+              \n \t +) Khu vực có vốn đầu tư nước ngoài (bộ phận tài chính - kế toán của các doanh nghiệp FDI, ngân hàng nước ngoài, công ty chứng khoán, quỹ đầu tư nước ngoài)
+              \n \t +) Cơ quan quản lý tài chính cấp Trung ương hoặc địa phương
+              \n \t +) Các trường Đại học, viện nghiên cứu, tổ chức tài chính quốc tế (World Bank, ADB, IMF)"
+
+  utter_ask_chuyen_nghanh_kt_kt:
+    - text: "Đào tạo cử nhân đại học Ngành kế toán chuyên ngành Kế toán - Kiểm toán có phẩm chất chính trị, đạo đức và sức khỏe tốt, có trách nhiệm xã hội; nắm vững kiến thức cơ bản về kinh tế, chính trị, xã hội; nắm vững kiến thức và kỹ năng chuyên sâu về kế toán - kiểm toán; thiết kế và điều hành hệ thống kế toán trong các đơn vị kế toán (doanh nghiệp, đơn vị dự toán, tổ chức tài chính trung gian); có năng lực nghiên cứu tự bổ sung kiến thức theo yêu cầu công việc.
+            \n Tổng số tín chỉ: Tổng khối lượng kiến thức toàn khóa là 131 tín chỉ
+            \n Các môn học chuyên nghanành: 
+                \n \t +) Nguyên lý kế toán
+                \n \t +) Kế toán tài chính
+                \n \t +) Kế toán quản trị
+                \n \t +) Kế toán hành chính sự nghiệp
+                \n \t +) Kế toán thuế
+                \n \t +) Kế toán ngân hàng
+                \n \t +) Kiểm toán căn bản
+                \n \t +) Kiểm toán tài chính
+                \n \t +) Kế toán quốc tế
+                \n \t +) Kế toán các công ty đa quốc gia
+            \n Các kỹ năng nghề nghiệp chuyên nghiệp:
+                \n \t +) Có năng lực thực hiện công việc kế toán, kiểm toán tại các doanh nghiệp trong nước và nước ngoài và tại các đơn vị hành chính sự nghiệp. Sử dụng thành thạo các phần mềm liên quan
+                \n \t +) Có kỹ năng tư duy, giải quyết các vấn đề liên quan đến công tác kế toán, kiểm toán, thuế, trong các loại hình doanh nghiệp và các đơn vị hành chính sự nghiệp
+                \n \t +)  Kỹ năng lập và phân tích dự toán, kế hoạch tài chính, báo cáo tài chính, phân tích tài chính, phân tích kinh doanh; Kỹ năng tham mưu tư vấn cho các nhà quản lý trong việc thiết lập hệ thống kiểm soát nội bộ và ra quyết định kinh tế-tài chính
+            \n Điểm nổi bật của ngành/chuyên ngành:
+                \n \t +) Chuyên ngành Kế toán- Kiểm toán thuộc Khoa Kế toán – Kiểm toán Học viện Chính sách và Phát triển – Bộ Kế hoạch và Đầu tư với đội ngũ giáo viên tâm huyết, giàu kinh nghiệm luôn đổi mới và cải tiến nội dung và phương pháp giảng dạy đáp ững nhu cầu thực tiễn,  chương trình tạo sẽ được xây dựng trên cơ sở kết hợp giữa lý thuyết nền tảng với vận dụng thực tế. Phát triển việc dạy học theo hướng phát huy tính tích cực, chủ động, sáng tạo của người học, lấy người học làm trung tâm. Trong quá trình học, sinh viên được tiếp xúc thực tế với hóa đơn chứng từ của doanh nghiệp và được thực hành trực tiếp trên phần mềm kế toán, phần mềm excel…
+            \n Cơ hội nghề nghiệp:
+                \n \t +) Kế toán tài chính, kế toán quản trị, kế toán tổng hợp; kế toán trưởng; Phụ trách Kế toán; Giám đốc tài chính…
+                \n \t +) Kiểm toán viên; kiểm toán nội bộ; tư vấn tài chính
+                \n \t +) Giảng viên, chuyên gia trong lĩnh vực kế toán kiểm toán
+                \n \t +) Cán bộ thuế, kế toán từ địa phương đến trung ương"
 
 session_config:
   session_expiration_time: 60
@@ -1315,3 +1752,13 @@ actions:
   - utter_ask_tin_hoc
   - utter_ask_triet_hoc
   - utter_ask_tt_hcm
+  - utter_ask_chuyen_nghanhkteht
+  - utter_ask_qtri_dn
+  - utter_ask_qtri_kddl
+  - utter_ask_qtri_mkt
+  - utter_ask_kt_dn
+  - utter_ask_tmqt_logistics
+  - utter_ask_luat_dt_kd
+  - utter_ask_chuyen_nghanh_ngan_hang
+  - utter_ask_chuyen_nghanh_tai_chinh
+  - utter_ask_chuyen_nghanh_kt_kt

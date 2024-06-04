@@ -824,3 +824,53 @@ stories:
   steps:
   - intent: ask_tt_hcm
   - action: utter_ask_tt_hcm
+
+- story: ask kinh te htac
+  steps:
+  - intent: ask_chuyen_nghanhkteht
+  - action: utter_ask_chuyen_nghanhkteht
+
+- story: ask quan tri doanh nghiep
+  steps:
+  - intent: ask_qtri_dn
+  - action: utter_ask_qtri_dn
+
+- story: ask quan tri kd du lich
+  steps:
+  - intent: ask_qtri_kddl
+  - action: utter_ask_qtri_kddl
+
+- story: ask quan tri mkt
+  steps:
+  - intent: ask_qtri_mkt
+  - action: utter_ask_qtri_mkt
+
+- story: ask kte doi ngoai
+  steps:
+  - intent: ask_kt_dn
+  - action: utter_ask_kt_dn
+
+- story: ask tm qte logisctics
+  steps:
+  - intent: ask_tmqt_logistics
+  - action: utter_ask_tmqt_logistics
+
+- story: ask luat dtu - kinh doanh
+  steps:
+  - intent: ask_luat_dt_kd
+  - action: utter_ask_luat_dt_kd
+
+- story: ask chuyen nghanh ngan hang
+  steps:
+  - intent: ask_chuyen_nghanh_ngan_hang
+  - action: utter_ask_chuyen_nghanh_ngan_hang
+
+- story: ask chuyen nghanh tai chinh
+  steps:
+  - intent: ask_chuyen_nghanh_tai_chinh
+  - action: utter_ask_chuyen_nghanh_tai_chinh
+
+- story: ask chuyen nghanh ke toan kt
+  steps:
+  - intent: ask_chuyen_nghanh_kt_kt
+  - action: utter_ask_chuyen_nghanh_kt_kt
